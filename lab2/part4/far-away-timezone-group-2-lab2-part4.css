@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+
+heading {
+    font-size: 40px;
+    /* We use bolder for the head because we would use bold for the trackName */
+    font-weight: bolder;
+    color:#e6ce1b;
+    font-family: Playfair Display;
+}
+
+musicList {
+    display: block;
+    text-align:center;
+}
+
+trackName {
+    font-size: 22px;
+    display: block;
+    text-align:center;
+    font-weight: bold;
+}
+
+artistName {
+    font-size: 26px;
+    color: #3dc2cb;
+    display: block;
+    text-align:center;
+    margin-top: 5px;
+}
+
+albumName {
+    font-style: italic;
+    display: block;
+    text-align:center;
+    margin-top: 5px;
+}
+
+albumCover {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    width: 250px;
+    display: block;
+    text-align:center;
+    margin: auto auto;
+}
+
+albumCover:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+releaseTime {
+    display: block;
+    text-align:center;
+    margin-top: 5px;
+}
+
+genre {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    /* ensure that the genres list could be the center of the page */
+    margin-left: -44px;
+}
+
+/* We make a visual border for every cover */
+music {
+    display:block;  
+    border: 1px solid silver; 
+    margin:0.5em;  
+    padding:0.5em;  
+    background-color:whitesmoke;
+}
+
+/* We remove the text-decoration to enhance the aesthetics
+However, italic is applied to remind users that there is a hyperlink */
+a:link{
+    text-decoration:none;
+    color: black;
+}
+
+/* remind users that there is a hyperlink */
+a:hover {
+    color: #8FBC8F
+}
+
+
+ul {
+    list-style-type: none;
+}
+
+li:before {
+    content: "-";
+}

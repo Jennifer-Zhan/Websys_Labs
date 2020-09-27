@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<?xml-stylesheet type="text/css" href="far-away-timezone-group-2-lab2-part4.css"?>
+<html xmlns="http://www.w3.org/1999/xhtml"> 
+<musicList>
+    <heading>Welcome to the Classical Music Exhibition Page</heading> 
+    <music>
+        <trackName>Yesterday</trackName>
+        <artistName><a href="https://www.thebeatles.com">The Beatles</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/help%21-mw0000189173">Help</a></albumName>
+        <releaseTime>August 6, 1965</releaseTime>
+        <genre><ul><li>Pop</li><li>Rock</li></ul></genre>
+        <albumCover><img src="../resource/p1.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Come Together</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Lennon%E2%80%93McCartney">John Lennon &amp; Paul McCartney</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/abbey-road-mw0000192938">Abbey Road</a></albumName>
+        <releaseTime>September 26, 1969</releaseTime>
+        <genre><ul><li>Pop</li><li>Rock</li></ul></genre>
+        <albumCover><img src="../resource/p2.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>The Ocean</trackName>
+        <artistName><a href="https://m.facebook.com/mikeperrysweden">Mike Perry &amp; Shy Martin</a></artistName>
+        <albumName><a href="https://hitparade.ch/compilation/Berlin-Tag-&amp;-Nacht-Party-&amp;-Feiern-2017-319422">Berlin Tag &amp; Nacht: Party &amp; Feiern 2017</a></albumName>
+        <releaseTime>2016</releaseTime>
+        <genre><ul><li>Tropical house</li><li>Pop</li></ul></genre>
+        <albumCover><img src="../resource/p3.jpg" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>My Sweetest One</trackName>
+        <artistName><a href="https://www.aimer-web.jp/">Aimer</a></artistName>
+        <albumName><a href="https://jpop.fandom.com/wiki/BroKen_NIGHT_/_holLow_wORlD">broKen NIGHT / holLow wORlD</a></albumName>
+        <releaseTime>2014</releaseTime>
+        <genre><ul><li>J-pop</li></ul></genre>
+        <albumCover><img src="../resource/p4.jpg" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Hide Away</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Freddie_King">Freddie King &amp; Sonny Thompson</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/ultimate-collection-mw0000001775">Ultimate Collection</a></albumName>
+        <releaseTime>April 10,2001</releaseTime>
+        <genre><ul><li>Blues</li></ul></genre>
+        <albumCover><img src="../resource/p5.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Beat It</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Michael_Jackson">Michael Jackson</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/thriller-mw0000056882">Thriller</a></albumName>
+        <releaseTime>September 3,1966</releaseTime>
+        <genre><ul><li>Pop</li></ul></genre>
+        <albumCover><img src="../resource/p6.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Get up and Go</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Pete_Seeger">Pete Seeger</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/a-link-in-the-chain-mw0000072661">A Link in the Chain</a></albumName>
+        <releaseTime>September 3,1966</releaseTime>
+        <genre><ul><li>Folkc</li></ul></genre>
+        <albumCover><img src="../resource/p7.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Zombie</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Fela_Kuti">Fela Kuti</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/zombie-mw0000651216">Zombie</a></albumName>
+        <releaseTime>1977</releaseTime>
+        <genre><ul><li>International</li></ul></genre>
+        <albumCover><img src="../resource/p8.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>I Can't Be Satisfied</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Muddy_Waters">McKinley Morganfield &amp; Muddy Waters</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/the-anthology-1947-1972-mw0000012893">The Anthology: 1947-1972</a></albumName>
+        <releaseTime>August 28,2001</releaseTime>
+        <genre><ul><li>Blues</li></ul></genre>
+        <albumCover><img src="../resource/p9.png" width="250px"></img></albumCover>
+    </music>
+    <music>
+        <trackName>Autobahn</trackName>
+        <artistName><a href="https://en.wikipedia.org/wiki/Ralf_Hütter">Ralf Hütter &amp; Florian Schneider &amp; Emil Schult</a></artistName>
+        <albumName><a href="https://www.allmusic.com/album/autobahn-mw0000195085">Autobahn</a></albumName>
+        <releaseTime>1974</releaseTime>
+        <genre><ul><li>Electronic</li></ul></genre>
+        <albumCover><img src="../resource/p10.png" width="250px"></img></albumCover>
+    </music>
+</musicList>
+</html>

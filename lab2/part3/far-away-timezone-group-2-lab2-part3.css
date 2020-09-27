@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Kumbh+Sans');
+
+body{
+    height: auto;
+    width: auto;
+    margin: 1em;
+    background-color: #191414;
+    font-family: Kumbh Sans;
+}
+
+/*define the style rules for each song information box.*/
+section {
+    overflow: auto;
+    margin-left: 3em;
+    margin-right: 3em;
+    padding: 1em 2em 1em 2em;
+}
+
+h1 {
+    text-align: center;
+    color: #FFFFFF;
+}
+
+h1:hover {
+    color: #1DB954;
+}
+
+/*define the style rules for the header*/
+header {
+    margin-left: 3em;
+    margin-right: 3em;
+    padding-right: 2.4em;
+    color: #FFFFFF;
+}
+
+p.trackList{
+    font-size: 1.2em;
+    padding-left: 1.7em;
+    color: #FFFFFF;
+}
+
+p.artistlist{
+    font-size: 1.2em;
+    padding-left: 1em;
+    color: #FFFFFF;
+}
+
+p.albumlist{
+    font-size: 1.2em;
+    padding-left: 1.1em;
+    color: #FFFFFF;
+}
+
+p.datalist{
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+p.genrelist{
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+p.coverlist{
+    font-size: 1.2em;
+    color: #FFFFFF;
+    float: right;
+}
+
+
+h2 {
+    display: inline-block;
+    width: 10em;
+    text-align: center;
+}
+
+/*song title is in small-caps and should appear in green*/
+h2.track {
+    font-variant: small-caps;
+    color: #1DB954;
+    font-size: 1.2em;
+    padding-top: 4em;
+}
+
+/*the artist is in bold and in a 20 percent larger font*/
+h2.artist{
+    font-weight: bold;
+    font-size: 1.44em;
+    color: #FFFFFF;
+}
+
+/*the album is italicized*/
+h2.album{
+    font-style: italic;
+    font-size: 1.2em; 
+
+}
+
+h2.date{
+    font-size: 1em;
+    color: #FFFFFF;
+    padding-left: 1em;
+}
+
+/*set the color style for the url link of the album*/
+a {
+    text-decoration:none;
+    color: #FFFFFF;
+}
+
+a:hover{
+    color: #1DB954;
+}
+
+ul.genre{
+    font-size: 1em;
+    list-style-type: none;
+    color: #FFFFFF;
+    padding-left: 5em;
+}
+
+/*the genres appear as a list with dashes*/
+li:before {
+    content: "-";
+}
+
+
+div.infos {
+    display: inline-block;
+}
+
+p {
+    display: inline-block;
+    width: 10em;
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+}
+
+img {
+    float: right;
+}
+
+
+footer{
+    text-align: center;
+    font-style: italic;
+    font-size: 1em;
+    color: #FFFFFF;
+}
+
+
+/*define different styles for song box of even number and odd number*/
+section.even{
+    background-color: #191414;
+
+}
+
+section.odd{
+    background-color: #191414;
+    border-color: #FFFFFF;
+    border-style: solid;
+    border-radius: 16px;
+}
+
+
