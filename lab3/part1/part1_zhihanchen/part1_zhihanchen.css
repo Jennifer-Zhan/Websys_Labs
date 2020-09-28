@@ -19,7 +19,7 @@ header {
     /*color: rgb(142, 142, 147)*/
 }
 
-p.name {
+p.fn {
     font-size: 36px;
     width: 300px;
     margin-top: 0px;
@@ -55,18 +55,18 @@ subinfos {
     height: auto;
     margin-top: 10px;
 }
-p.infos_1 {
+p.Adr {
     display: inline-block;
     float: left;
     margin-left: 19px;
 }
 
-p.infos_2 {
+p.Tel {
     display: inline-block;
     margin-left: 26%;
 }
 
-p.infos_3 {
+p.Email {
     display: inline-block;
     float: right;
     margin-right: 19px;
