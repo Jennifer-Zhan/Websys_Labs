@@ -10,10 +10,13 @@ body {
 }
 
 header {
-    background:  #00A4EF;
+    background: rgb(90,200,250);
     width: auto;
-    height: 200px;
+    height: 240px;
     padding: 20px;
+    border-right: 10px;
+    border-radius: 10px;
+    /*color: rgb(142, 142, 147)*/
 }
 
 p.name {
@@ -34,17 +37,23 @@ p.object {
     font-size: 18px;
     width: 700px;
     margin-top: 50px;
-    margin-bottom: 0px;
+    margin-bottom: 12px;
     margin-left: 20px;
 }
 
 section {
-    margin-top: 0px;
+    margin-top: 20px;
     width: auto;
     height: auto;
     background-color: ghostwhite;
+    padding: 18px;
 }
 
+subinfos {
+    width: auto;
+    height: auto;
+    margin-top: 10px;
+}
 p.infos_1 {
     display: inline-block;
     float: left;
@@ -63,10 +72,30 @@ p.infos_3 {
 }
 
 h2 {
-    color: #00A4EF;
+    color: rgb(90,200,250);
 }
 
 a {
     color: black;
 }
+
+p.block_1_section {
+    width: 45%;
+    height: 100px;
+    /*padding: 10px;*/
+    display: inline-block;
+    /*float: top;*/
+    /*float: right;*/
+    /*margin-top: -16px;*/
+    margin: 16px;
+}
+
+p.block_2_section {
+    width: 45%;
+    height: 100px;
+    /*padding: 10px;*/
+    display: inline-block;
+    margin: 16px;
+}
+
 
