@@ -1,0 +1,62 @@
+.main{
+	width: 70%;
+	position: absolute;
+	left: 15%
+}
+h1{
+	margin-bottom: 0;
+	font-size: 300%;
+	text-align: center;
+}
+
+h3{	
+	margin: 15px 0 5px 0;
+	font-size: 180%;
+	color: purple;
+	text-decoration: underline;
+
+}
+
+p{
+	margin: 5px 0 5px 0;
+}
+
+.top {
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+#contactinfo li{
+	display: inline;
+	list-style: none;
+}
+
+#photo{
+	float: right;
+}
+
+
+.titleName{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.period{
+	float: right;
+}
+
+.title p {
+	display: inline-block;
+}
+.content p{
+	margin: 2px 0 2px 0;
+}
+
+#major{
+	width: 100%;
+}
+#companyName{
+	font-size: 130%;
+}
+
