@@ -47,6 +47,7 @@ section {
     height: auto;
     background-color: ghostwhite;
     padding: 18px;
+    border-radius: 10px;
 }
 
 subinfos {
@@ -73,14 +74,15 @@ p.infos_3 {
 
 h2 {
     color: rgb(90,200,250);
+    margin-left: 16px;
 }
 
 a {
-    color: black;
+    color: rgb(255,204,0);
 }
 
 p.block_1_section {
-    width: 45%;
+    width: 46%;
     height: 100px;
     /*padding: 10px;*/
     display: inline-block;
@@ -88,14 +90,14 @@ p.block_1_section {
     /*float: right;*/
     /*margin-top: -16px;*/
     margin: 16px;
+    overflow: auto;
 }
 
 p.block_2_section {
-    width: 45%;
-    height: 100px;
-    /*padding: 10px;*/
     display: inline-block;
-    margin: 16px;
+    overflow: auto;
+    margin-left: 4.6%;
 }
+
 
 
