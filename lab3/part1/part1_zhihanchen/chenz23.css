@@ -23,7 +23,7 @@ header {
     color: #FFFFFF;
 }
 
-p.name {
+p.Fn {
     font-size: 36px;
     width: 300px;
     margin: 0 600px 0 20px;
@@ -54,18 +54,18 @@ section {
     border-radius: 10px;
 }
 
-p.infos_1 {
+p.Adr {
     display: inline-block;
     float: left;
     margin-left: 19px;
 }
 
-p.infos_2 {
+p.Tel {
     display: inline-block;
     margin-left: 26%;
 }
 
-p.infos_3 {
+p.Email {
     display: inline-block;
     float: right;
     margin-right: 19px;
