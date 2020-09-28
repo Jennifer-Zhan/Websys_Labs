@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="finish chenz23 css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,6 +87,7 @@
       <workItem from="1601259631041" duration="2024000" />
       <workItem from="1601264561802" duration="169000" />
       <workItem from="1601273852646" duration="22000" />
+      <workItem from="1601298907809" duration="2007000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -142,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601261633171</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="finish chenz23 css">
+      <created>1601298914433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601298914433</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
