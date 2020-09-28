@@ -83,10 +83,12 @@ h2 {
 
 a.blue {
     color: #1DA1F2;
+    text-decoration:none;
 }
 
 a.white {
     color: rgb(255,255,255);
+    text-decoration:none;
 }
 
 p.block_1_section {
