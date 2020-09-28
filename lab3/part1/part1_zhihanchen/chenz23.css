@@ -7,24 +7,28 @@ body {
     padding-right: 18px;
     padding-top: 12px;
     font-family: Open Sans;
+    background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
+    background-size: cover;
+    margin-bottom: 14px;
 }
 
 header {
-    background: rgb(90,200,250);
+    background: #1DA1F2;
     width: auto;
     height: 240px;
     padding: 20px;
     border-right: 10px;
     border-radius: 10px;
     /*color: rgb(142, 142, 147)*/
+    color: #FFFFFF;
 }
 
-p.fn {
+p.name {
     font-size: 36px;
     width: 300px;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    margin-left: 20px;
+    margin: 0 600px 0 20px;
+    display: inline-block;
+    overflow: auto;
 }
 
 /*annotation {*/
@@ -36,49 +40,50 @@ p.fn {
 p.object {
     font-size: 18px;
     width: 700px;
-    margin-top: 50px;
-    margin-bottom: 12px;
-    margin-left: 20px;
+    margin: 50px 380px 12px 20px;
+    display: inline-block;
+    overflow: auto;
 }
 
 section {
     margin-top: 20px;
     width: auto;
     height: auto;
-    background-color: ghostwhite;
+    background-color: #F5F8FA;
     padding: 18px;
     border-radius: 10px;
 }
 
-subinfos {
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-}
-p.Adr {
+p.infos_1 {
     display: inline-block;
     float: left;
     margin-left: 19px;
 }
 
-p.Tel {
+p.infos_2 {
     display: inline-block;
     margin-left: 26%;
 }
 
-p.Email {
+p.infos_3 {
     display: inline-block;
     float: right;
     margin-right: 19px;
 }
 
 h2 {
-    color: rgb(90,200,250);
+    color: #1DA1F2;
     margin-left: 16px;
 }
 
-a {
-    color: rgb(255,204,0);
+a.blue {
+    color: #1DA1F2;
+    text-decoration:none;
+}
+
+a.white {
+    color: rgb(255,255,255);
+    text-decoration:none;
 }
 
 p.block_1_section {
@@ -97,6 +102,17 @@ p.block_2_section {
     display: inline-block;
     overflow: auto;
     margin-left: 4.6%;
+}
+
+img.chenz23 {
+    float: right;
+    /*float: top;*/
+    display: inline-block;
+    overflow: auto;
+    margin-right: 50px;
+    margin-top: -30px;
+    border: 3px solid #E1E8ED;
+    border-radius: 1px;
 }
 
 

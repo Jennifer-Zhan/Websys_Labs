@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the directory">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update bg pic">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +82,11 @@
       <workItem from="1601220885859" duration="151000" />
       <workItem from="1601221448241" duration="713000" />
       <workItem from="1601222168989" duration="1339000" />
-      <workItem from="1601259631041" duration="1897000" />
+      <workItem from="1601259631041" duration="2024000" />
+      <workItem from="1601264561802" duration="169000" />
+      <workItem from="1601273852646" duration="22000" />
+      <workItem from="1601298907809" duration="3154000" />
+      <workItem from="1601302121793" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -128,7 +130,56 @@
       <option name="project" value="LOCAL" />
       <updated>1601259643738</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="finish chenz23 css">
+      <created>1601261552999</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1601261552999</updated>
+    </task>
+    <task id="LOCAL-00008" summary="finish chenz23 css">
+      <created>1601261633171</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1601261633171</updated>
+    </task>
+    <task id="LOCAL-00009" summary="finish chenz23 css">
+      <created>1601298914433</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1601298914433</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update chenz23 pic">
+      <created>1601301189288</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301189288</updated>
+    </task>
+    <task id="LOCAL-00011" summary="update chenz23 pic">
+      <created>1601301398616</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301398616</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update chenz23 pic">
+      <created>1601301535917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301535917</updated>
+    </task>
+    <task id="LOCAL-00013" summary="update bg pic">
+      <created>1601301973306</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301973306</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,17 +201,20 @@
     <MESSAGE value="update lab2 and start for lab3" />
     <MESSAGE value="finish the html of zhihanchen's part1, but not the css" />
     <MESSAGE value="update the directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the directory" />
+    <MESSAGE value="finish chenz23 css" />
+    <MESSAGE value="update chenz23 pic" />
+    <MESSAGE value="update bg pic" />
+    <option name="LAST_COMMIT_MESSAGE" value="update bg pic" />
   </component>
   <component name="WindowStateProjectService">
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601212361900">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601259741295">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601301976129">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601259741295" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601301976129" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
