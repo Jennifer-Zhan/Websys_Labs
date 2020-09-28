@@ -7,8 +7,8 @@ body {
     padding-right: 18px;
     padding-top: 12px;
     font-family: Open Sans;
-    /*background: url("https://s2.best-wallpaper.net/wallpaper/3840x2160/1802/Rainbow-background-wavy-abstraction_3840x2160.jpg");*/
-    /*background-size: cover;*/
+    background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
+    background-size: cover;
     margin-bottom: 14px;
 }
 
@@ -26,7 +26,7 @@ header {
 p.name {
     font-size: 36px;
     width: 300px;
-    margin: 0px 600px 0px 20px;
+    margin: 0 600px 0 20px;
     display: inline-block;
     overflow: auto;
 }
@@ -54,11 +54,6 @@ section {
     border-radius: 10px;
 }
 
-subinfos {
-    width: auto;
-    height: auto;
-    margin-top: 10px;
-}
 p.infos_1 {
     display: inline-block;
     float: left;

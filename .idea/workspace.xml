@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update chenz23 pic">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/part1_zhihanchen.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -86,7 +85,7 @@
       <workItem from="1601259631041" duration="2024000" />
       <workItem from="1601264561802" duration="169000" />
       <workItem from="1601273852646" duration="22000" />
-      <workItem from="1601298907809" duration="2445000" />
+      <workItem from="1601298907809" duration="2784000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -158,7 +157,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601301189288</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="update chenz23 pic">
+      <created>1601301398616</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301398616</updated>
+    </task>
+    <task id="LOCAL-00012" summary="update chenz23 pic">
+      <created>1601301535917</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1601301535917</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -189,10 +202,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601301192097">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601301541556">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601301192097" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601301541556" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
