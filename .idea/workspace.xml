@@ -19,7 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the directory" />
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -111,7 +111,7 @@
       <workItem from="1601377176586" duration="212000" />
       <workItem from="1601377619756" duration="1580000" />
       <workItem from="1601379230234" duration="221000" />
-      <workItem from="1601383295470" duration="1047000" />
+      <workItem from="1601383295470" duration="1354000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -358,7 +358,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601384236488</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="update the directory">
+      <created>1601384365024</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1601384365024</updated>
+    </task>
+    <task id="LOCAL-00037" summary="update the directory">
+      <created>1601384455184</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1601384455184</updated>
+    </task>
+    <option name="localTasksCounter" value="38" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -380,7 +394,6 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update lab2 and start for lab3" />
     <MESSAGE value="finish the html of zhihanchen's part1, but not the css" />
-    <MESSAGE value="update the directory" />
     <MESSAGE value="finish chenz23 css" />
     <MESSAGE value="update chenz23 pic" />
     <MESSAGE value="update bg pic" />
@@ -396,7 +409,8 @@
     <MESSAGE value="update the tags" />
     <MESSAGE value="udpate the readme.md" />
     <MESSAGE value="udpate the directory" />
-    <option name="LAST_COMMIT_MESSAGE" value="udpate the directory" />
+    <MESSAGE value="update the directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the directory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601372287543">
@@ -423,10 +437,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601384245999">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601384494510">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601384245999" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601384494510" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
