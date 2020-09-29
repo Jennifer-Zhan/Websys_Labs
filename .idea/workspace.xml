@@ -19,13 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the readme.md">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/readme.md" afterDir="false" />
-    </list>
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the directory" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -70,14 +64,14 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1\index_page" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3" />
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab2" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab1" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1\index_page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -117,7 +111,7 @@
       <workItem from="1601377176586" duration="212000" />
       <workItem from="1601377619756" duration="1580000" />
       <workItem from="1601379230234" duration="221000" />
-      <workItem from="1601383295470" duration="689000" />
+      <workItem from="1601383295470" duration="1047000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -336,7 +330,35 @@
       <option name="project" value="LOCAL" />
       <updated>1601379069229</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="udpate the readme.md">
+      <created>1601383989884</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1601383989884</updated>
+    </task>
+    <task id="LOCAL-00033" summary="udpate the directory">
+      <created>1601384086096</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1601384086096</updated>
+    </task>
+    <task id="LOCAL-00034" summary="udpate the directory">
+      <created>1601384170733</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1601384170733</updated>
+    </task>
+    <task id="LOCAL-00035" summary="udpate the directory">
+      <created>1601384236488</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1601384236488</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -373,7 +395,8 @@
     <MESSAGE value="update the margin of subsection" />
     <MESSAGE value="update the tags" />
     <MESSAGE value="udpate the readme.md" />
-    <option name="LAST_COMMIT_MESSAGE" value="udpate the readme.md" />
+    <MESSAGE value="udpate the directory" />
+    <option name="LAST_COMMIT_MESSAGE" value="udpate the directory" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601372287543">
@@ -400,10 +423,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601379105723">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601384245999">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601379105723" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601384245999" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
