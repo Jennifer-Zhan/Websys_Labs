@@ -21,6 +21,12 @@ Jensen Chen: 1. I tried to mark up all information with meaningful semantically 
 
 For the index and Jensen Chen resume page, the design and color use are inspired by the twitter.
 
+extra credit:
+
+We use web fonts to enhance the visual presentation, which are all provided by google. 
+In addition, We don’t actually provide the version for the mobile phones. However, our website is ready for the two popular PC screen ratios, which is 16:9 and 4:3. We largely use percent to decorate the margin and padding, 
+so they could be properly placed regardless of the screen ratios. We tested our website on Chrome, Edge, and Firefox.
+
 References:  
 http://microformats.org/wiki/hcard-examples - hCard examples  
 https://www.w3schools.com/  

@@ -20,6 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the readme.md">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/part1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +43,12 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1i4qnwMIP02EdRKR4PyupOLuAJM" />
@@ -105,7 +115,9 @@
       <workItem from="1601375756724" duration="873000" />
       <workItem from="1601376906006" duration="67000" />
       <workItem from="1601377176586" duration="212000" />
-      <workItem from="1601377619756" duration="1285000" />
+      <workItem from="1601377619756" duration="1580000" />
+      <workItem from="1601379230234" duration="221000" />
+      <workItem from="1601383295470" duration="689000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -317,7 +329,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601378749571</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="udpate the readme.md">
+      <created>1601379069229</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1601379069229</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,10 +400,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601378819822">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601379105723">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601378819822" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601379105723" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
