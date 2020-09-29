@@ -149,6 +149,16 @@
     width: 100%;
     float: left;
 }
+
+#parent0 {
+    width: 100%;
+    float: left;
+}
+
+#child10 {
+    width: 33%;
+    float: left;
+}
   
 .child10 {
     width: 33%;
