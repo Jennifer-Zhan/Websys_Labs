@@ -1,0 +1,83 @@
+body{
+	background-color: #91bef0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.photo{
+	width: 8% ;
+	float: left;
+}
+
+.topic{
+	float: left;
+	width: 98%;
+	margin-left: 1%;
+
+}
+.main{
+	width: 70%;
+	position: absolute;
+	left: 15%;
+	background-color: white;
+
+}
+h1{	
+	width: 70%
+	margin-right: 10px;
+	margin-left: 10px;
+
+	font-size: 300%;
+	text-align: center;
+}
+
+h3{	
+	margin: 15px 0 5px 0;
+	font-size: 180%;
+	color: purple;
+	text-decoration: underline;
+
+}
+
+p{
+	margin: 5px 0 5px 0;
+}
+
+.vcard_lis22 {
+	margin-right: 10px;
+	margin-left: 10px;
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+
+#contactinfo li{
+	display: inline;
+	list-style: none;
+}
+
+#photo{
+	float: right;
+}
+
+
+.titleName{
+	margin-top: 10px;
+	font-weight: bold;
+}
+
+.period{
+	float: right;
+}
+
+.title p {
+	display: inline-block;
+}
+
+
+#major{
+	width: 100%;
+}
+#companyName{
+	font-size: 130%;
+}
+
