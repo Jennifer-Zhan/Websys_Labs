@@ -1,5 +1,6 @@
-In this lab, our markup is semantically correct since we use validators to check our html and css. We use some
-no-semantic elements such as div. The reason is we cannot find other tags instead of them while the markup is 
+In this lab, our markup is semantically correct since we use validators to check our html and css. 
+
+We use some no-semantic elements such as div. The reason is we cannot find other tags instead of them while the markup is 
 semantically correct. Sometimes we just want some tags that won't effect the format of contents, but other tags
 such as section have some requirements, that's why we choose div. 
 
