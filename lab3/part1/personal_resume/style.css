@@ -1,6 +1,6 @@
 /*Jennifer's resume style*/
 #zhanr_resume {
-    font-family: Arial, Helvetica, sans-serif; 
+    font-family: 'Roboto', sans-serif;
     background-color: rgb(240, 240, 229);
 }
 
@@ -109,6 +109,9 @@
 }
 
 /*Jiahui Wu's resume style*/
+#wuj17_resume {
+    font-family: 'Roboto', sans-serif;
+}
 #realbody0{
     position:absolute;
     left:12%;
@@ -182,6 +185,9 @@
 }
 
   /*Jonathan's resume style*/
+#yangh12_resume body{
+	font-family: 'Roboto', sans-serif;
+}
    
 #yangh12_resume img{
     width: 200px;
@@ -227,7 +233,7 @@
 }
 
 #yangh12_resume{
-    font-family: Arial;
+    font-family: 'Roboto', sans-serif;
     background-color: lightblue;
     width: 1060px;
     margin: 0 auto;
@@ -261,13 +267,34 @@
 }
 
 /*Shuhan Li's resume style*/
+
+#lis22_resume{
+	background-color: #91bef0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#lis22_resume .photo{
+	width: 8% ;
+	float: left;
+}
+
+#lis22_resume .topic{
+	float: left;
+	width: 98%;
+	margin-left: 1%;
+
+}
+
 #lis22_resume .main{
 	width: 70%;
 	position: absolute;
 	left: 15%
+	background-color: white;
 }
 #lis22_resume h1{
-	margin-bottom: 0;
+	width: 70%
+	margin-right: 10px;
+	margin-left: 10px;
 	font-size: 300%;
 	text-align: center;
 }
@@ -285,6 +312,8 @@
 }
 
 #lis22_resume .vcard_lis22 {
+	margin-right: 10px;
+	margin-left: 10px;
 	width: 100%;
 	text-align: center;
 	float: left;
@@ -334,7 +363,7 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 12px;
-    font-family: Open Sans, serif;
+    font-family: 'Roboto', sans-serif;
     background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
     background-size: cover;
     margin-bottom: 14px;
