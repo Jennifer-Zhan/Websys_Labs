@@ -42,11 +42,11 @@ h2{
 }
 
 body{
-	font-family: Arial;
 	background-color: lightblue;
 	width: 1060px;
 	margin: 0 auto;
 	padding: 10px 10px 10px 10px;
+	font-family: 'Roboto', sans-serif;
 }
 .time{
 	float: right;
