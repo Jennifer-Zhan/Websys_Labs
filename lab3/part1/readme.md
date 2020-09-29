@@ -11,11 +11,18 @@ give them the number, hCard can make machines get and clarify those information 
 Jonathan Yang 
 The hCard information is very useful because it is very easy to read for both human and computer because of how it is formed . It could be stored as a HTML or a content file, the information is the same due to how it is formed.  
 
-Shuhan Li: Web font is a function allowed by CSS, allowing the specified font file to be downloaded locally. This is a very efficient way becuase fonts are not limited to whether they are installed locally or not, and most browsers support Web fonts.
+Shuhan Li: Web font is a function allowed by CSS, allowing the specified font file to be downloaded locally. This is a very efficient way because fonts are not limited to whether they are installed locally or not, and most browsers support Web fonts.
 
+Jensen Chen: 1. I tried to mark up all information with meaningful semantically tag. For example, when the css classes decorate different information such as my telephone number, I would give a specific name for each class, which describe what the css classes decorate.
+             2. Personally, I don't think that my html and css contain any non-semantic elements.
+             3. With hCard, when people or machine don't actually view my finally html, they still could find information by searching the information under certain tags.
 
+For the index and Jensen Chen resume page, the design and color use are inspired by the twitter.
 
 References:  
 http://microformats.org/wiki/hcard-examples - hCard examples  
-https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@1,300#standard-styles Roboto Fonts  
 https://www.w3schools.com/  
+https://usbrandcolors.com/twitter-colors/
+https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/specimen/Poppins
+https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@1,300#standard-styles Roboto Fonts  
