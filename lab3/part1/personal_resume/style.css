@@ -593,6 +593,13 @@
     /*color: #F5F8FA;*/
 }
 
+#index a.footer {
+    text-decoration: none;
+    color: #F5F8FA;
+    /*text-align: center;*/
+    margin-left: 48%;
+}
+
 
 
 
