@@ -195,7 +195,6 @@
 }
 
 /*Jonathan's resume style*/
-   
 #yangh12_resume img{
   width: 200px;
   margin: 17px 0px 0px 17px;
@@ -340,7 +339,7 @@
 	font-size: 130%;
 }
 
-/*Zhihan Chen's resume style*/
+/*Jensen Chen's resume style*/
 #chenz23_resume {
   height: auto;
   width: auto;
@@ -360,7 +359,6 @@
   padding: 20px;
   border-right: 10px;
   border-radius: 10px;
-  /*color: rgb(142, 142, 147)*/
   color: #FFFFFF;
 }
 
@@ -446,6 +444,7 @@
 }
 
 /*style for homepage*/
+/*the total design and color use are inspired by the twitter, reference is included in README*/
 #index {
   height: auto;
   width: auto;
