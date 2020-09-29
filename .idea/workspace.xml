@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the tags">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" afterDir="false" />
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the readme.md">
       <change beforePath="$PROJECT_DIR$/lab3/part1/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +105,7 @@
       <workItem from="1601375756724" duration="873000" />
       <workItem from="1601376906006" duration="67000" />
       <workItem from="1601377176586" duration="212000" />
-      <workItem from="1601377619756" duration="972000" />
+      <workItem from="1601377619756" duration="1285000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -313,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601377311232</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="udpate the readme.md">
+      <created>1601378749570</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1601378749571</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -349,7 +353,8 @@
     <MESSAGE value="update the height of subsection" />
     <MESSAGE value="update the margin of subsection" />
     <MESSAGE value="update the tags" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the tags" />
+    <MESSAGE value="udpate the readme.md" />
+    <option name="LAST_COMMIT_MESSAGE" value="udpate the readme.md" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601372287543">
@@ -364,10 +369,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="491" y="221" key="MultipleFileMergeDialog" timestamp="1601377357976">
+    <state x="491" y="221" key="MultipleFileMergeDialog" timestamp="1601378764794">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="491" y="221" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1601377357976" />
+    <state x="491" y="221" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1601378764794" />
     <state x="604" y="162" key="RollbackChangesDialog" timestamp="1601372688057">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -376,10 +381,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601377315388">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601378819822">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601377315388" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601378819822" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

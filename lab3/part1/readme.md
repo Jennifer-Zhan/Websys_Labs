@@ -17,8 +17,12 @@ Jensen Chen: 1. I tried to mark up all information with meaningful semantically 
              2. Personally, I don't think that my html and css contain any non-semantic elements.
              3. With hCard, when people or machine don't actually view my finally html, they still could find information by searching the information under certain tags.
 
+For the index and Jensen Chen resume page, the design and color use are inspired by the twitter.
 
 References:  
 http://microformats.org/wiki/hcard-examples - hCard examples  
-https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@1,300#standard-styles Roboto Fonts  
 https://www.w3schools.com/  
+https://usbrandcolors.com/twitter-colors/
+https://fonts.google.com/specimen/Open+Sans
+https://fonts.google.com/specimen/Poppins
+https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@1,300#standard-styles Roboto Fonts  
