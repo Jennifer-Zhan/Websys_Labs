@@ -449,6 +449,8 @@
     width: auto;
     margin: 12px;
     background: white;
+    background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
+    background-size: cover;
 }
 
 #index header {
@@ -509,10 +511,16 @@
     margin: 60px;
     overflow: auto;
     display: inline-block;
-    height: 230px;
-    width: 42%;
+    height: 201px;
+    width: 36%;
     text-align: center;
+    /*background-color: #FFFFFF;*/
+    color: #F5F8FA;
     /*padding-top: 100px;*/
+    border-radius: 12px;
+    padding: 180px 50px 50px 50px;
+    background: url("https://www.wallpapertip.com/wmimgs/92-929912_twitter-wallpaper.jpg");
+    background-size: contain;
 }
 
 /*p.subSection {*/

@@ -19,10 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the tab size">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the index.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +99,7 @@
       <workItem from="1601302702523" duration="87000" />
       <workItem from="1601348436305" duration="5594000" />
       <workItem from="1601354353094" duration="36000" />
-      <workItem from="1601365428957" duration="4512000" />
+      <workItem from="1601365428957" duration="6673000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -236,7 +234,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601366454869</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="update the index.html">
+      <created>1601370103385</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1601370103385</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -266,7 +271,8 @@
     <MESSAGE value="finish index css, lack of pics and description of some people and projects" />
     <MESSAGE value="finish index css, lack of pics and description of few people and project" />
     <MESSAGE value="update the tab size" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the tab size" />
+    <MESSAGE value="update the index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601365697965">
@@ -285,10 +291,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601366534483">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601370109801">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601366534483" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601370109801" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
