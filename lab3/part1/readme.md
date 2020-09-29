@@ -4,6 +4,8 @@ We use some no-semantic elements such as div. The reason is we cannot find other
 semantically correct. Sometimes we just want some tags that won't effect the format of contents, but other tags
 such as section have some requirements, that's why we choose div. 
 
+Jennifer Zhan: Using hCard allows human easily get more specific semantic meaning of the tags, and allows machine to get the intended meaning of each tag. The hCard could help making the information more readable for both human and machine. For example, it is easier to figure out the information in the tag is an email address, a phone number or something else. hCard would be very helpful for search engine to differentiate the information in each element especially when the information are all characters or all number that are hard to differentiate.
+
 Jiahui Wu:hCard information I added to my personal resume page is useful to humans since they can use the email link 
 to email me directly. And for machines, they don't know which is phone number and which is fax number if we just
 give them the number, hCard can make machines get and clarify those information immediately.
@@ -15,7 +17,7 @@ Shuhan Li: hCard is a format containing basic informations.People can read these
 
 Jensen Chen: 1. I tried to mark up all information with meaningful semantically tag. For example, when the css classes decorate different information such as my telephone number, I would give a specific name for each class, which describe what the css classes decorate.
              2. Personally, I don't think that my html and css contain any non-semantic elements.
-             3. With hCard, when people or machine don't actually view my finally html, they still could find information by searching the information under certain tags.
+             3. With hCard, when people or machine don't actually view my finally html, they still could find information by searching the information under certain tags.              
 
 For the index and Jensen Chen resume page, the design and color use are inspired by the twitter.
 
