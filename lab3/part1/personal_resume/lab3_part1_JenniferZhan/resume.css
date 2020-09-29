@@ -1,0 +1,136 @@
+/*Jennifer's resume style*/
+body {
+	font-family: Arial, Helvetica, sans-serif; 
+	background-color: rgb(240, 240, 229);
+}
+
+#PersonalInfo {
+	width:90%;
+	height:12%;
+	margin:3% 5% 3% 5%;
+}
+
+h1 {
+	text-align: center; 
+	margin: 0;
+	padding: 0;
+	font-variant: small-caps;
+	font-size: 3em
+}
+
+#PersonalInfo > h1, #PersonalInfo > img{
+	display: inline-block;
+}
+
+#PersonalInfo > img{
+	margin-left: 330px;
+	margin-bottom: 10px;
+	vertical-align: middle;
+}
+
+ 
+#contactInfo {
+	border-top: 2px solid #333;
+	border-bottom: 2px solid #333;
+	padding: 8px 0  8px 0;
+	margin: 0;
+	text-align: center;
+	white-space: nowrap;
+}
+
+#contactInfo li {
+	display: inline;
+	list-style: none;
+	margin: 0 0.25em 0 0.25em;
+}
+
+p{
+	margin: 5px;
+}
+
+#objective{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+#education{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+#work{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+
+#research{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+#project{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+
+ul{
+	margin: 0px; 
+}
+
+#skills{
+	border:1px;
+	padding-top:20px;
+	padding-bottom: 20px;
+	margin-top: 0px;
+	margin-left: 450px;
+	margin-right: 50px;
+}
+
+h2 {
+	float: left;
+	clear: left;
+	text-align: left;
+	width: 260px;
+	margin-left: 110px;
+	margin-top: 20px;
+	padding: 0;
+	font-size: 25px;
+}
+
+.time{
+	float: right;
+}
+
+#research em{
+	float: right;
+}
+
+#project em{
+	float: right;
+}
+
+.location{
+	float: right;
+}
