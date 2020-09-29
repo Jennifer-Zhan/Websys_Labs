@@ -506,7 +506,7 @@
 
 #index img.subSection {
     /*background-color: #F5F8FA;*/
-    margin: 60px;
+    margin: 60px 3% 60px 3%;
     overflow: auto;
     display: inline-block;
     height: 420px;
@@ -517,7 +517,7 @@
 
 #index p.subSection {
     /*background-color: #F5F8FA;*/
-    margin: 60px;
+    margin: 60px 1.2% 60px 4.8%;
     overflow: auto;
     display: inline-block;
     height: 201px;
