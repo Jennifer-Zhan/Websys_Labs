@@ -9,3 +9,9 @@ give them the number, hCard can make machines get and clarify those information 
 
 Jonathan Yang 
 The hCard information is very useful because it is very easy to read for both human and computer because of how it is formed . It could be stored as a HTML or a content file, the information is the same due to how it is formed.
+
+
+
+
+References:
+http://microformats.org/wiki/hcard-examples - hCard examples
