@@ -116,6 +116,15 @@
   float: right;
 }
 
+#zhanr_resume a:link {
+  color: black;
+  text-decoration: none;
+}
+
+#zhanr_resume a:hover{
+  color: blue;
+}
+
 /*Jiahui Wu's resume style*/
 #realbody0{
   position:absolute;
