@@ -504,6 +504,11 @@
     margin-left: 60px;
 }
 
+#index h2.tMembers{
+    color: #1DA1F2;
+    margin-left: 60px;
+}
+
 #index img.subSection {
     /*background-color: #F5F8FA;*/
     margin: 60px 3% 60px 3%;
