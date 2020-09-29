@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the font-family">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the margin of subsection">
       <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +102,7 @@
       <workItem from="1601372897311" duration="1162000" />
       <workItem from="1601374334857" duration="511000" />
       <workItem from="1601374921033" duration="104000" />
-      <workItem from="1601375756724" duration="306000" />
+      <workItem from="1601375756724" duration="651000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -273,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601374724010</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="update the margin of subsection">
+      <created>1601376095975</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1601376095975</updated>
+    </task>
+    <task id="LOCAL-00026" summary="update the margin of subsection">
+      <created>1601376182463</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1601376182463</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -306,7 +319,8 @@
     <MESSAGE value="update the index.html" />
     <MESSAGE value="update the index.html and footer" />
     <MESSAGE value="update the font-family" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the font-family" />
+    <MESSAGE value="update the margin of subsection" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the margin of subsection" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601372287543">

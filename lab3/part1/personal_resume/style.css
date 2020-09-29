@@ -520,14 +520,14 @@
     margin: 60px 1% 60px 4.8%;
     overflow: auto;
     display: inline-block;
-    height: 201px;
+    height: 221px;
     width: 36%;
     text-align: center;
     /*background-color: #FFFFFF;*/
     color: #F5F8FA;
     /*padding-top: 100px;*/
     border-radius: 12px;
-    padding: 180px 50px 50px 50px;
+    padding: 160px 50px 50px 50px;
     background: url("https://www.wallpapertip.com/wmimgs/92-929912_twitter-wallpaper.jpg");
     background-size: contain;
 }
