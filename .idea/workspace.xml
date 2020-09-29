@@ -19,14 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="finish index css, lack of pics and description of few people and project">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the tab size">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_JenniferZhan/resume.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_JenniferZhan/resume.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_Jonathan/yangh12.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_Jonathan/yangh12.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/lab3_part1_zhihanchen/chenz23.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/personal_resume/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +101,7 @@
       <workItem from="1601302702523" duration="87000" />
       <workItem from="1601348436305" duration="5594000" />
       <workItem from="1601354353094" duration="36000" />
-      <workItem from="1601365428957" duration="995000" />
+      <workItem from="1601365428957" duration="4512000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -232,7 +229,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601353765591</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="update the tab size">
+      <created>1601366454869</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1601366454869</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,7 +265,8 @@
     <MESSAGE value="update the css resource" />
     <MESSAGE value="finish index css, lack of pics and description of some people and projects" />
     <MESSAGE value="finish index css, lack of pics and description of few people and project" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish index css, lack of pics and description of few people and project" />
+    <MESSAGE value="update the tab size" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the tab size" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601365697965">
@@ -276,10 +281,14 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601353776996">
+    <state x="701" y="373" key="VCS.ChangelistChooser" timestamp="1601369805456">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601353776996" />
+    <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601366534483">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601366534483" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

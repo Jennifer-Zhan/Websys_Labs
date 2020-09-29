@@ -334,7 +334,7 @@
     padding-left: 18px;
     padding-right: 18px;
     padding-top: 12px;
-    font-family: Open Sans;
+    font-family: Open Sans, serif;
     background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
     background-size: cover;
     margin-bottom: 14px;
@@ -460,6 +460,7 @@
     border-radius: 10px;
     margin: 16px;
     color: #F5F8FA;
+    font-family: Open Sans, serif;
     /*background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-taobao-vector-cartoon-tech-business-people-office-blue-poster-background-image_129422.jpg");*/
     /*background-size: cover;*/
 }
@@ -497,7 +498,7 @@
     margin: 60px;
     overflow: auto;
     display: inline-block;
-    height: 300px;
+    height: 420px;
     width: 42%;
     border: 3px solid #AAB8C2;
     border-radius: 1px;
@@ -508,7 +509,7 @@
     margin: 60px;
     overflow: auto;
     display: inline-block;
-    height: 160px;
+    height: 230px;
     width: 42%;
     text-align: center;
     /*padding-top: 100px;*/
@@ -547,13 +548,35 @@
 
 }
 
-#index a {
+#index a.links {
     /*background: #1DA1F2;*/
     text-decoration: none;
     color: #1DA1F2;
     /*border-radius: 3px;*/
     /*padding: 4px;*/
 }
+
+#index a.navBar {
+    text-decoration: none;
+    color: #F5F8FA;
+    background-color: #1DA1F2;
+    border-radius: 20px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 30px;
+}
+
+#index p.navBar {
+    margin: 30px 3% 30px 3%;
+    overflow: auto;
+    display: inline-block;
+    height: auto;
+    width: 42%;
+    text-align: center;
+    /*background-color: #1DA1F2;*/
+    /*color: #F5F8FA;*/
+}
+
 
 
 
