@@ -3,274 +3,274 @@
 
 /*Jennifer's resume style*/
 #zhanr_resume {
-    font-family: Arial, Helvetica, sans-serif; 
-    background-color: rgb(240, 240, 229);
+  font-family: Arial, Helvetica, sans-serif; 
+  background-color: rgb(240, 240, 229);
 }
 
 #zhanr_resume > #PersonalInfo {
-    width:90%;
-    height:12%;
-    margin:3% 5% 3% 5%;
+  width:90%;
+  height:12%;
+  margin:3% 5% 3% 5%;
 }
 
 #zhanr_resume h1 {
-    text-align: center; 
-    margin: 0;
-    padding: 0;
-    font-variant: small-caps;
-    font-size: 3em
+  text-align: center; 
+  margin: 0;
+  padding: 0;
+  font-variant: small-caps;
+  font-size: 3em
 }
 
 #PersonalInfo > h1, #PersonalInfo > img{
-    display: inline-block;
+  display: inline-block;
 }
 
 #PersonalInfo > img{
-    margin-left: 330px;
-    margin-bottom: 10px;
-    vertical-align: middle;
+  margin-left: 330px;
+  margin-bottom: 10px;
+  vertical-align: middle;
 }
 
  
 #zhanr_resume #contactInfo {
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    padding: 8px 0  8px 0;
-    margin: 0;
-    text-align: center;
-    white-space: nowrap;
+  border-top: 2px solid #333;
+  border-bottom: 2px solid #333;
+  padding: 8px 0  8px 0;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
 }
 
 #zhanr_resume #contactInfo li {
-    display: inline;
-    list-style: none;
-    margin: 0 0.25em 0 0.25em;
+  display: inline;
+  list-style: none;
+  margin: 0 0.25em 0 0.25em;
 }
 
 #zhanr_resume p{
-    margin: 5px;
+  margin: 5px;
 }
 
 #zhanr_resume #objective{
-    border:1px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    margin-left: 450px;
-    margin-right: 50px;
+  border:1px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 50px;
 }
 
 #zhanr_resume #education{
-    border:1px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    margin-left: 450px;
-    margin-right: 50px;
+  border:1px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 50px;
 }
 
 #zhanr_resume #work{
-    border:1px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    margin-left: 450px;
-    margin-right: 50px;
+  border:1px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 50px;
 }
 
 
 #zhanr_resume ul{
-    margin: 0px; 
+  margin: 0px; 
 }
 
 #zhanr_resume #skills{
-    border:1px;
-    padding-top:20px;
-    padding-bottom: 20px;
-    margin-top: 0px;
-    margin-left: 450px;
-    margin-right: 50px;
+  border:1px;
+  padding-top:20px;
+  padding-bottom: 20px;
+  margin-top: 0px;
+  margin-left: 450px;
+  margin-right: 50px;
 }
 
 #zhanr_resume h2 {
-    float: left;
-    clear: left;
-    text-align: left;
-    width: 260px;
-    margin-left: 110px;
-    margin-top: 20px;
-    padding: 0;
-    font-size: 25px;
+  float: left;
+  clear: left;
+  text-align: left;
+  width: 260px;
+  margin-left: 110px;
+  margin-top: 20px;
+  padding: 0;
+  font-size: 25px;
 }
 
 #zhanr_resume .time{
-    float: right;
+  float: right;
 }
 
 #zhanr_resume .location{
-    float: right;
+  float: right;
 }
 
 /*Jiahui Wu's resume style*/
 #realbody0{
-    position:absolute;
-    left:12%;
-    width:1100px;
-    background-color: #ffffff;
-    border-style: ridge;
-    border-width: 5px;
-    border-color: #000000;
+  position:absolute;
+  left:12%;
+  width:1100px;
+  background-color: #ffffff;
+  border-style: ridge;
+  border-width: 5px;
+  border-color: #000000;
 }
   
 .topic0{
-    text-align: center;
-    background: url(lab3_part1_JiahuiWu/1.jpg)top right;
-    background-size: cover;
-    position: relative;
-    height: 200px;
+  text-align: center;
+  background: url(lab3_part1_JiahuiWu/1.jpg)top right;
+  background-size: cover;
+  position: relative;
+  height: 200px;
 }
 .sectionheader0
 {
-    border-bottom-style: double;
-    color: #00802b;
+  border-bottom-style: double;
+  color: #00802b;
 }
 .name0{
-    position: absolute;
-    bottom: 0;
-    top: 0;
-    left: 0;
-    right: 0;
-    font-size: 70px;
-    font-family: 'Mansalva', cursive;
-    color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  font-size: 70px;
+  font-family: 'Mansalva', cursive;
+  color: #ffffff;
 }
   
 .parent0 {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
 #parent0 {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
 
 #child10 {
-    width: 33%;
-    float: left;
+  width: 33%;
+  float: left;
 }
   
 .child10 {
-    width: 33%;
-    float: left;
+  width: 33%;
+  float: left;
 }
   
 .child20 {
-    width: 33%;
-    float: left;
+  width: 33%;
+  float: left;
 }
   
 .child30{
-    width: 33%;
-    float: left;
+  width: 33%;
+  float: left;
 }
 
 .parent00 {
-    width: 100%;
-    float: left;
+  width: 100%;
+  float: left;
 }
   
 .child0{
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .chil0{
-    width: 50%;
-    float: left;
+  width: 50%;
+  float: left;
 }
 
 .de0{
-    color: #ff0000;
+  color: #ff0000;
 }
 
-  /*Jonathan's resume style*/
+/*Jonathan's resume style*/
    
 #yangh12_resume img{
-    width: 200px;
-    margin: 17px 0px 0px 17px;
+  width: 200px;
+  margin: 17px 0px 0px 17px;
 }
 
 #yangh12_resume header #name5{
-    text-align: center; 
-    font-family: Arial;
-    font-size: 45px;
-    letter-spacing: 3px;
-    line-height: 20px;
-    margin-bottom: 10px;
-    color: #212270;
+  text-align: center; 
+  font-family: Arial;
+  font-size: 45px;
+  letter-spacing: 3px;
+  line-height: 20px;
+  margin-bottom: 10px;
+  color: #212270;
 }
 
 #yangh12_resume .leftinfo5{
-    width: 22%;
-    float: left;
-    padding: 0px 10px 0px 10px;  
+  width: 22%;
+  float: left;
+  padding: 0px 10px 0px 10px;  
 }
 
 #yangh12_resume .rightinfo5{
-    width: 73%;
-    float: left;
-    padding: 0px 10px 0px 10px;  
+  width: 73%;
+  float: left;
+  padding: 0px 10px 0px 10px;  
 }
 
 #yangh12_resume h2{
-    font-size: 30px;
+  font-size: 30px;
 }
 
 #yangh12_resume.out5 {
-    width: 100%;
-    background-color: white;
-    padding-bottom: 10px;
+  width: 100%;
+  background-color: white;
+  padding-bottom: 10px;
 }
 
 #yangh12_resume .mid5 {
-    width: 100%;
-    float: left;
-    margin-top: 12px;
+  width: 100%;
+  float: left;
+  margin-top: 12px;
 }
 
 #yangh12_resume{
-    font-family: Arial;
-    background-color: lightblue;
-    width: 1060px;
-    margin: 0 auto;
-    padding: 10px 10px 10px 10px;
+  font-family: Arial;
+  background-color: lightblue;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 10px 10px 10px 10px;
 }
 #yangh12_resume .time{
-    float: right;
+  float: right;
 }
 
 #yangh12_resume a, a:visited {
-    color: #3a3cb0;
-    text-decoration: none;
+  color: #3a3cb0;
+  text-decoration: none;
 }
 
 #yangh12_resume a:hover {
-    color: #a30000;
+  color: #a30000;
 }
 
 #yangh12_resume ul {
-    line-height: 30px;
+  line-height: 30px;
 }
 
 #yangh12_resume .info5{
-    font-size: 20px;
+  font-size: 20px;
 }
 
 #yangh12_resume .bottom5 {
-    background-color: white;
-    padding: 0px 10px 0px 10px;
-    width: 1040px;
+  background-color: white;
+  padding: 0px 10px 0px 10px;
+  width: 1040px;
 }
 
 /*Shuhan Li's resume style*/
@@ -342,280 +342,239 @@
 
 /*Zhihan Chen's resume style*/
 #chenz23_resume {
-    height: auto;
-    width: auto;
-    padding-left: 18px;
-    padding-right: 18px;
-    padding-top: 12px;
-    font-family: Open Sans, serif;
-    background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
-    background-size: cover;
-    margin-bottom: 14px;
+  height: auto;
+  width: auto;
+  padding-left: 18px;
+  padding-right: 18px;
+  padding-top: 12px;
+  font-family: Open Sans, serif;
+  background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
+  background-size: cover;
+  margin-bottom: 14px;
 }
 
 #chenz23_resume header {
-    background: #1DA1F2;
-    width: auto;
-    height: 240px;
-    padding: 20px;
-    border-right: 10px;
-    border-radius: 10px;
-    /*color: rgb(142, 142, 147)*/
-    color: #FFFFFF;
+  background: #1DA1F2;
+  width: auto;
+  height: 240px;
+  padding: 20px;
+  border-right: 10px;
+  border-radius: 10px;
+  /*color: rgb(142, 142, 147)*/
+  color: #FFFFFF;
 }
 
 #chenz23_resume p.fn {
-    font-size: 36px;
-    width: 300px;
-    margin: 0 600px 0 20px;
-    display: inline-block;
-    overflow: auto;
+  font-size: 36px;
+  width: 300px;
+  margin: 0 600px 0 20px;
+  display: inline-block;
+  overflow: auto;
 }
 
-/*annotation {*/
-/*    width: 140px;*/
-/*    height: 0.5em;*/
-/*    background-color: #BDFCC9;*/
-/*}*/
-
 #chenz23_resume p.object {
-    font-size: 18px;
-    width: 700px;
-    margin: 50px 380px 12px 20px;
-    display: inline-block;
-    overflow: auto;
+  font-size: 18px;
+  width: 700px;
+  margin: 50px 380px 12px 20px;
+  display: inline-block;
+  overflow: auto;
 }
 
 #chenz23_resume section {
-    margin-top: 20px;
-    width: auto;
-    height: auto;
-    background-color: #F5F8FA;
-    padding: 18px;
-    border-radius: 10px;
+  margin-top: 20px;
+  width: auto;
+  height: auto;
+  background-color: #F5F8FA;
+  padding: 18px;
+  border-radius: 10px;
 }
 
 #chenz23_resume p.adr {
-    display: inline-block;
-    float: left;
-    margin-left: 19px;
+  display: inline-block;
+  float: left;
+  margin-left: 19px;
 }
 
 #chenz23_resume p.tel {
-    display: inline-block;
-    margin-left: 26%;
+  display: inline-block;
+  margin-left: 26%;
 }
 
 #chenz23_resume p.email {
-    display: inline-block;
-    float: right;
-    margin-right: 19px;
+  display: inline-block;
+  float: right;
+  margin-right: 19px;
 }
 
 #chenz23_resume h2 {
-    color: #1DA1F2;
-    margin-left: 16px;
+  color: #1DA1F2;
+  margin-left: 16px;
 }
 
 #chenz23_resume a.blue {
-    color: #1DA1F2;
-    text-decoration:none;
+  color: #1DA1F2;
+  text-decoration:none;
 }
 
 #chenz23_resume a.white {
-    color: rgb(255,255,255);
-    text-decoration:none;
+  color: rgb(255,255,255);
+  text-decoration:none;
 }
 
 #chenz23_resume p.block_1_section {
-    width: 46%;
-    height: 100px;
-    /*padding: 10px;*/
-    display: inline-block;
-    /*float: top;*/
-    /*float: right;*/
-    /*margin-top: -16px;*/
-    margin: 16px;
-    overflow: auto;
+  width: 46%;
+  height: 100px;
+  display: inline-block;
+  margin: 16px;
+  overflow: auto;
 }
 
 #chenz23_resume p.block_2_section {
-    display: inline-block;
-    overflow: auto;
-    margin-left: 4.6%;
+  display: inline-block;
+  overflow: auto;
+  margin-left: 4.6%;
 }
 
 #chenz23_resume img.photo {
-    float: right;
-    /*float: top;*/
-    display: inline-block;
-    overflow: auto;
-    margin-right: 50px;
-    margin-top: -30px;
-    border: 3px solid #E1E8ED;
-    border-radius: 1px;
+  float: right;
+  display: inline-block;
+  overflow: auto;
+  margin-right: 50px;
+  margin-top: -30px;
+  border: 3px solid #E1E8ED;
+  border-radius: 1px;
 }
 
 /*style for homepage*/
 #index {
-    height: auto;
-    width: auto;
-    margin: 12px;
-    /*background: #243447;*/
-    background: url("https://image.freepik.com/free-vector/elegant-dark-background-with-golden-details_23-2148430347.jpg");
-    font-family: Poppins, serif;
+  height: auto;
+  width: auto;
+  margin: 12px;
+  background: url("https://image.freepik.com/free-vector/elegant-dark-background-with-golden-details_23-2148430347.jpg");
+  font-family: Poppins, serif;
 }
 
 #index header {
-    background: #F5F8FA;
-    width: auto;
-    height: 240px;
-    padding: 20px;
-    border-right: 10px;
-    border-radius: 10px;
-    margin: 16px;
-    color: #1DA1F2;
-    /*background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-taobao-vector-cartoon-tech-business-people-office-blue-poster-background-image_129422.jpg");*/
-    /*background-size: cover;*/
+  background: #F5F8FA;
+  width: auto;
+  height: 240px;
+  padding: 20px;
+  border-right: 10px;
+  border-radius: 10px;
+  margin: 16px;
+  color: #1DA1F2;
 }
 
 #index h1.groupName {
-    text-align: center;
+  text-align: center;
 }
 
 #index h2.teamSlogan {
-    text-align: center;
+  text-align: center;
 }
 
 #index h3.time {
-    text-align: center;
-    /*float: bottom;*/
-    /*margin-top: 10px;*/
+  text-align: center;
 }
 
 #index section.navBar {
-    margin: 16px;
-    width: auto;
-    height: auto;
-    background-color: #1DA1F2;
-    padding: 18px;
-    border-radius: 10px;
+  margin: 16px;
+  width: auto;
+  height: auto;
+  background-color: #1DA1F2;
+  padding: 18px;
+  border-radius: 10px;
 }
 
 #index section.other {
-    margin: 16px;
-    width: auto;
-    height: auto;
-    background-color: #F5F8FA;
-    padding: 18px;
-    border-radius: 10px;
+  margin: 16px;
+  width: auto;
+  height: auto;
+  background-color: #F5F8FA;
+  padding: 18px;
+  border-radius: 10px;
 }
 
 #index h2.pWords {
-    color: #1DA1F2;
-    margin-left: 60px;
+  color: #1DA1F2;
+  margin-left: 60px;
 }
 
 #index h2.tMembers{
-    color: #1DA1F2;
-    margin-left: 60px;
+  color: #1DA1F2;
+  margin-left: 60px;
 }
 
 #index img.subSection {
-    /*background-color: #F5F8FA;*/
-    margin: 60px 3% 60px 3%;
-    overflow: auto;
-    display: inline-block;
-    height: 420px;
-    width: 42%;
-    border: 3px solid #AAB8C2;
-    border-radius: 1px;
+  margin: 60px 3% 60px 3%;
+  overflow: auto;
+  display: inline-block;
+  height: 420px;
+  width: 42%;
+  border: 3px solid #AAB8C2;
+  border-radius: 1px;
 }
 
 #index p.subSection {
-    /*background-color: #F5F8FA;*/
-    margin: 60px 1% 60px 4.8%;
-    overflow: auto;
-    display: inline-block;
-    height: 220px;
-    width: 36%;
-    text-align: center;
-    /*background-color: #FFFFFF;*/
-    color: #F5F8FA;
-    /*padding-top: 100px;*/
-    border-radius: 12px;
-    padding: 160px 50px 50px 50px;
-    background: url("https://www.wallpapertip.com/wmimgs/92-929912_twitter-wallpaper.jpg");
-    background-size: contain;
+  margin: 60px 1% 60px 4.8%;
+  overflow: auto;
+  display: inline-block;
+  height: 220px;
+  width: 36%;
+  text-align: center;
+  color: #F5F8FA;
+  border-radius: 12px;
+  padding: 160px 50px 50px 50px;
+  background: url("https://www.wallpapertip.com/wmimgs/92-929912_twitter-wallpaper.jpg");
+  background-size: contain;
 }
 
-/*p.subSection {*/
-/*    margin: 60px;*/
-/*    overflow: auto;*/
-/*    display: inline-block;*/
-/*    height: auto;*/
-/*    width: auto;*/
-/*}*/
-
 #index img.teamMates {
-    overflow: auto;
-    display: inline-block;
-    height: 234px;
-    width: 13%;
-    margin: 3.1%;
-    border: 3px solid #AAB8C2;
-    border-radius: 2px;
+  overflow: auto;
+  display: inline-block;
+  height: 234px;
+  width: 13%;
+  margin: 3.1%;
+  border: 3px solid #AAB8C2;
+  border-radius: 2px;
 }
 
 #index p.teamMates {
-    overflow: auto;
-    display: inline-block;
-    height: auto;
-    width: 13%;
-    margin: -2.3% 3.3% 1.4% 3.3%;
-    text-align: center;
-    /*padding: 6px;*/
-    /*background: #1DA1F2;*/
-    /*border-radius: 14px;*/
-    /*padding-left: 4px;*/
-    /*padding-right: 4px;*/
-
+  overflow: auto;
+  display: inline-block;
+  height: auto;
+  width: 13%;
+  margin: -2.3% 3.3% 1.4% 3.3%;
+  text-align: center;
 }
 
 #index a.links {
-    /*background: #1DA1F2;*/
-    text-decoration: none;
-    color: #1DA1F2;
-    /*border-radius: 3px;*/
-    /*padding: 4px;*/
+  text-decoration: none;
+  color: #1DA1F2;
 }
 
 #index a.navBar {
-    text-decoration: none;
-    color: #F5F8FA;
-    /*background-color: #1DA1F2;*/
-    border-radius: 20px;
-    padding-left: 16px;
-    padding-right: 16px;
-    font-size: 30px;
+  text-decoration: none;
+  color: #F5F8FA;
+  border-radius: 20px;
+  padding-left: 16px;
+  padding-right: 16px;
+  font-size: 30px;
 }
 
 #index p.navBar {
-    margin: 30px 3% 30px 3%;
-    overflow: auto;
-    display: inline-block;
-    height: auto;
-    width: 42%;
-    text-align: center;
-    /*background-color: #1DA1F2;*/
-    /*color: #F5F8FA;*/
+  margin: 30px 3% 30px 3%;
+  overflow: auto;
+  display: inline-block;
+  height: auto;
+  width: 42%;
+  text-align: center;
 }
 
 #index a.footer {
-    text-decoration: none;
-    color: #F5F8FA;
-    /*text-align: center;*/
-    margin-left: 48%;
+  text-decoration: none;
+  color: #F5F8FA;
+  margin-left: 48%;
 }
 
 
