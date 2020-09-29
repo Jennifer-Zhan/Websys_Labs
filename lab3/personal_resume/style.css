@@ -47,8 +47,13 @@
   margin: 0 0.25em 0 0.25em;
 }
 
-#zhanr_resume p{
+#zhanr_resume p, h3{
   margin: 5px;
+}
+
+#zhanr_resume h3{
+  font-weight: normal;
+  font-size: 1em
 }
 
 #zhanr_resume #objective{
