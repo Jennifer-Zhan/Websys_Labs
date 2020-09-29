@@ -19,8 +19,15 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update bg pic">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css resource">
+      <change afterPath="$PROJECT_DIR$/lab3/part1/index_page/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/part1/index_page/chenz23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/part1/index_page/headshot.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab3/part1/index_page/zhanr_photo.JPG" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/index_page/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/index_page/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/chenz23.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/part1/part1_zhihanchen/chenz23.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,19 +51,25 @@
   <component name="ProjectId" id="1i4qnwMIP02EdRKR4PyupOLuAJM" />
   <component name="ProjectLevelVcsManager">
     <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/part1/index_page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1\index_page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3" />
@@ -87,6 +100,10 @@
       <workItem from="1601273852646" duration="22000" />
       <workItem from="1601298907809" duration="3154000" />
       <workItem from="1601302121793" duration="18000" />
+      <workItem from="1601302183202" duration="226000" />
+      <workItem from="1601302493700" duration="149000" />
+      <workItem from="1601302702523" duration="87000" />
+      <workItem from="1601348436305" duration="5088000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -179,7 +196,21 @@
       <option name="project" value="LOCAL" />
       <updated>1601301973306</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="update bg pic">
+      <created>1601302245041</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302245041</updated>
+    </task>
+    <task id="LOCAL-00015" summary="update the css resource">
+      <created>1601302392259</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601302392259</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,23 +229,25 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="update lab2 and start for lab3" />
     <MESSAGE value="finish the html of zhihanchen's part1, but not the css" />
     <MESSAGE value="update the directory" />
     <MESSAGE value="finish chenz23 css" />
     <MESSAGE value="update chenz23 pic" />
     <MESSAGE value="update bg pic" />
-    <option name="LAST_COMMIT_MESSAGE" value="update bg pic" />
+    <MESSAGE value="update the css resource" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the css resource" />
   </component>
   <component name="WindowStateProjectService">
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601212361900">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601301976129">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601302397156">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601301976129" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601302397156" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>

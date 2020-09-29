@@ -1,0 +1,110 @@
+body {
+    height: auto;
+    width: auto;
+    margin: 12px;
+    background: white;
+}
+
+header {
+    background: #1DA1F2;
+    width: auto;
+    height: 240px;
+    padding: 20px;
+    border-right: 10px;
+    border-radius: 10px;
+    margin: 16px;
+    color: #F5F8FA;
+    /*background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-taobao-vector-cartoon-tech-business-people-office-blue-poster-background-image_129422.jpg");*/
+    /*background-size: cover;*/
+}
+
+h1.groupName {
+    text-align: center;
+}
+
+h2.teamSlogan {
+    text-align: center;
+}
+
+h3.time {
+    text-align: center;
+    /*float: bottom;*/
+    /*margin-top: 10px;*/
+}
+
+section {
+    margin: 16px;
+    width: auto;
+    height: auto;
+    background-color: #F5F8FA;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+h2.pWords {
+    color: #1DA1F2;
+    margin-left: 60px;
+}
+
+img.subSection {
+    /*background-color: #F5F8FA;*/
+    margin: 60px;
+    overflow: auto;
+    display: inline-block;
+    height: 300px;
+    width: 42%;
+    border: 3px solid #AAB8C2;
+    border-radius: 1px;
+}
+
+p.subSection {
+    /*background-color: #F5F8FA;*/
+    margin: 60px;
+    overflow: auto;
+    display: inline-block;
+    height: 160px;
+    width: 42%;
+    text-align: center;
+    /*padding-top: 100px;*/
+}
+
+/*p.subSection {*/
+/*    margin: 60px;*/
+/*    overflow: auto;*/
+/*    display: inline-block;*/
+/*    height: auto;*/
+/*    width: auto;*/
+/*}*/
+
+img.teamMates {
+    overflow: auto;
+    display: inline-block;
+    height: 234px;
+    width: 13%;
+    margin: 3.1%;
+    border: 3px solid #AAB8C2;
+    border-radius: 1px;
+}
+
+p.teamMates {
+    overflow: auto;
+    display: inline-block;
+    height: auto;
+    width: 13%;
+    margin: -2.3% 3.3% 1.4% 3.3%;
+    text-align: center;
+    /*padding: 6px;*/
+    /*background: #1DA1F2;*/
+    /*border-radius: 14px;*/
+    /*padding-left: 4px;*/
+    /*padding-right: 4px;*/
+
+}
+
+a {
+    /*background: #1DA1F2;*/
+    text-decoration: none;
+    color: #1DA1F2;
+    /*border-radius: 3px;*/
+    /*padding: 4px;*/
+}
