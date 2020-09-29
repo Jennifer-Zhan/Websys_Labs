@@ -448,20 +448,19 @@
     height: auto;
     width: auto;
     margin: 12px;
-    background: white;
-    background: url("https://images.wallpapersden.com/image/download/rainbow-4k-lines_70379_3840x2160.jpg");
-    background-size: cover;
+    /*background: #243447;*/
+    background: url("https://image.freepik.com/free-vector/elegant-dark-background-with-golden-details_23-2148430347.jpg");
 }
 
 #index header {
-    background: #1DA1F2;
+    background: #F5F8FA;
     width: auto;
     height: 240px;
     padding: 20px;
     border-right: 10px;
     border-radius: 10px;
     margin: 16px;
-    color: #F5F8FA;
+    color: #1DA1F2;
     font-family: Open Sans, serif;
     /*background: url("https://png.pngtree.com/thumb_back/fw800/back_our/20190617/ourmid/pngtree-taobao-vector-cartoon-tech-business-people-office-blue-poster-background-image_129422.jpg");*/
     /*background-size: cover;*/
@@ -481,7 +480,16 @@
     /*margin-top: 10px;*/
 }
 
-#index section {
+#index section.navBar {
+    margin: 16px;
+    width: auto;
+    height: auto;
+    background-color: #1DA1F2;
+    padding: 18px;
+    border-radius: 10px;
+}
+
+#index section.other {
     margin: 16px;
     width: auto;
     height: auto;
@@ -567,7 +575,7 @@
 #index a.navBar {
     text-decoration: none;
     color: #F5F8FA;
-    background-color: #1DA1F2;
+    /*background-color: #1DA1F2;*/
     border-radius: 20px;
     padding-left: 16px;
     padding-right: 16px;
