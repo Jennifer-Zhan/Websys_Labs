@@ -9,10 +9,13 @@ to email me directly. And for machines, they don't know which is phone number an
 give them the number, hCard can make machines get and clarify those information immediately.
 
 Jonathan Yang 
-The hCard information is very useful because it is very easy to read for both human and computer because of how it is formed . It could be stored as a HTML or a content file, the information is the same due to how it is formed.
+The hCard information is very useful because it is very easy to read for both human and computer because of how it is formed . It could be stored as a HTML or a content file, the information is the same due to how it is formed.  
+
+Shuhan Li: Web font is a function allowed by CSS, allowing the specified font file to be downloaded locally. This is a very efficient way becuase fonts are not limited to whether they are installed locally or not, and most browsers support Web fonts.
 
 
 
-
-References:
-http://microformats.org/wiki/hcard-examples - hCard examples
+References:  
+http://microformats.org/wiki/hcard-examples - hCard examples  
+https://fonts.google.com/specimen/Roboto?sidebar.open=true&selection.family=Roboto:ital,wght@1,300#standard-styles Roboto Fonts  
+https://www.w3schools.com/  
