@@ -43,3 +43,13 @@ a {
   text-decoration: none;
   color: #c51f5d;
 }
+
+.heart {
+  animation: beat .25s infinite alternate;
+}
+
+/* Heart beat animation */
+@keyframes beat{
+  from {font-size: 1em; color: white;}
+  to {font-size: 1.2em; color: yellow;}
+}
