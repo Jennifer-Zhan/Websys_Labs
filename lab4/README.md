@@ -21,3 +21,5 @@ Jennifer Zhan: Finished most of the Javascript for all the parts; added css anim
 Jensen Chen: Individually finish the stylesheet of the lab and help to construct a part of part3 and most part of explanations in readme
 
 Jiahui Wu: Finish part2 and dubug for all three files.
+
+Jonathan Yang: Not good at JavaScript, give suggestion for part1b.
