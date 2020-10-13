@@ -9,7 +9,7 @@ part1b: For part1a, we locate each element in the document by using nodes, and a
         tagName is only use for returning the tag name,
         while nodeName could return various value based on the type of node, in particular, in this lab case, we only use element node, so it would return the tag name of the node
 
-part2: When we click on the element, an event happens on an element. Since all the elements share an event handler, it will first runs the even handler on the element we click and then on its parents and all the way up through the DOM. The order for event bubbling will be from child element to parent element.
+part2: When we click on the element, an event happens on an element. Since all the elements share an event handler, it will first run the even handler on the element we click and then on its parents and all the way up through the DOM. The order for event bubbling will be from child element to parent element.
         
 part3: The function could be realized by using mouseover and mouseout to addEventListener.
         when the event occurs, we would change the css as requests.

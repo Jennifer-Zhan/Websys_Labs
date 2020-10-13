@@ -1,3 +1,29 @@
+window.onload = function () {
+  //part1a
+  var headnode=document.documentElement;
+  var txt="";
+  var layer="";
+  document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
+
+  //part1b
+  var root_element=document.getElementsByClassName("root");
+  var txt_b="";
+  var layer_b="";
+  document.getElementById("part1b").innerHTML = print_elements_b(root_element[0],txt_b,layer_b);
+
+  //part3
+  //copy favorite quote.
+  var node=document.getElementsByClassName("quote")[1].cloneNode(true);
+  document.body.appendChild(node);
+
+  //bind new onmouseover event listeners to each div.
+  var div_elements=document.getElementsByTagName("DIV");
+  for (var i=0; i<div_elements.length; i++){
+    div_elements[i].addEventListener("mouseover", mouseOver);
+    div_elements[i].addEventListener("mouseout", mouseOut);
+  }
+}
+
 function print_elements(node, txt, layer) {
   var item = node.nodeName.toLowerCase();
   if (item != "#text") {

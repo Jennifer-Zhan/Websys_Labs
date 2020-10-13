@@ -22,6 +22,8 @@
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the file and update part1b js">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4/lab4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4/lab4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,14 +129,9 @@
       <workItem from="1602559949317" duration="2066000" />
       <workItem from="1602563686633" duration="5781000" />
       <workItem from="1602575036378" duration="3564000" />
-      <workItem from="1602580282355" duration="1447000" />
-    </task>
-    <task id="LOCAL-00001" summary="update lab2 and start for lab3">
-      <created>1601178261824</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1601178261824</updated>
+      <workItem from="1602580282355" duration="1673000" />
+      <workItem from="1602583193534" duration="1176000" />
+      <workItem from="1602585676522" duration="1230000" />
     </task>
     <task id="LOCAL-00002" summary="update lab2 and start for lab3">
       <created>1601178373662</created>
@@ -472,7 +469,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602580163142</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="udpate the file and update part1b js">
+      <created>1602581934838</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1602581934838</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,6 +532,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="652" y="0" width="947" height="920" key="#HTML/0.0.1707.920@0.0.1707.920" timestamp="1601366409616" />
+    <state x="579" y="169" key="#JavaScript" timestamp="1602586906180">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="579" y="169" key="#JavaScript/0.0.1707.920@0.0.1707.920" timestamp="1602586906180" />
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1601212361900">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -552,10 +560,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602580171297">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602581938734">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602580171297" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602581938734" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
