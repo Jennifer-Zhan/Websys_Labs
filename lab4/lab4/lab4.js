@@ -25,8 +25,8 @@ window.onload = function () {
 }
 
 function print_elements(node, txt, layer) {
-  var item = node.nodeName.toLowerCase();
-  if (item != "#text") {
+  if (node.nodeType==Node.ELEMENT_NODE) {
+    var item = node.nodeName.toLowerCase();
   	txt = txt + layer + item + "\n";
   }
   layer += "-";
