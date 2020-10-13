@@ -19,9 +19,17 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="debug lis22.html">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="debug zhanr.html">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_11_00_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_11_00__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_16_33_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_16_33__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_17_59_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_17_59__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_20_49_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_9_29_20_49__Default_Changelist_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab3/personal_resume/lab3_part1_JenniferZhan/zhanr.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab3/personal_resume/lab3_part1_JenniferZhan/zhanr.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part1/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,7 +123,11 @@
       <workItem from="1601377619756" duration="1580000" />
       <workItem from="1601379230234" duration="221000" />
       <workItem from="1601383295470" duration="2134000" />
-      <workItem from="1601385437466" duration="932000" />
+      <workItem from="1601385437466" duration="1021000" />
+      <workItem from="1601386477489" duration="910000" />
+      <workItem from="1602237703710" duration="74000" />
+      <workItem from="1602511479740" duration="668000" />
+      <workItem from="1602556364754" duration="680000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -411,7 +423,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601386062075</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="debug zhanr.html">
+      <created>1601386390231</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1601386390231</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -450,7 +469,8 @@
     <MESSAGE value="udpate the directory" />
     <MESSAGE value="update the directory" />
     <MESSAGE value="debug lis22.html" />
-    <option name="LAST_COMMIT_MESSAGE" value="debug lis22.html" />
+    <MESSAGE value="debug zhanr.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="debug zhanr.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1601372287543">
@@ -477,10 +497,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601386111584">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1601386393528">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601386111584" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1601386393528" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
