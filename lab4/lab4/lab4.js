@@ -6,6 +6,8 @@ function print_elements(node,txt,layer) {
   layer+="-";
   for (var i = 0; i < node.childNodes.length; i++) {
     var child = node.childNodes[i];
+    // add part2 - modify the function for part1a and 
+    // add onclick event listener to each element.
     node.childNodes[i].addEventListener("click", function () {
            alert(this.nodeName.toLowerCase());
     }, false);
@@ -20,10 +22,7 @@ function print_elements_b(element,txt,layer){
   layer+="-";
   for (var i = 0; i < element.children.length; i++) {
     var child = element.children[i];
-    element.children[i].addEventListener("click", function () {
-           alert(this.tagName.toLowerCase());
-    }, false);
-    txt=print_elements(child,txt,layer);
+    txt=print_elements_b(child,txt,layer);
   }
   return txt;
 }
