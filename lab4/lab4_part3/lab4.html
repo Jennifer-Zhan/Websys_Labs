@@ -44,11 +44,9 @@
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
     var node=document.getElementsByClassName("quote")[1].cloneNode(true);  //copy favorite quote.
-    document.getElementsByClassName("quote")[4].appendChild(node);
+    document.getElementsByClassName("quote")[4].appendChild(nzode);
+
     var div_elements=document.getElementsByClassName("quote");  //bind new onmouseover event listeners to each div.
-    //div_elements[0].addEventListener("mouseover", function mouseOver() {
-  //this.style.backgroundColor = "red";
-//})
     for (var i=0; i<div_elements.length; i++){
       div_elements[i].addEventListener("mouseover", mouseOver);
       div_elements[i].addEventListener("mouseout", mouseOut);
