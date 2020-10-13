@@ -8,9 +8,7 @@ function print_elements(node, txt, layer) {
     var child = node.childNodes[i];
     // add part2 - modify the function for part1a and 
     // add onclick event listener to each element.
-    node.childNodes[i].addEventListener("click", function () {
-           alert(this.nodeName.toLowerCase());
-    }, false);
+    node.childNodes[i].addEventListener("click", click_alert);
     txt=print_elements(child,txt,layer);
   }
   return txt;
@@ -25,6 +23,10 @@ function print_elements_b(element,txt,layer){
     txt=print_elements_b(child,txt,layer);
   }
   return txt;
+}
+
+function click_alert(){
+  alert(this.nodeName.toLowerCase());
 }
 
 function mouseOver() {
