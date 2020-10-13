@@ -43,7 +43,7 @@ function print_elements(node, txt, layer) {
 function print_elements_b(element,txt,layer){
   var item=element.tagName.toLowerCase();
   txt=txt+layer+item+"\n";
-  layer+="-";
+  layer += "-";
   for (var i = 0; i < element.children.length; i++) {
     var child = element.children[i];
     txt=print_elements_b(child,txt,layer);
