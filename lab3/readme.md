@@ -24,7 +24,7 @@ For the index and Jensen Chen resume page, the design and color use are inspired
 extra credit:
 
 We use web fonts to enhance the visual presentation, which are all provided by google. 
-In addition, We don’t actually provide the version for the mobile phones. However, our website is ready for the two popular PC screen ratios, which is 16:9 and 4:3. We largely use percent to decorate the margin and padding, 
+In addition, We don’t actually provide the version for the mobile phones. However, our website is ready for the two popular PC screen ratios, which is 16:9 and 4:3. We largely use percentage(%) to decorate the margin and padding, 
 so they could be properly placed regardless of the screen ratios. We tested our website on Chrome, Edge, and Firefox.
 
 References:  

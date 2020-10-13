@@ -108,21 +108,21 @@
   font-size: 25px;
 }
 
-#zhanr_resume .time{
+#zhanr_resume .time {
   float: right;
 }
 
-#zhanr_resume .location{
+#zhanr_resume .location {
   float: right;
 }
 
 #zhanr_resume a:link {
-  color: black;
   text-decoration: none;
+  color: black;
 }
 
-#zhanr_resume a:hover{
-  color: blue;
+#zhanr_resume a:hover {
+  color:#1DA1F2;
 }
 
 /*Jiahui Wu's resume style*/
@@ -590,6 +590,9 @@
   margin-left: 48%;
 }
 
+#index a:hover {
+  color: black;
+}
 
 
 
