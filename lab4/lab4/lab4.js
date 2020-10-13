@@ -1,6 +1,6 @@
 function print_elements(node, txt, layer) {
   var item = node.nodeName.toLowerCase();
-  if ( item != "#text" ) {
+  if (item != "#text") {
   	txt = txt + layer + item + "\n";
   }
   layer += "-";
