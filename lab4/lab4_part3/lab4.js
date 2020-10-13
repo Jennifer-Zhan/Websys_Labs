@@ -20,7 +20,7 @@ function mouseOver() {
 }
 
 function mouseOut() {
-  this.style.backgroundColor = "white";
+  this.style.backgroundColor = "#243447";
   this.style.marginLeft = "0px";
 }
 

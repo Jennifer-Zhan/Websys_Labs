@@ -19,16 +19,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="enable the elements move to the right&#10;still working on the part2">
-      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4_part2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4_part2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.css" afterDir="false" />
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css, but the js in part3 not working now">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/lab4_part1/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/lab4_part2/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/lab4_part2/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part1/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part2/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part3/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part3/lab4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab4/lab4_part3/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part3/lab4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part3/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part3/lab4.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,7 +128,7 @@
       <workItem from="1602511479740" duration="668000" />
       <workItem from="1602556364754" duration="3397000" />
       <workItem from="1602559949317" duration="2066000" />
-      <workItem from="1602563686633" duration="4664000" />
+      <workItem from="1602563686633" duration="5683000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -455,7 +452,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602559716485</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="update the css, but the js in part3 not working now">
+      <created>1602572096743</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1602572096743</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -497,7 +501,8 @@
     <MESSAGE value="debug zhanr.html" />
     <MESSAGE value="update the placements in part1" />
     <MESSAGE value="enable the elements move to the right&#10;still working on the part2" />
-    <option name="LAST_COMMIT_MESSAGE" value="enable the elements move to the right&#10;still working on the part2" />
+    <MESSAGE value="update the css, but the js in part3 not working now" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the css, but the js in part3 not working now" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1602568942410">
@@ -512,10 +517,14 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="607" y="261" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1707.920@0.0.1707.920" timestamp="1601212361900" />
-    <state x="491" y="221" key="MultipleFileMergeDialog" timestamp="1601378764794">
+    <state x="165" y="75" key="MergeDialog" timestamp="1602572194427">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="491" y="221" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1601378764794" />
+    <state x="165" y="75" key="MergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1602572194427" />
+    <state x="491" y="221" key="MultipleFileMergeDialog" timestamp="1602572196955">
+      <screen x="0" y="0" width="1707" height="920" />
+    </state>
+    <state x="491" y="221" key="MultipleFileMergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1602572196955" />
     <state x="604" y="162" key="RollbackChangesDialog" timestamp="1601372688057">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -524,10 +533,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602559720688">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602572206494">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602559720688" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602572206494" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
