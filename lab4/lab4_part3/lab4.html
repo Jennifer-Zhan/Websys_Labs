@@ -2,13 +2,13 @@
 <html class="root">
 <head>
   <title>Lab 4</title>
-  <link rel=stylesheet href="lab4.css"/>
+  <link rel=stylesheet href="../source/lab4.css"/>
   <script src="lab4.js"></script>
 </head>
 <body>
   <h1>Lab #4 - <span class="heart">JavaScript</span> and the Document Object Model</h1>
 	<pre id="info">Lab #4 - JavaScript and the Document Object Model</pre>
-	<pre id="part1b"></pre>
+<!--	<pre id="part1b"></pre>-->
 	<div class="quote">
 		<h2>Part 0: Setup</h2>
 		<p>Create a new folder for lab4, and confirm that it is being served by Apache. You may choose to serve this lab from a new virtual host, though doing so is not required to receive credit.</p>
@@ -43,10 +43,10 @@
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
 
-    var root_element=document.getElementsByClassName("root");
-    var txt_b="";
-    var layer_b="";
-    document.getElementById("part1b").innerHTML = print_elements(root_element[0],txt_b,layer_b);
+    // var root_element=document.getElementsByClassName("root");
+    // var txt_b="";
+    // var layer_b="";
+    // document.getElementById("part1b").innerHTML = print_elements(root_element[0],txt_b,layer_b);
 
     //copy favorite quote.
     var node=document.getElementsByClassName("quote")[1].cloneNode(true);  
