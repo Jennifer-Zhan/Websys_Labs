@@ -44,7 +44,7 @@
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
     var node=document.getElementsByClassName("quote")[1].cloneNode(true);  //copy favorite quote.
-    document.getElementsByClassName("quote")[4].appendChild(nzode);
+    document.getElementsByClassName("quote")[4].appendChild(node);
 
     var div_elements=document.getElementsByClassName("quote");  //bind new onmouseover event listeners to each div.
     for (var i=0; i<div_elements.length; i++){
