@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="udpate the file and update part1b js">
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the html: move all the js into the js file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/lab4/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4/lab4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab4/lab4/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4/lab4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/source/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/source/lab4.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,21 +129,8 @@
       <workItem from="1602575036378" duration="3564000" />
       <workItem from="1602580282355" duration="1673000" />
       <workItem from="1602583193534" duration="1176000" />
-      <workItem from="1602585676522" duration="1230000" />
-    </task>
-    <task id="LOCAL-00002" summary="update lab2 and start for lab3">
-      <created>1601178373662</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1601178373662</updated>
-    </task>
-    <task id="LOCAL-00003" summary="update lab2 and start for lab3">
-      <created>1601179852005</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1601179852005</updated>
+      <workItem from="1602585676522" duration="1447000" />
+      <workItem from="1602587328700" duration="608000" />
     </task>
     <task id="LOCAL-00004" summary="finish the html of zhihanchen's part1, but not the css">
       <created>1601205343442</created>
@@ -476,7 +461,21 @@
       <option name="project" value="LOCAL" />
       <updated>1602581934838</updated>
     </task>
-    <option name="localTasksCounter" value="51" />
+    <task id="LOCAL-00051" summary="update the html">
+      <created>1602586954027</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1602586954028</updated>
+    </task>
+    <task id="LOCAL-00052" summary="update the html: move all the js into the js file">
+      <created>1602587069007</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1602587069007</updated>
+    </task>
+    <option name="localTasksCounter" value="53" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,8 +495,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="update lab2 and start for lab3" />
-    <MESSAGE value="finish the html of zhihanchen's part1, but not the css" />
     <MESSAGE value="finish chenz23 css" />
     <MESSAGE value="update chenz23 pic" />
     <MESSAGE value="update bg pic" />
@@ -521,7 +518,9 @@
     <MESSAGE value="update the css, but the js in part3 not working now" />
     <MESSAGE value="update the css, but appendChild does not work" />
     <MESSAGE value="udpate the file and update part1b js" />
-    <option name="LAST_COMMIT_MESSAGE" value="udpate the file and update part1b js" />
+    <MESSAGE value="update the html" />
+    <MESSAGE value="update the html: move all the js into the js file" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the html: move all the js into the js file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1602568942410">
@@ -560,10 +559,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602581938734">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602587072813">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602581938734" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602587072813" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
