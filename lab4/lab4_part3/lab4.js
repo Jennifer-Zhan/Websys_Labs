@@ -14,6 +14,14 @@ function print_elements(node,txt, layer) {
   return txt;
 }
 
-function aler(f){
-  alert(f.nodeName.toLowerCase());
+function mouseOver() {
+  this.style.backgroundColor = "#1DA1F2";
+    this.style.marginLeft = "10px";
 }
+
+function mouseOut() {
+  this.style.backgroundColor = "white";
+  this.style.marginLeft = "0px";
+}
+
+
