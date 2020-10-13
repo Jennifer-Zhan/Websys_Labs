@@ -1,13 +1,13 @@
 <!doctype html>
 <html>
 <head>
-  <title>Lab 4</title>
-  <link rel=stylesheet href="lab4.css"/>
-  <script src="lab4.js"></script>
+	<title>Lab 4</title>
+	<link rel=stylesheet href="lab4Solution.css"/>
+	<script src="lab4_part2.js"></script>
 </head>
-<p>
+<body>
 <h1>Lab #4 - JavaScript and the Document Object Model</h1>
-<pre id="info" class="info">Lab #4 - JavaScript and the Document Object Model</pre>
+<pre id="info">Lab #4 - JavaScript and the Document Object Model</pre>
 <div class="quote">
 	<h2>Part 0: Setup</h2>
 	<p>Create a new folder for lab4, and confirm that it is being served by Apache. You may choose to serve this lab from a new virtual host, though doing so is not required to receive credit.</p>
@@ -36,11 +36,11 @@
 	<p><strong>To receive credit for Part 3:</strong> Demonstrate that your onmouseout and onmouseover listeners fire correctly.</p>
 </div>
 
-  <script>
+<script>
     var headnode=document.documentElement;
     var txt="";
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
-  </script>
+</script>
 </body>
 </html>

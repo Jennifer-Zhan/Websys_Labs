@@ -20,7 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="enable the elements move to the right&#10;still working on the part2">
+      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4_part2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4_part2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part1/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part1/lab4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part2/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part2/lab4.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part2/lab4.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab4/lab4_part3/lab4.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/lab4_part3/lab4.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +42,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="CSS File" />
       </list>
     </option>
@@ -61,19 +70,21 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab3/part1/index_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lab4/lab4_part3" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab4\lab4_part3" />
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab4\lab4_part2" />
+      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1\index_page" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab2" />
       <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab1" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\chenzhihan\PhpstormProjects\websys_fall_labs\lab3\part1\index_page" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -118,7 +129,9 @@
       <workItem from="1601386477489" duration="910000" />
       <workItem from="1602237703710" duration="74000" />
       <workItem from="1602511479740" duration="668000" />
-      <workItem from="1602556364754" duration="3262000" />
+      <workItem from="1602556364754" duration="3397000" />
+      <workItem from="1602559949317" duration="2066000" />
+      <workItem from="1602563686633" duration="4664000" />
     </task>
     <task id="LOCAL-00001" summary="update lab2 and start for lab3">
       <created>1601178261824</created>
@@ -435,7 +448,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602559208198</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="enable the elements move to the right&#10;still working on the part2">
+      <created>1602559716485</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1602559716485</updated>
+    </task>
+    <option name="localTasksCounter" value="47" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,10 +500,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="enable the elements move to the right&#10;still working on the part2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="612" y="150" key="#CSS" timestamp="1601372287543">
+    <state x="612" y="150" key="#CSS" timestamp="1602568942410">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="612" y="150" key="#CSS/0.0.1707.920@0.0.1707.920" timestamp="1601372287543" />
+    <state x="612" y="150" key="#CSS/0.0.1707.920@0.0.1707.920" timestamp="1602568942410" />
     <state x="652" y="0" width="947" height="920" key="#HTML" timestamp="1601366409616">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -504,10 +524,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602559213642">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602559720688">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602559213642" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602559720688" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
