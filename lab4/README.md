@@ -19,3 +19,5 @@ what each of we did:
 Jennifer Zhan: Finished most of the Javascript for all the parts; added css animation to the title; completed readme for part2 and added some details for other parts of readme base on Jensen's explanations.
 
 Jensen Chen: Individually finish the stylesheet of the lab and help to construct a part of part3 and most part of explanations in readme
+
+J
