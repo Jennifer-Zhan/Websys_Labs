@@ -43,11 +43,9 @@
     var txt="";
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
-    //copy favorite quote.
-    var node=document.getElementsByClassName("quote")[1].cloneNode(true);
+    var node=document.getElementsByClassName("quote")[1].cloneNode(true);  //copy favorite quote.
     document.getElementsByClassName("quote")[4].appendChild(node);
-    //bind new onmouseover event listeners to each div.
-    var div_elements=document.getElementsByClassName("quote");
+    var div_elements=document.getElementsByClassName("quote");  //bind new onmouseover event listeners to each div.
     //div_elements[0].addEventListener("mouseover", function mouseOver() {
   //this.style.backgroundColor = "red";
 //})
