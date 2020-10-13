@@ -23,3 +23,5 @@ Jensen Chen: Individually finish the stylesheet of the lab and help to construct
 Jiahui Wu: Finish part2 and dubug for all three files.
 
 Jonathan Yang: Not good at JavaScript, give suggestion for part1b.
+
+Shuhan Li: A little bit confused about Javascript, searching for relevant js function examples and giving some ideas about part3.
