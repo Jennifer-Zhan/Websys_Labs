@@ -42,10 +42,12 @@
     var layer="";
     document.getElementById("info").innerHTML = print_elements(headnode,txt,layer);
 
-    var node=document.getElementsByClassName("quote")[1].cloneNode(true);  //copy favorite quote.
-    // document.getElementsByClassName("quote")[4].appendChild(node);
+    //copy favorite quote.
+    var node=document.getElementsByClassName("quote")[1].cloneNode(true);  
+    document.body.appendChild(node);
 
-    var div_elements=document.getElementsByClassName("quote");  //bind new onmouseover event listeners to each div.
+    //bind new onmouseover event listeners to each div.
+    var div_elements=document.getElementsByTagName("DIV"); 
     for (var i=0; i<div_elements.length; i++){
       div_elements[i].addEventListener("mouseover", mouseOver);
       div_elements[i].addEventListener("mouseout", mouseOut);
