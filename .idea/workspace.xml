@@ -19,8 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the html: move all the js into the js file">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
       <change beforePath="$PROJECT_DIR$/lab4/source/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/source/lab4.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -130,28 +129,7 @@
       <workItem from="1602580282355" duration="1673000" />
       <workItem from="1602583193534" duration="1176000" />
       <workItem from="1602585676522" duration="1447000" />
-      <workItem from="1602587328700" duration="608000" />
-    </task>
-    <task id="LOCAL-00004" summary="finish the html of zhihanchen's part1, but not the css">
-      <created>1601205343442</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1601205343442</updated>
-    </task>
-    <task id="LOCAL-00005" summary="update the directory">
-      <created>1601212406561</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1601212406561</updated>
-    </task>
-    <task id="LOCAL-00006" summary="update the directory">
-      <created>1601259643737</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1601259643738</updated>
+      <workItem from="1602587328700" duration="957000" />
     </task>
     <task id="LOCAL-00007" summary="finish chenz23 css">
       <created>1601261552999</created>
@@ -475,7 +453,28 @@
       <option name="project" value="LOCAL" />
       <updated>1602587069007</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="update the css">
+      <created>1602587982302</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1602587982303</updated>
+    </task>
+    <task id="LOCAL-00054" summary="update the css">
+      <created>1602588028121</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1602588028121</updated>
+    </task>
+    <task id="LOCAL-00055" summary="update the css">
+      <created>1602588033124</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1602588033124</updated>
+    </task>
+    <option name="localTasksCounter" value="56" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -495,7 +494,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="finish chenz23 css" />
     <MESSAGE value="update chenz23 pic" />
     <MESSAGE value="update bg pic" />
     <MESSAGE value="update the css resource" />
@@ -520,7 +518,8 @@
     <MESSAGE value="udpate the file and update part1b js" />
     <MESSAGE value="update the html" />
     <MESSAGE value="update the html: move all the js into the js file" />
-    <option name="LAST_COMMIT_MESSAGE" value="update the html: move all the js into the js file" />
+    <MESSAGE value="update the css" />
+    <option name="LAST_COMMIT_MESSAGE" value="update the css" />
   </component>
   <component name="WindowStateProjectService">
     <state x="612" y="150" key="#CSS" timestamp="1602568942410">
@@ -559,10 +558,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602587072813">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602588038870">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602587072813" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602588038870" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
