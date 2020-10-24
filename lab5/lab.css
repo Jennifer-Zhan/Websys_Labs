@@ -1,0 +1,57 @@
+body{
+  position: absolute;
+  left: 2.5%;
+  right: 2.5%;
+  height: 700px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #ffffff;
+  background-color: #000000;
+}
+.title{
+  text-align: center;
+}
+
+.swatch{
+  color: #ffffff;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #ffffff;
+  text-align: center;
+}
+
+.parent{
+  width: 100%;
+  float: left;
+}
+
+.sliders{
+  width: 70%;
+  float: left;
+  color: #ffffff;
+}
+
+.textarea{
+  width: 10%;
+  float: left;
+}
+
+.buttons{
+  width: 20%;
+  float: left;
+}
+
+.redoff{
+  text-align: center;
+  color: #ffffff;
+}
+
+.blueoff{
+  text-align: center;
+  color: #ffffff;
+}
+
+.greenoff{
+  text-align: center;
+  color: #ffffff;
+}
