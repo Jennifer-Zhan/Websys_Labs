@@ -30,6 +30,7 @@ function swatch_generate(){
   var green=Math.floor(Math.random() * 256);
   var blue=Math.floor(Math.random() * 256);
   var hex=hexFromRGB(red, green, blue);
+  $("#swatch").css("background-image","none");
   $( "#swatch" ).css( "background-color", "#" + hex );
   var combination=[red, green, blue];
   return combination;
@@ -75,8 +76,8 @@ function new_game(turns){
     $( "#new" ).replaceWith( "<button id='submit'>Guess</button>" );
     var interval=null;
     $("#setting_block").css("visibility", "hidden");
+    timer()
     submit_guess(turns,correct);
-    timer();
   });
 }
 
@@ -116,11 +117,17 @@ function submit_guess(turns,correct){
       output+="%";
     }
     document.getElementById("result").innerHTML=output;
-    if(20000-interval<0){
+    var time=$('.timer').text().split(":");
+    var hour=parseInt(time[0]);
+    var min=parseInt(time[1]);
+    var second=parseInt(time[2]);
+    var total_time=(hour*60*60+min*60+second)*1000;
+    console.log(total_time);
+    if(20000-total_time<0){
       var tmp_scores=(300-(red_percentoff+green_percentoff+blue_percentoff))*0;
     }
     else{
-      var tmp_scores=(300-(red_percentoff+green_percentoff+blue_percentoff))*(20000-interval);
+      var tmp_scores=(300-(red_percentoff+green_percentoff+blue_percentoff))*(20000-total_time);
     }
     document.getElementById("tmp_scores").innerHTML="";
     if(tmp_scores>max_scores){
@@ -130,7 +137,7 @@ function submit_guess(turns,correct){
     else{
       document.getElementById("tmp_scores").innerHTML=tmp_scores;
     }
-
+    
 
     if(count==turns){
       max_scores=0;
@@ -165,10 +172,8 @@ function pretty_time_string(num) {
 
 function timer(){
   var start = new Date;
-
   interval=setInterval(function() {
     var total_seconds = (new Date - start) / 1000;
-
     var hours = Math.floor(total_seconds / 3600);
     total_seconds = total_seconds % 3600;
 
