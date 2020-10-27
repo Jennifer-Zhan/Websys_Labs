@@ -1,0 +1,37 @@
+#red, #green, #blue {
+  float: left;
+  clear: left;
+  width: 300px;
+  margin: 15px;
+}
+#guess_swatch {
+  width: 120px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 350px;
+  background-image: none;
+}
+
+#swatch {
+  width: 120px;
+  height: 100px;
+  margin-top: 18px;
+  margin-left: 350px;
+  background-image: none;
+}
+
+.ui-state-default{
+  padding:4px;
+}
+
+.ui-icon{
+  float:left; 
+  margin:-2px 5px 0 0;
+}
+
+#red .ui-slider-range { background: #ef2929; }
+#red .ui-slider-handle { border-color: #ef2929; }
+#green .ui-slider-range { background: #8ae234; }
+#green .ui-slider-handle { border-color: #8ae234; }
+#blue .ui-slider-range { background: #729fcf; }
+#blue .ui-slider-handle { border-color: #729fcf; }
