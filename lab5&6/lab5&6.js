@@ -130,10 +130,12 @@ function submit_guess(turns,correct){
     document.getElementById("tmp_scores").innerHTML="";
     if(tmp_scores>max_scores){
       max_scores=tmp_scores;
-      document.getElementById("best_scores").innerHTML=max_scores;
+      document.getElementById("best_scores").innerHTML="Best Scores: "
+      document.getElementById("best_scores").innerHTML+=max_scores;
     }
     else{
-      document.getElementById("tmp_scores").innerHTML=tmp_scores;
+      document.getElementById("tmp_scores").innerHTML="Current Scores: "
+      document.getElementById("tmp_scores").innerHTML+=tmp_scores;
     }
     
 
