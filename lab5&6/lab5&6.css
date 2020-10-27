@@ -1,32 +1,192 @@
+body {
+  /*background-color: black;*/
+  min-height: 100%;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("https://images2.alphacoders.com/208/208652.jpg");
+  background-size: cover;
+}
+
+.ui-widget.ui-widget-content{
+  border: 1px solid white;
+}
+
 #red, #green, #blue {
   float: left;
   clear: left;
   width: 300px;
-  margin: 15px;
+  margin-left: 25%;
+  margin-top: 40px;
+  height: 20px;
+  border: 2px solid white;
 }
+
+#input1, #input2 {
+  float: left;
+  width: 80px;
+  margin-top: 40px;
+  height: 20px;
+  margin-left: 80px;
+  border: 2px solid #ed7600;
+  color: grey;
+}
+
+#input3 {
+  float: left;
+  width: 80px;
+  margin-top: 40px;
+  height: 20px;
+  margin-left: 80px;
+  border: 2px solid #ed7600;
+  color: grey;
+  margin-bottom: 50px;
+}
+
 #guess_swatch {
+  float: left;
+  clear: left;
   width: 120px;
-  height: 100px;
-  margin-top: 18px;
-  margin-left: 350px;
+  height: 120px;
+  margin: 18px 18px 18px 300px;
   background-image: none;
+  display: inline-block;
 }
 
 #swatch {
+  float: right;
   width: 120px;
-  height: 100px;
-  margin-top: 18px;
-  margin-left: 350px;
-  background-image: none;
+  height: 120px;
+  margin: 18px 300px 18px 18px;
+  background-image: url("https://tse4-mm.cn.bing.net/th/id/OIP.ipER0zOV9WaXQ0bzDseDOwHaHa?pid=Api&w=612&h=612&rs=1");
+  background-size: cover;
+  display: inline-block;
 }
 
 .ui-state-default{
   padding:4px;
+  border-radius: 10px;
 }
 
-.ui-icon{
-  float:left; 
-  margin:-2px 5px 0 0;
+.title_bar{
+  color: white;
+  background-color: #ed7600;
+  font-size: 40px;
+  text-align: center;
+  margin-left: 20%;
+  width: 60%;
+  height: 100px;
+  border-radius: 16px;
+  padding-top: 49px;
+  margin-bottom: 20px;
+}
+
+#new {
+  float: left;
+  clear: left;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 142px;
+  /*height: 80px;*/
+  background-color: #ed7600;
+  color: white;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+#submit {
+  float: left;
+  clear: left;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid white;
+  background-color: #ed7600;
+  color: white;
+  width: 142px;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+
+
+#result {
+  color: white;
+  float: left;
+  clear: left;
+  margin-left: 40%;
+}
+
+p.timer {
+  color: white;
+  margin-top: 0px;
+  float: left;
+  clear: left;
+  font-size: 36px;
+  margin-left: 43%;
+  margin-bottom: 0px;
+}
+
+#best_scores {
+  color: #FFFFFF;
+  float: left;
+  clear: left;
+  margin-left: 40%;
+}
+
+#tmp_scores {
+  color: #FFFFFF;
+  float: left;
+  margin-left: 9%;
+}
+
+#setting_block {
+
+}
+
+#set {
+  float: left;
+  clear: left;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid white;
+  width: 142px;
+  /*height: 80px;*/
+  background-color: #ed7600;
+  color: white;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 30px;
+}
+/*.ui-icon{*/
+/*  float:left;*/
+/*  margin:-2px 5px 0 0;*/
+/*}*/
+
+#name {
+  /*padding-top: 30px;*/
+  float: left;
+  clear: left;
+  margin-left: 32%;
+  width: 142px;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 2px solid #ed7600;
+  color: gray;
+}
+
+#turns {
+  float: left;
+  width: 142px;
+  margin-left: 10%;
+  width: 142px;
+  padding: 4px;
+  font-size: 18px;
+  border-radius: 4px;
+  border: 2px solid #ed7600;
+  color: grey;
 }
 
 #red .ui-slider-range { background: #ef2929; }

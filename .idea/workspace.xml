@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/lab4/source/lab4.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab4/source/lab4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_10_13_19_20_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_10_13_19_20__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,14 +134,21 @@
       <workItem from="1602580282355" duration="1673000" />
       <workItem from="1602583193534" duration="1176000" />
       <workItem from="1602585676522" duration="1447000" />
-      <workItem from="1602587328700" duration="957000" />
-    </task>
-    <task id="LOCAL-00007" summary="finish chenz23 css">
-      <created>1601261552999</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1601261552999</updated>
+      <workItem from="1602587328700" duration="1247000" />
+      <workItem from="1602812703075" duration="28000" />
+      <workItem from="1602815075276" duration="181000" />
+      <workItem from="1603790574803" duration="636000" />
+      <workItem from="1603792921519" duration="840000" />
+      <workItem from="1603796563457" duration="1797000" />
+      <workItem from="1603798369875" duration="1813000" />
+      <workItem from="1603800192803" duration="867000" />
+      <workItem from="1603807465738" duration="928000" />
+      <workItem from="1603808665664" duration="1796000" />
+      <workItem from="1603810472373" duration="1681000" />
+      <workItem from="1603812344609" duration="1810000" />
+      <workItem from="1603814164027" duration="2161000" />
+      <workItem from="1603816337467" duration="1806000" />
+      <workItem from="1603818154116" duration="1687000" />
     </task>
     <task id="LOCAL-00008" summary="finish chenz23 css">
       <created>1601261633171</created>
@@ -474,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602588033124</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="update the css">
+      <created>1602588313921</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1602588313921</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,17 +577,17 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602588038870">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602588317502">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602588038870" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602588317502" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1707.920@0.0.1707.920" timestamp="1601212264886" />
-    <state x="556" y="58" width="595" height="804" key="find.popup" timestamp="1601177658842">
+    <state x="556" y="58" width="595" height="804" key="find.popup" timestamp="1603817753997">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="556" y="58" width="595" height="804" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1601177658842" />
+    <state x="556" y="58" width="595" height="804" key="find.popup/0.0.1707.920@0.0.1707.920" timestamp="1603817753997" />
   </component>
 </project>

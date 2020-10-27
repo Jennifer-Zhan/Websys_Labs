@@ -21,6 +21,7 @@ function refreshSwatch() {
   $(" #input3 ").val($("#blue").slider( "value" ));
   var hex = hexFromRGB( red, green, blue );
   //document.getElementById("try").innerHTML=hex;
+  // $( "#guess_swatch" ).css( "background-image", "none" );
   $( "#guess_swatch" ).css( "background-color", "#" + hex );
 }
 
@@ -191,10 +192,12 @@ function timer(){
 
 $.fn.hexed = function(settings) {
   var title=document.createElement( 'p' );
-  $(title).attr("class","ui-state-default ui-corner-all ui-helper-clearfix");
+  $(title).attr("class","title_bar");
   this.append(title);
-  $(title).append("<span class='ui-icon ui-icon-pencil'></span>");
-  $(title).append("Hexed!");
+  $(title).append("Hexed Games!");
+  this.append("<p class='timer'></p>");
+  this.append("<div id='guess_swatch' class='ui-widget-content ui-corner-all'></div>");
+  this.append("<div id='swatch' class='ui-widget-content ui-corner-all'></div>");
   var red = document.createElement( 'div' );
   $(red).attr("id", "red");
   this.append( red );
@@ -213,25 +216,26 @@ $.fn.hexed = function(settings) {
   var input3 = document.createElement( 'input' );
   $(input3).attr("id", "input3").attr("name","test").attr("type","text");
   this.append(input3);
+  this.append("<div id='setting_block'></div>");
   var button = document.createElement( 'button' );
   $(button).attr("id", "new").attr("type","button").html("New Game");
   this.append(button);
   this.append("<p id='result'></p>");
-  this.append("<p class='timer'></p>");
-  this.append("<div id='guess_swatch' class='ui-widget-content ui-corner-all'></div>");
-  this.append("<div id='swatch' class='ui-widget-content ui-corner-all'></div>");
+
+
   this.append("<p id='best_scores'></p>");
   this.append("<p id='tmp_scores'></p>");
-  this.append("<div id='setting_block'></div>");
+
 
   var set = document.createElement( 'button' );
   $(set).attr("id", "set").attr("type","button").html("change setting");
-  $("#setting_block").append(set);
-  //changeSetting(settings);
   $("#setting_block").append("<input id='name'></input>");
   $('#name').attr("value",settings.name);
   $("#setting_block").append("<input id='turns'></input>");
   $('#turns').attr("value",settings.turns);
+  $("#setting_block").append(set);
+  //changeSetting(settings);
+
 
   slider_maker();
   new_game(settings.turns);
