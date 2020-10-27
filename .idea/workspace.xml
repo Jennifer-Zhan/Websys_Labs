@@ -20,12 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_10_13_19_20_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_10_13_19_20__Default_Changelist_.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab5&amp;6/readme.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,14 +144,9 @@
       <workItem from="1603812344609" duration="1810000" />
       <workItem from="1603814164027" duration="2161000" />
       <workItem from="1603816337467" duration="1806000" />
-      <workItem from="1603818154116" duration="1687000" />
-    </task>
-    <task id="LOCAL-00008" summary="finish chenz23 css">
-      <created>1601261633171</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1601261633171</updated>
+      <workItem from="1603818154116" duration="2001000" />
+      <workItem from="1603820208324" duration="1183000" />
+      <workItem from="1603825226169" duration="1300000" />
     </task>
     <task id="LOCAL-00009" summary="finish chenz23 css">
       <created>1601298914433</created>
@@ -493,7 +484,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602588313921</updated>
     </task>
-    <option name="localTasksCounter" value="57" />
+    <task id="LOCAL-00057" summary="update the css">
+      <created>1603819910817</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1603819910817</updated>
+    </task>
+    <option name="localTasksCounter" value="58" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,10 +575,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1602588317502">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603819916232">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1602588317502" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603819916232" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
