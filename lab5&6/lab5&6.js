@@ -20,8 +20,6 @@ function refreshSwatch() {
   var blue = $( "#blue" ).slider( "value" );
   $(" #input3 ").val($("#blue").slider( "value" ));
   var hex = hexFromRGB( red, green, blue );
-  //document.getElementById("try").innerHTML=hex;
-  // $( "#guess_swatch" ).css( "background-image", "none" );
   $( "#guess_swatch" ).css( "background-color", "#" + hex );
 }
 
@@ -160,11 +158,6 @@ function submit_guess(turns,correct){
   });
 }
 
-//when click on
-function changeSetting(settings){
-  $("#setting_block").append("<div id='setting_change'><input id='name'></input><div>");
-  $('#name').attr("value",settings.name);
-}
 
 function pretty_time_string(num) {
   return ( num < 10 ? "0" : "" ) + num;
@@ -201,8 +194,10 @@ $.fn.hexed = function(settings) {
   this.append(title);
   $(title).append("Hexed Games!");
   this.append("<p class='timer'></p>");
-  this.append("<div id='guess_swatch' class='ui-widget-content ui-corner-all'></div>");
+  //this.append("<p class=title_swatch1>Target Swatch</p>");
   this.append("<div id='swatch' class='ui-widget-content ui-corner-all'></div>");
+  //this.append("<p class=title_swatch2>Guess Swatch</p>");
+  this.append("<div id='guess_swatch' class='ui-widget-content ui-corner-all'></div>");
   var red = document.createElement( 'div' );
   $(red).attr("id", "red");
   this.append( red );
@@ -239,7 +234,7 @@ $.fn.hexed = function(settings) {
   $("#setting_block").append("<input id='turns'></input>");
   $('#turns').attr("value",settings.turns);
   $("#setting_block").append(set);
-  //changeSetting(settings);
+
 
 
   slider_maker();

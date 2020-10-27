@@ -42,22 +42,39 @@ body {
   color: grey;
   margin-bottom: 50px;
 }
+/*
+.title_swatch1 {
+  color: white;
+  float: left;
+  clear: left;
+  margin: 18px 200px 18px 120px;
+  display: inline-block;
+}
+
+.title_swatch2 {
+  color: white;
+  float: left;
+  clear: left;
+  margin: 18px 0px 18px 200px;
+  display: inline-block;
+}*/
 
 #guess_swatch {
   float: left;
   clear: left;
   width: 120px;
   height: 120px;
-  margin: 18px 18px 18px 300px;
+  margin: 18px 0px 18px 200px;
   background-image: none;
   display: inline-block;
 }
+
 
 #swatch {
   float: right;
   width: 120px;
   height: 120px;
-  margin: 18px 300px 18px 18px;
+  margin: 18px 200px 18px 120px;
   background-image: url("https://tse4-mm.cn.bing.net/th/id/OIP.ipER0zOV9WaXQ0bzDseDOwHaHa?pid=Api&w=612&h=612&rs=1");
   background-size: cover;
   display: inline-block;
@@ -188,6 +205,8 @@ p.timer {
   border: 2px solid #ed7600;
   color: grey;
 }
+
+
 
 #red .ui-slider-range { background: #ef2929; }
 #red .ui-slider-handle { border-color: #ef2929; }
