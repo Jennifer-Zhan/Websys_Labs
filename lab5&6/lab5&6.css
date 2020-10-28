@@ -40,24 +40,8 @@ body {
   margin-left: 80px;
   border: 2px solid #ed7600;
   color: grey;
-  margin-bottom: 20px;
+  margin-bottom: 0;
 }
-/*
-.title_swatch1 {
-  color: white;
-  float: left;
-  clear: left;
-  margin: 18px 200px 18px 120px;
-  display: inline-block;
-}
-
-.title_swatch2 {
-  color: white;
-  float: left;
-  clear: left;
-  margin: 18px 0px 18px 200px;
-  display: inline-block;
-}*/
 
 #guess_swatch {
   float: left;
@@ -148,16 +132,16 @@ p.timer {
 #best_scores {
   color: #FFFFFF;
   float: left;
-  clear: left;
-  margin-left: 32%;
+  margin-left: 44%;
   margin-top: 0;
 }
 
 #tmp_scores {
   color: #FFFFFF;
-  float: left;
-  margin-left: 9%;
+  margin-left: 43%;
   margin-top: 0;
+  float: left;
+  clear: left;
 }
 
 #set {
@@ -172,7 +156,7 @@ p.timer {
   color: white;
   border-radius: 10px;
   margin-left: 45%;
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 #name {
