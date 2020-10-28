@@ -246,6 +246,12 @@ $.fn.hexed = function(settings) {
   $("#setting_block").append("<input id='turns'></input>");
   $('#turns').attr("value",settings.turns);
   $("#setting_block").append(set);
+  var inst=document.createElement( 'button' );
+  $(inst).attr("id", "inst").attr("type","button").html("Game Instruction");
+  this.append(inst);
+  $(inst).click(function(){
+    alert("Welcome to Hexed Game! Try to match your color swatch on the left with the swatch on the right using the sliders.");
+  });
 
   var audio= new Audio("haxed_games.mp3");
   audio.play();
