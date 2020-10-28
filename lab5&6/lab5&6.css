@@ -48,7 +48,7 @@ body {
   clear: left;
   width: 120px;
   height: 120px;
-  margin: 18px 0px 0 200px;
+  margin: 18px 0 0 200px;
   background-image: none;
   display: inline-block;
 }
@@ -121,12 +121,12 @@ body {
 
 p.timer {
   color: white;
-  margin-top: 0px;
+  margin-top: 0;
   float: left;
   clear: left;
   font-size: 36px;
   margin-left: 43%;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 #best_scores {
@@ -176,7 +176,6 @@ p.timer {
   float: left;
   width: 142px;
   margin-left: 10%;
-  width: 142px;
   padding: 4px;
   font-size: 18px;
   border-radius: 4px;
