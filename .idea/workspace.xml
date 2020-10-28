@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/lab5&amp;6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,21 +151,7 @@
       <workItem from="1603849106322" duration="2134000" />
       <workItem from="1603851255567" duration="1798000" />
       <workItem from="1603853076905" duration="1797000" />
-      <workItem from="1603854885953" duration="309000" />
-    </task>
-    <task id="LOCAL-00022" summary="update the index.html">
-      <created>1601373524330</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1601373524330</updated>
-    </task>
-    <task id="LOCAL-00023" summary="update the index.html and footer">
-      <created>1601373770820</created>
-      <option name="number" value="00023" />
-      <option name="presentableId" value="LOCAL-00023" />
-      <option name="project" value="LOCAL" />
-      <updated>1601373770820</updated>
+      <workItem from="1603854885953" duration="936000" />
     </task>
     <task id="LOCAL-00024" summary="update the font-family">
       <created>1601374724010</created>
@@ -495,7 +482,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603854998184</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="update the css">
+      <created>1603855277922</created>
+      <option name="number" value="00071" />
+      <option name="presentableId" value="LOCAL-00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1603855277923</updated>
+    </task>
+    <task id="LOCAL-00072" summary="update the css">
+      <created>1603855359461</created>
+      <option name="number" value="00072" />
+      <option name="presentableId" value="LOCAL-00072" />
+      <option name="project" value="LOCAL" />
+      <updated>1603855359461</updated>
+    </task>
+    <option name="localTasksCounter" value="73" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,10 +580,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603855281494">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603855361910">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603855281494" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603855361910" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
