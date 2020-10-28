@@ -166,9 +166,9 @@ function pretty_time_string(num) {
 }
 
 function timer(){
-  var start = new Date;
+  var start = new Date();
   interval=setInterval(function() {
-    var total_seconds = (new Date - start) / 1000;
+    var total_seconds = (new Date() - start) / 1000;
     var hours = Math.floor(total_seconds / 3600);
     total_seconds = total_seconds % 3600;
 
