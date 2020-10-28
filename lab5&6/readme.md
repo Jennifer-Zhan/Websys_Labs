@@ -1,5 +1,5 @@
 For JS:
-We finished most part of the computation based on js. For displaying the swatch and creating slider, we largely use jquery to realize them.
+We finished most part of the computation based on jquery, some javascript as well. For displaying the swatch and creating slider, we largely use jquery to realize them. In our jquery plugin, we added some HTML element to help to structure the game layout. So in this way, whatever element user choose, our game could be layout well inside that element. We made a function called slider_maker() for making the sliders, and set the default value as 20, 178, 60. In the swatch_generate() function, we use Math.random() * 256 to generate the random number from 0 to 255. When the new game starts (user clicks on the new game button), we will call the swatch_generate() function to generate a new random color swatch, replace the new game button with the submit button, make the setting change div to be hidden, and call the timer function. Inside submit_guess function, we set some conditions. When the number of time user click on submit button in this round reachs the turns in the setting or the user get the correct answer, we will clearTimeout(interval) to stop the timer, make the timer text back to 00:00:00, change the submit button back to new game button, and make the setting change div to be visible.
 
 For CSS:
 Halloween is very close to the deadline of the lab, so we inspired to create a page with some "Halloween styles". For the background image, we choose a picture of a witch, 
@@ -7,6 +7,8 @@ and the main color choice of the page is Halloween orange, which could not only 
 In addition, when you are ready to start your game but not start it yet, one of the swatches would be a picture of halloween pumpkin, hoping the easter egg could help you to spend less time to finish the game.
 
 What we did:
+
+Jennifer Zhan: finish the js and html files, implement the required functions, help with some of the game layout and styling editing.
 
 Jensen Chen: finish the stylesheet, and help to arrange the layout of the page
 
