@@ -184,6 +184,9 @@ function timer(){
     var currentTimeString = hours + ":" + minutes + ":" + seconds;
 
     $('.timer').text(currentTimeString);
+		if (seconds == 20){
+			alert("You have taken too long!")
+		}
   }, 1000);
 }
 
