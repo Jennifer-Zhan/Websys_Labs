@@ -183,6 +183,21 @@ p.timer {
   color: grey;
 }
 
+#inst {
+  float: left;
+  clear: left;
+  padding: 6px;
+  font-size: 18px;
+  border: 2px solid white;
+  background-color: #ed7600;
+  color: white;
+  width: 142px;
+  border-radius: 10px;
+  margin-left: 45%;
+  margin-top: 30px;
+  display: block;
+}
+
 #red .ui-slider-range { background: #ef2929; }
 #red .ui-slider-handle { border-color: #ef2929; }
 #green .ui-slider-range { background: #8ae234; }
