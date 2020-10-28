@@ -9,3 +9,5 @@ In addition, when you are ready to start your game but not start it yet, one of 
 What we did:
 
 Jensen Chen: finish the stylesheet, and help to arrange the layout of the page
+
+Jiahui Wu: Modify and test js file
