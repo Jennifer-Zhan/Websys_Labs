@@ -8,6 +8,9 @@ Halloween is very close to the deadline of the lab, so we inspired to create a p
 Moreover, the main color choice of the page is Halloween orange, which could not only enrich the atmosphere, but also trick users have more fun to finish the hexed game.
 In addition, when you are ready to start your game but not start it yet, the swatches for displaying aimed hue would be a picture of halloween pumpkin, hoping the easter egg could help you to spend less time to finish the game.
 
+There is another terrifying thing need you to discover by yourself. Hint: After you spend more than 20s to finish the game
+Happy Halloween and enjoy the game!
+
 What we did:
 
 Jennifer Zhan: finish the js and html files, implement the required functions, help with some of the game layout and styling editing.
@@ -16,4 +19,4 @@ Jensen Chen: finish the stylesheet, and help to arrange the layout of the page
 
 Jiahui Wu: Modify and test js file
 
-Jonathan:Validity check of Html css and js file and help to modify js file.
+Jonathan: Validity check of Html css and js file and help to modify js file.
