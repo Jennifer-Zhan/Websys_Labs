@@ -12,7 +12,10 @@ Halloween is very close to the deadline of the lab, so we inspired to create a p
 Moreover, the main color choice of the page is Halloween orange, which could not only enrich the atmosphere, but also trick users have more fun to finish the hexed game.
 In addition, when you are ready to start your game but not start it yet, the swatches for displaying aimed hue would be a picture of halloween pumpkin, hoping the easter egg could help you to spend less time to finish the game.
 
-There is another terrifying thing need you to discover by yourself. Hint: After you spend more than 20s to finish the game, and turn on your computer sound
+More fun things:
+We add a background music which is halloween style to enrich the nervous feeling of the players.
+Also, There is another terrifying thing need you to discover by yourself. Hint: After you spend more than 20s to finish the game.
+turn on your computer sound!!!
 Happy Halloween and enjoy the game!
 
 What we did:
