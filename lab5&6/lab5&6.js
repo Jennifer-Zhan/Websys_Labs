@@ -57,7 +57,7 @@ function slider_maker() {
   })
 }
 
-function new_game(turns){
+function new_game(turns, name){
   $("#set").click(function(){
     turns=$('#turns').val();
     // when the user changes the turns in setting to a invalid value.
@@ -66,8 +66,9 @@ function new_game(turns){
       turns=5;
       $('#turns').val(turns);
     }
-    $("#setting_block").append("<p id='set_turns'></p>");
-    document.getElementById("set_turns").innerHTML=turns;
+    name=$('#name').val();
+    var str="Hi "+name+","+"\nYou have "+turns+ " turn(s)";
+    alert(str);
   })
 
   $("#new").click(function(){
@@ -261,7 +262,7 @@ $.fn.hexed = function(settings) {
   }, true)
 
   slider_maker();
-  new_game(settings.turns);
+  new_game(settings.turns, settings.name);
 }
 
 $(function() {
