@@ -218,17 +218,13 @@ $.fn.hexed = function(settings) {
   var input3 = document.createElement( 'input' );
   $(input3).attr("id", "input3").attr("name","test").attr("type","text");
   this.append(input3);
-  this.append("<div id='setting_block'></div>");
   var button = document.createElement( 'button' );
   $(button).attr("id", "new").attr("type","button").html("New Game");
   this.append(button);
   this.append("<p id='result'></p>");
-
-
   this.append("<p id='best_scores'></p>");
   this.append("<p id='tmp_scores'></p>");
-
-
+  this.append("<div id='setting_block'></div>");
   var set = document.createElement( 'button' );
   $(set).attr("id", "set").attr("type","button").html("change setting");
   $("#setting_block").append("<input id='name'></input>");
@@ -236,8 +232,6 @@ $.fn.hexed = function(settings) {
   $("#setting_block").append("<input id='turns'></input>");
   $('#turns').attr("value",settings.turns);
   $("#setting_block").append(set);
-
-
 
   slider_maker();
   new_game(settings.turns);
