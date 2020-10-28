@@ -127,6 +127,7 @@ function submit_guess(turns,correct){
     console.log(total_time);
     if(20000-total_time<0){
       var tmp_scores=(300-(red_percentoff+green_percentoff+blue_percentoff))*0;
+      tmp_scores+="!!!!!!!";
     }
     else{
       var tmp_scores=(300-(red_percentoff+green_percentoff+blue_percentoff))*(20000-total_time);
