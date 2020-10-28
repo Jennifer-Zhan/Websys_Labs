@@ -194,7 +194,8 @@ p.timer {
   width: 142px;
   border-radius: 10px;
   margin-left: 45%;
-  margin-top: 35px;
+  margin-top: 30px;
+  display: block;
 }
 
 #red .ui-slider-range { background: #ef2929; }
