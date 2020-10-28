@@ -20,7 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -147,14 +148,7 @@
       <workItem from="1603820208324" duration="1183000" />
       <workItem from="1603825226169" duration="1490000" />
       <workItem from="1603847298132" duration="1797000" />
-      <workItem from="1603849106322" duration="380000" />
-    </task>
-    <task id="LOCAL-00013" summary="update bg pic">
-      <created>1601301973306</created>
-      <option name="number" value="00013" />
-      <option name="presentableId" value="LOCAL-00013" />
-      <option name="project" value="LOCAL" />
-      <updated>1601301973306</updated>
+      <workItem from="1603849106322" duration="703000" />
     </task>
     <task id="LOCAL-00014" summary="update bg pic">
       <created>1601302245041</created>
@@ -492,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603849372303</updated>
     </task>
-    <option name="localTasksCounter" value="62" />
+    <task id="LOCAL-00062" summary="update the css">
+      <created>1603849505781</created>
+      <option name="number" value="00062" />
+      <option name="presentableId" value="LOCAL-00062" />
+      <option name="project" value="LOCAL" />
+      <updated>1603849505781</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -576,10 +577,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603848497240">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603849532439">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603848497240" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603849532439" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
