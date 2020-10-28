@@ -188,7 +188,7 @@ function timer(){
 				{
           var audio= new Audio("1.mp3");
           audio.play();
-					alert("You have taken too long! Your score will be 0 but you could still play")
+					alert("Times out! Your after score would be eaten by the halloween pumpkin")
 				}
 			}
 		}
