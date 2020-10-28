@@ -136,7 +136,7 @@ function submit_guess(turns,correct){
     else{
       document.getElementById("tmp_scores").innerHTML="Last Approach: "
       document.getElementById("tmp_scores").innerHTML+=tmp_scores;
-    }c
+    }
     
 
     if(count==turns){
