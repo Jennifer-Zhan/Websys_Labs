@@ -26,5 +26,9 @@ Jiahui Wu: Modify and test js file
 Jonathan: Validity check of Html css and js file and help to modify js file.~~~~
 
 Reference: 
+html, jqueryui:
 https://jqueryui.com/slider/#colorpicker 
 https://www.w3schools.com/
+
+music:
+http://www.aigei.com/

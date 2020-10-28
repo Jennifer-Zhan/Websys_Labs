@@ -247,6 +247,12 @@ $.fn.hexed = function(settings) {
   $('#turns').attr("value",settings.turns);
   $("#setting_block").append(set);
 
+  var audio= new Audio("haxed_games.mp3");
+  audio.play();
+  audio.addEventListener("ended",function() {
+    alert("The wizard is too tired to play the music")
+  }, true)
+
   slider_maker();
   new_game(settings.turns);
 }
