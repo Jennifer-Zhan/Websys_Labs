@@ -20,7 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
+      <change afterPath="$PROJECT_DIR$/lab5&amp;6/1.mp3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/lab5&amp;6.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lab5&amp;6/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab5&amp;6/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -148,14 +150,8 @@
       <workItem from="1603820208324" duration="1183000" />
       <workItem from="1603825226169" duration="1490000" />
       <workItem from="1603847298132" duration="1797000" />
-      <workItem from="1603849106322" duration="703000" />
-    </task>
-    <task id="LOCAL-00014" summary="update bg pic">
-      <created>1601302245041</created>
-      <option name="number" value="00014" />
-      <option name="presentableId" value="LOCAL-00014" />
-      <option name="project" value="LOCAL" />
-      <updated>1601302245041</updated>
+      <workItem from="1603849106322" duration="2134000" />
+      <workItem from="1603851255567" duration="315000" />
     </task>
     <task id="LOCAL-00015" summary="update the css resource">
       <created>1601302392259</created>
@@ -493,7 +489,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603849505781</updated>
     </task>
-    <option name="localTasksCounter" value="63" />
+    <task id="LOCAL-00063" summary="update the css">
+      <created>1603849934151</created>
+      <option name="number" value="00063" />
+      <option name="presentableId" value="LOCAL-00063" />
+      <option name="project" value="LOCAL" />
+      <updated>1603849934151</updated>
+    </task>
+    <option name="localTasksCounter" value="64" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,10 +564,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="585" y="207" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1707.920@0.0.1707.920" timestamp="1602579329318" />
-    <state x="165" y="75" key="MergeDialog" timestamp="1602572194427">
+    <state x="165" y="75" key="MergeDialog" timestamp="1603851281808">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="165" y="75" key="MergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1602572194427" />
+    <state x="165" y="75" key="MergeDialog/0.0.1707.920@0.0.1707.920" timestamp="1603851281808" />
     <state x="491" y="221" key="MultipleFileMergeDialog" timestamp="1602572196955">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
@@ -577,10 +580,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603849532439">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603849936656">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603849532439" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603849936656" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
