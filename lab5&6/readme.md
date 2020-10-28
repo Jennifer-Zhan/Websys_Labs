@@ -14,4 +14,4 @@ Jensen Chen: finish the stylesheet, and help to arrange the layout of the page
 
 Jiahui Wu: Modify and test js file
 
-Jonathan:
+Jonathan:Validity check of Html css and js file and help to modify js file.
