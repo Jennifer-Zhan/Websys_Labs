@@ -134,9 +134,9 @@ function submit_guess(turns,correct){
       document.getElementById("best_scores").innerHTML+=max_scores;
     }
     else{
-      document.getElementById("tmp_scores").innerHTML="Current Scores: "
+      document.getElementById("tmp_scores").innerHTML="Last Approach: "
       document.getElementById("tmp_scores").innerHTML+=tmp_scores;
-    }
+    }c
     
 
     if(count==turns){
@@ -229,7 +229,7 @@ $.fn.hexed = function(settings) {
   this.append("<p id='tmp_scores'></p>");
   this.append("<div id='setting_block'></div>");
   var set = document.createElement( 'button' );
-  $(set).attr("id", "set").attr("type","button").html("change setting");
+  $(set).attr("id", "set").attr("type","button").html("Change Setting");
   $("#setting_block").append("<input id='name'></input>");
   $('#name').attr("value",settings.name);
   $("#setting_block").append("<input id='turns'></input>");

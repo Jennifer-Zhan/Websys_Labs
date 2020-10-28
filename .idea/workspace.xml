@@ -148,14 +148,7 @@
       <workItem from="1603818154116" duration="2001000" />
       <workItem from="1603820208324" duration="1183000" />
       <workItem from="1603825226169" duration="1490000" />
-      <workItem from="1603847298132" duration="1145000" />
-    </task>
-    <task id="LOCAL-00010" summary="update chenz23 pic">
-      <created>1601301189288</created>
-      <option name="number" value="00010" />
-      <option name="presentableId" value="LOCAL-00010" />
-      <option name="project" value="LOCAL" />
-      <updated>1601301189288</updated>
+      <workItem from="1603847298132" duration="1797000" />
     </task>
     <task id="LOCAL-00011" summary="update chenz23 pic">
       <created>1601301398616</created>
@@ -493,7 +486,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603826547742</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="update the css">
+      <created>1603848454761</created>
+      <option name="number" value="00059" />
+      <option name="presentableId" value="LOCAL-00059" />
+      <option name="project" value="LOCAL" />
+      <updated>1603848454761</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,10 +577,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603826551784">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603848497240">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603826551784" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603848497240" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
