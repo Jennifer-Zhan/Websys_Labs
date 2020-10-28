@@ -47,14 +47,14 @@ function slider_maker() {
   $( "#green" ).slider( "value", (178));
   $( "#blue" ).slider( "value", (60));
   $("#input1").change(function(e) {
-    $("#red").slider("value",$(this).val())
-  })
+    $("#red").slider("value",$(this).val());
+  });
   $("#input2").change(function(e) {
-    $("#green").slider("value",$(this).val())
-  })
+    $("#green").slider("value",$(this).val());
+  });
   $("#input3").change(function(e) {
-    $("#blue").slider("value",$(this).val())
-  })
+    $("#blue").slider("value",$(this).val());
+  });
 }
 
 function new_game(turns){
@@ -64,7 +64,7 @@ function new_game(turns){
     $("#setting_block").append("<p id='set_turns'></p>");
     //document.getElementById("set_name").innerHTML=settings.name;
     document.getElementById("set_turns").innerHTML=turns;
-  })
+  });
 
   $("#new").click(function(){
     var correct=swatch_generate();
@@ -74,7 +74,7 @@ function new_game(turns){
     $( "#new" ).replaceWith( "<button id='submit'>Guess</button>" );
     var interval=null;
     $("#setting_block").css("visibility", "hidden");
-    timer()
+    timer();
     submit_guess(turns,correct);
   });
 }
@@ -130,11 +130,11 @@ function submit_guess(turns,correct){
     document.getElementById("tmp_scores").innerHTML="";
     if(tmp_scores>max_scores){
       max_scores=tmp_scores;
-      document.getElementById("best_scores").innerHTML="Best Scores: "
+      document.getElementById("best_scores").innerHTML="Best Scores: ";
       document.getElementById("best_scores").innerHTML+=max_scores;
     }
     else{
-      document.getElementById("tmp_scores").innerHTML="Last Approach: "
+      document.getElementById("tmp_scores").innerHTML="Last Approach: ";
       document.getElementById("tmp_scores").innerHTML+=tmp_scores;
     }
     
@@ -185,9 +185,9 @@ function timer(){
 
     $('.timer').text(currentTimeString);
 		if (seconds == 20){
-			if (minutes == 00){
-				if (hours == 00){
-					alert("You have taken too long! Your score will be 0 but you could still play")
+			if (minutes == 0){
+				if (hours == 0){
+					alert("You have taken too long! Your score will be 0 but you could still play");
 				}
 			}
 		}
@@ -242,7 +242,7 @@ $.fn.hexed = function(settings) {
 
   slider_maker();
   new_game(settings.turns);
-}
+};
 
 $(function() {
   var settings={"name":"Mike","turns":3};

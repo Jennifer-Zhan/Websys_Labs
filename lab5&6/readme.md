@@ -11,3 +11,5 @@ What we did:
 Jensen Chen: finish the stylesheet, and help to arrange the layout of the page
 
 Jiahui Wu: Modify and test js file
+
+Jonathan:
