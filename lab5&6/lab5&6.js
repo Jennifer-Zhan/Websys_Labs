@@ -60,6 +60,12 @@ function slider_maker() {
 function new_game(turns){
   $("#set").click(function(){
     turns=$('#turns').val();
+    // when the user changes the turns in setting to a invalid value.
+    if(turns!=1&turns!=2&turns!=3&turns!=4&turns!=5){
+      alert("The number of turns is invalid. Please enter the integer between 1-5");
+      turns=5;
+      $('#turns').val(turns);
+    }
     $("#setting_block").append("<p id='set_turns'></p>");
     document.getElementById("set_turns").innerHTML=turns;
   })
