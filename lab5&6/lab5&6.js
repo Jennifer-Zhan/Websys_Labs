@@ -185,7 +185,7 @@ function timer(){
 
     $('.timer').text(currentTimeString);
 		if (seconds == 20){
-			alert("You have taken too long! Score will be 0")
+			alert("You have taken too long! Your score will be 0 but you could still play")
 		}
   }, 1000);
 }
