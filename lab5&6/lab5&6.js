@@ -60,9 +60,7 @@ function slider_maker() {
 function new_game(turns){
   $("#set").click(function(){
     turns=$('#turns').val();
-    //this.append("<p id='set_name'></p>");
     $("#setting_block").append("<p id='set_turns'></p>");
-    //document.getElementById("set_name").innerHTML=settings.name;
     document.getElementById("set_turns").innerHTML=turns;
   });
 
@@ -81,7 +79,7 @@ function new_game(turns){
 
 function submit_guess(turns,correct){
   var count=0;
-  var max_scores=0;
+  var max_scores=-1;
   //when click on the new game, clear the scores for last game.
   document.getElementById("best_scores").innerHTML="";
   document.getElementById("tmp_scores").innerHTML="";
