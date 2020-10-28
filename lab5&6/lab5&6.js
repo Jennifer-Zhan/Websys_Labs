@@ -192,7 +192,7 @@ function timer(){
 			if (minutes == 00){
 				if (hours == 00)
 				{
-          var audio= new Audio("1.mp3");
+          var audio= new Audio("resource/1.mp3");
           audio.play();
 					alert("Times out! Your after score would be eaten by the halloween pumpkin")
 				}
@@ -247,7 +247,7 @@ $.fn.hexed = function(settings) {
   $('#turns').attr("value",settings.turns);
   $("#setting_block").append(set);
 
-  var audio= new Audio("haxed_games.mp3");
+  var audio= new Audio("resource/haxed_games.mp3");
   audio.play();
   audio.addEventListener("ended",function() {
     alert("The wizard is too tired to play the music")
