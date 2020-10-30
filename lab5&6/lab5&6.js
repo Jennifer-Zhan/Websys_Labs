@@ -1,16 +1,17 @@
+//get hex string
 function hexFromRGB(r, g, b) {
-    var hex = [
-      r.toString( 16 ),
-      g.toString( 16 ),
-      b.toString( 16 )
-    ];
-    $.each( hex, function( nr, val ) {
-      if ( val.length === 1 ) {
-        hex[ nr ] = "0" + val;
-      }
-    });
-    return hex.join( "" ).toUpperCase();
-  }
+  var hex = [
+    r.toString( 16 ),
+    g.toString( 16 ),
+    b.toString( 16 )
+  ];
+  $.each( hex, function( nr, val ) {
+    if ( val.length === 1 ) {
+      hex[ nr ] = "0" + val;
+    }
+  });
+  return hex.join( "" ).toUpperCase();
+}
 
 function refreshSwatch() {
   var red = $( "#red" ).slider( "value" );
@@ -23,6 +24,7 @@ function refreshSwatch() {
   $( "#guess_swatch" ).css( "background-color", "#" + hex );
 }
 
+//generate random color swatch
 function swatch_generate(){
   var red=Math.floor(Math.random() * 256);
   var green=Math.floor(Math.random() * 256);
@@ -34,6 +36,7 @@ function swatch_generate(){
   return combination;
 }
 
+//creating slider
 function slider_maker() {
   $( "#red, #green, #blue" ).slider({
     orientation: "horizontal",
@@ -207,14 +210,13 @@ function timer(){
 
 
 $.fn.hexed = function(settings) {
+  //add html element for game layout
   var title=document.createElement( 'p' );
   $(title).attr("class","title_bar");
   this.append(title);
   $(title).append("Hexed Games!");
   this.append("<p class='timer'></p>");
-  //this.append("<p class=title_swatch1>Target Swatch</p>");
   this.append("<div id='swatch' class='ui-widget-content ui-corner-all'></div>");
-  //this.append("<p class=title_swatch2>Guess Swatch</p>");
   this.append("<div id='guess_swatch' class='ui-widget-content ui-corner-all'></div>");
   var red = document.createElement( 'div' );
   $(red).attr("id", "red");

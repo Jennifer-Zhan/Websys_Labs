@@ -28,6 +28,8 @@ Jiahui Wu: Modify and test js file
 
 Jonathan: Validity check of Html css and js file and help to modify js file.~~~~
 
+Shuhan Li: Help to check the js file and test the game.
+
 Reference: 
 html, jqueryui:
 https://jqueryui.com/slider/#colorpicker 
