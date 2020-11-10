@@ -34,6 +34,7 @@ class Addition extends Operation implements myInterface{
     }
 }
 
+// Subtract subclass inherits from Operation
 class Subtract extends Operation implements myInterface{
     public function operate() {
         return $this->operand_1 - $this->operand_2;
@@ -43,6 +44,7 @@ class Subtract extends Operation implements myInterface{
     }
 }
 
+// Multiply subclass inherits from Operation
 class Multiply extends Operation implements myInterface{
     public function operate() {
         return $this->operand_1 * $this->operand_2;
@@ -52,6 +54,7 @@ class Multiply extends Operation implements myInterface{
     }
 }
 
+// Divide subclass inherits from Operation
 class Divide extends Operation implements myInterface{
     public function operate() {
         return $this->operand_1 / $this->operand_2;
@@ -61,6 +64,7 @@ class Divide extends Operation implements myInterface{
     }
 }
 
+// Square_root subclass inherits from Operation
 class Square_root extends Operation implements myInterface{
     public function operate() {
         return sqrt($this->operand_1);
@@ -70,6 +74,7 @@ class Square_root extends Operation implements myInterface{
     }
 }
 
+// Square subclass inherits from Operation
 class Square extends Operation implements myInterface{
     public function operate() {
         return $this->operand_1 * $this->operand_1;
@@ -79,6 +84,7 @@ class Square extends Operation implements myInterface{
     }
 }
 
+// Power subclass inherits from Operation
 class xpy extends Operation implements myInterface{
     public function operate() {
         if($this->operand_2 == 0){
@@ -104,6 +110,7 @@ class xpy extends Operation implements myInterface{
     }
 }
 
+// TenPower subclass inherits from Operation
 class tp extends Operation implements myInterface{
     public function operate() {
         if($this->operand_1 == 0){
@@ -129,6 +136,7 @@ class tp extends Operation implements myInterface{
     }
 }
 
+// ePower subclass inherits from Operation
 class ep extends Operation implements myInterface{
     public function operate() {
         if($this->operand_1 == 0){
@@ -154,6 +162,7 @@ class ep extends Operation implements myInterface{
     }
 }
 
+// sin subclass inherits from Operation
 class sin extends Operation implements myInterface{
     public function operate() {
         return sin($this->operand_1);
@@ -163,6 +172,7 @@ class sin extends Operation implements myInterface{
     }
 }
 
+// cos subclass inherits from Operation
 class cos extends Operation implements myInterface{
     public function operate() {
         return cos($this->operand_1);
@@ -172,6 +182,7 @@ class cos extends Operation implements myInterface{
     }
 }
 
+// tan subclass inherits from Operation
 class tan extends Operation implements myInterface{
     public function operate() {
         return tan($this->operand_1);
@@ -181,6 +192,7 @@ class tan extends Operation implements myInterface{
     }
 }
 
+// ln subclass inherits from Operation
 class ln extends Operation implements myInterface{
     public function operate() {
         return log($this->operand_1);
@@ -190,6 +202,7 @@ class ln extends Operation implements myInterface{
     }
 }
 
+// log subclass inherits from Operation
 class log extends Operation implements myInterface{
     public function operate() {
         return log($this->operand_1,10);
