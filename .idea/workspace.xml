@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
+      <change afterPath="$PROJECT_DIR$/lab8/bp_Arasaka_Mantis_Blades.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab8/bp_Kang_Tao_G-58_DIAN.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/calculator.css" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/calculator.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/calculator.php" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/calculator.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lab8/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,20 +156,15 @@
       <workItem from="1603851255567" duration="1798000" />
       <workItem from="1603853076905" duration="1797000" />
       <workItem from="1603854885953" duration="1798000" />
-    </task>
-    <task id="LOCAL-00026" summary="update the margin of subsection">
-      <created>1601376182463</created>
-      <option name="number" value="00026" />
-      <option name="presentableId" value="LOCAL-00026" />
-      <option name="project" value="LOCAL" />
-      <updated>1601376182463</updated>
-    </task>
-    <task id="LOCAL-00027" summary="update the margin of subsection">
-      <created>1601376469593</created>
-      <option name="number" value="00027" />
-      <option name="presentableId" value="LOCAL-00027" />
-      <option name="project" value="LOCAL" />
-      <updated>1601376469593</updated>
+      <workItem from="1603856694567" duration="1325000" />
+      <workItem from="1603858100053" duration="766000" />
+      <workItem from="1603868961107" duration="814000" />
+      <workItem from="1605000322631" duration="432000" />
+      <workItem from="1605000844358" duration="1796000" />
+      <workItem from="1605002659005" duration="774000" />
+      <workItem from="1605004904968" duration="1805000" />
+      <workItem from="1605006787137" duration="1830000" />
+      <workItem from="1605008938452" duration="1036000" />
     </task>
     <task id="LOCAL-00028" summary="update the margin of subsection">
       <created>1601376476425</created>
@@ -495,7 +495,21 @@
       <option name="project" value="LOCAL" />
       <updated>1603856279099</updated>
     </task>
-    <option name="localTasksCounter" value="75" />
+    <task id="LOCAL-00075" summary="update the css">
+      <created>1603856759724</created>
+      <option name="number" value="00075" />
+      <option name="presentableId" value="LOCAL-00075" />
+      <option name="project" value="LOCAL" />
+      <updated>1603856759724</updated>
+    </task>
+    <task id="LOCAL-00076" summary="update the css">
+      <created>1603856917558</created>
+      <option name="number" value="00076" />
+      <option name="presentableId" value="LOCAL-00076" />
+      <option name="project" value="LOCAL" />
+      <updated>1603856917558</updated>
+    </task>
+    <option name="localTasksCounter" value="77" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,10 +593,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603856281610">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1603856932056">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603856281610" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1603856932056" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
