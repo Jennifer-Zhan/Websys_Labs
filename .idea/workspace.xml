@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -161,14 +159,7 @@
       <workItem from="1605006787137" duration="1830000" />
       <workItem from="1605008938452" duration="1796000" />
       <workItem from="1605010766598" duration="1398000" />
-      <workItem from="1605014454687" duration="340000" />
-    </task>
-    <task id="LOCAL-00031" summary="udpate the readme.md">
-      <created>1601379069229</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1601379069229</updated>
+      <workItem from="1605014454687" duration="659000" />
     </task>
     <task id="LOCAL-00032" summary="udpate the readme.md">
       <created>1601383989884</created>
@@ -506,7 +497,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605010585347</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="update the css">
+      <created>1605015077432</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1605015077433</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
