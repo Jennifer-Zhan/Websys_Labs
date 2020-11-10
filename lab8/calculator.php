@@ -17,8 +17,15 @@ abstract class Operation {
   public abstract function getEquation();
 }
 
+interface myInterface {
+  public function operate();
+  public function getEquation();
+}
+
+// Add subclasses for Subtraction, Multiplication and Division here
+
 // Addition subclass inherits from Operation
-class Addition extends Operation {
+class Addition extends Operation implements myInterface{
   public function operate() {
     return $this->operand_1 + $this->operand_2;
   }
@@ -27,7 +34,7 @@ class Addition extends Operation {
   }
 }
 
-class Subtract extends Operation {
+class Subtract extends Operation implements myInterface{
   public function operate() {
     return $this->operand_1 - $this->operand_2;
   }
@@ -36,7 +43,7 @@ class Subtract extends Operation {
   }
 }
 
-class Multiply extends Operation {
+class Multiply extends Operation implements myInterface{
   public function operate() {
     return $this->operand_1 * $this->operand_2;
   }
@@ -45,7 +52,7 @@ class Multiply extends Operation {
   }
 }
 
-class Divide extends Operation {
+class Divide extends Operation implements myInterface{
   public function operate() {
     return $this->operand_1 / $this->operand_2;
   }
@@ -54,7 +61,7 @@ class Divide extends Operation {
   }
 }
 
-class Square_root extends Operation {
+class Square_root extends Operation implements myInterface{
   public function operate() {
     return sqrt($this->operand_1);
   }
@@ -63,7 +70,7 @@ class Square_root extends Operation {
   }
 }
 
-class Square extends Operation {
+class Square extends Operation implements myInterface{
   public function operate() {
     return $this->operand_1 * $this->operand_1;
   }
@@ -72,7 +79,7 @@ class Square extends Operation {
   }
 }
 
-class xpy extends Operation {
+class xpy extends Operation implements myInterface{
   public function operate() {
     if($this->operand_2 == 0){
       return 1;
@@ -97,7 +104,7 @@ class xpy extends Operation {
   }
 }
 
-class tp extends Operation {
+class tp extends Operation implements myInterface{
   public function operate() {
     if($this->operand_1 == 0){
       return 1;
@@ -122,7 +129,7 @@ class tp extends Operation {
   }
 }
 
-class ep extends Operation {
+class ep extends Operation implements myInterface{
   public function operate() {
     if($this->operand_1 == 0){
       return 1;
@@ -147,7 +154,7 @@ class ep extends Operation {
   }
 }
 
-class sin extends Operation {
+class sin extends Operation implements myInterface{
   public function operate() {
     return sin($this->operand_1);
   }
@@ -156,7 +163,7 @@ class sin extends Operation {
   }
 }
 
-class cos extends Operation {
+class cos extends Operation implements myInterface{
   public function operate() {
     return cos($this->operand_1);
   }
@@ -165,7 +172,7 @@ class cos extends Operation {
   }
 }
 
-class tan extends Operation {
+class tan extends Operation implements myInterface{
   public function operate() {
     return tan($this->operand_1);
   }
@@ -174,7 +181,7 @@ class tan extends Operation {
   }
 }
 
-class ln extends Operation {
+class ln extends Operation implements myInterface{
   public function operate() {
     return log($this->operand_1);
   }
@@ -183,7 +190,7 @@ class ln extends Operation {
   }
 }
 
-class log extends Operation {
+class log extends Operation implements myInterface{
   public function operate() {
     return log($this->operand_1,10);
   }
@@ -192,7 +199,6 @@ class log extends Operation {
   }
 }
 
-// Add subclasses for Subtraction, Multiplication and Division here
 
 
 // Some debugs - uncomment these to see what is happening...
@@ -317,3 +323,4 @@ class log extends Operation {
   </form>
 </body>
 </html>
+
