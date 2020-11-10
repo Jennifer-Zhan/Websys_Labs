@@ -159,7 +159,7 @@ class sin extends Operation implements myInterface{
         return sin($this->operand_1);
     }
     public function getEquation() {
-        return ' sin( ' . $this->operand_1 . ' ) ' . ' = ' . $this->operate();
+        return ' sin(' . $this->operand_1 . ') ' . ' = ' . $this->operate();
     }
 }
 
@@ -168,7 +168,7 @@ class cos extends Operation implements myInterface{
         return cos($this->operand_1);
     }
     public function getEquation() {
-        return ' cos( ' . $this->operand_1 . ' ) ' . ' = ' . $this->operate();
+        return ' cos(' . $this->operand_1 . ') ' . ' = ' . $this->operate();
     }
 }
 
@@ -177,7 +177,7 @@ class tan extends Operation implements myInterface{
         return tan($this->operand_1);
     }
     public function getEquation() {
-        return ' tan( ' . $this->operand_1 . ' ) ' . ' = ' . $this->operate();
+        return ' tan(' . $this->operand_1 . ') ' . ' = ' . $this->operate();
     }
 }
 
@@ -186,7 +186,7 @@ class ln extends Operation implements myInterface{
         return log($this->operand_1);
     }
     public function getEquation() {
-        return ' ln( ' . $this->operand_1 . ' ) ' . ' = ' . $this->operate();
+        return ' ln(' . $this->operand_1 . ') ' . ' = ' . $this->operate();
     }
 }
 
@@ -195,7 +195,7 @@ class log extends Operation implements myInterface{
         return log($this->operand_1,10);
     }
     public function getEquation() {
-        return ' log( ' . $this->operand_1 . ' ) ' . ' = ' . $this->operate();
+        return ' log(' . $this->operand_1 . ') ' . ' = ' . $this->operate();
     }
 }
 
@@ -305,7 +305,7 @@ catch (Exception $e) {
     </pre>
 	<form name="calc" method="post" action="calculator.php" id="calculator">
 		<input type="text" name="op1" id="name" value="" />
-		<input type="text" name="op2" id="name2" value="" />
+		<input type="text" name="op2" id="name" value="" />
 		<br/>
 
 		<!-- Only one of these will be set with their respective value at a time -->

@@ -20,7 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
-      <change beforePath="$PROJECT_DIR$/lab8/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab8/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,14 +159,9 @@
       <workItem from="1605002659005" duration="774000" />
       <workItem from="1605004904968" duration="1805000" />
       <workItem from="1605006787137" duration="1830000" />
-      <workItem from="1605008938452" duration="1538000" />
-    </task>
-    <task id="LOCAL-00030" summary="udpate the readme.md">
-      <created>1601378749570</created>
-      <option name="number" value="00030" />
-      <option name="presentableId" value="LOCAL-00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1601378749571</updated>
+      <workItem from="1605008938452" duration="1796000" />
+      <workItem from="1605010766598" duration="1398000" />
+      <workItem from="1605014454687" duration="340000" />
     </task>
     <task id="LOCAL-00031" summary="udpate the readme.md">
       <created>1601379069229</created>
@@ -504,7 +499,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605010139611</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="update the css">
+      <created>1605010585347</created>
+      <option name="number" value="00079" />
+      <option name="presentableId" value="LOCAL-00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1605010585347</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -588,10 +590,10 @@
       <screen x="0" y="0" width="1707" height="920" />
     </state>
     <state x="701" y="373" key="VCS.ChangelistChooser/0.0.1707.920@0.0.1707.920" timestamp="1601369805456" />
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1605010142542">
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2" timestamp="1605010588086">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
-    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1605010142542" />
+    <state x="594" y="207" key="Vcs.Push.Dialog.v2/0.0.1707.920@0.0.1707.920" timestamp="1605010588086" />
     <state x="661" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601212264886">
       <screen x="0" y="0" width="1707" height="920" />
     </state>
