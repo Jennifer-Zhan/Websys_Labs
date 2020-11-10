@@ -282,6 +282,7 @@ class log extends Operation implements myInterface{
 <!doctype html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="calc.css">
 <title>PHP Calculator</title>
 </head>
 <body>
@@ -301,11 +302,12 @@ class log extends Operation implements myInterface{
     }
   ?>
   </pre>
+	<div id="inside-calc">
   <form name="calc" method="post" action="calculator.php">
     <input type="text" name="op1" id="name" value="" />
     <input type="text" name="op2" id="name" value="" />
     <br/>
-		
+		<br/>
     <!-- Only one of these will be set with their respective value at a time -->
     <input type="submit" name="add" value="Add" />
     <input type="submit" name="sub" value="Subtract" />
@@ -362,6 +364,11 @@ class log extends Operation implements myInterface{
 		
     <br/>
   </form>
+		<div id="name">
+			<p>Made In China</p>
+		</div>
+	</div>
+	
 </body>
 </html>
 
