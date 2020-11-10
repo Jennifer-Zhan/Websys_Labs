@@ -305,7 +305,7 @@ catch (Exception $e) {
     </pre>
 	<form name="calc" method="post" action="calculator.php" id="calculator">
 		<input type="text" name="op1" id="name" value="" />
-		<input type="text" name="op2" id="name" value="" />
+		<input type="text" name="op2" id="name2" value="" />
 		<br/>
 
 		<!-- Only one of these will be set with their respective value at a time -->
