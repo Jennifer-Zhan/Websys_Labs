@@ -301,10 +301,11 @@ class log extends Operation implements myInterface{
     }
   ?>
   </pre>
-  <form method="post" action="calculator.php">
+  <form name="calc" method="post" action="calculator.php">
     <input type="text" name="op1" id="name" value="" />
     <input type="text" name="op2" id="name" value="" />
     <br/>
+		
     <!-- Only one of these will be set with their respective value at a time -->
     <input type="submit" name="add" value="Add" />
     <input type="submit" name="sub" value="Subtract" />
@@ -320,6 +321,46 @@ class log extends Operation implements myInterface{
     <input type="submit" name="tan" value="Tan(x)"/>
     <input type="submit" name="log" value="log(10)"/>
     <input type="submit" name="ln" value="ln"/>
+		
+		<br/>
+		<br/>
+		
+		
+		<p>First number</p>
+		<input type="button" value=" 1 " onclick="calc.op1.value += '1'" />
+    <input type="button" value=" 2 " onclick="calc.op1.value += '2'" />
+    <input type="button" value=" 3 " onclick="calc.op1.value += '3'" />
+		
+		<input type="button" value=" 4 " onclick="calc.op1.value += '4'" />
+    <input type="button" value=" 5 " onclick="calc.op1.value += '5'" />
+    <input type="button" value=" 6 " onclick="calc.op1.value += '6'" />
+          
+    <input type="button" value=" 7 " onclick="calc.op1.value += '7'" />
+    <input type="button" value=" 8 " onclick="calc.op1.value += '8'" />
+    <input type="button" value=" 9 " onclick="calc.op1.value += '9'" />
+        
+		<input type="button" value=" 0 " onclick="calc.op1.value += '0'" />
+    <input type="button" value=" clean all " onclick="calc.op1.value = ''" />
+		
+    <br/>
+		
+		<p>Second number(if needed)</p>
+		<input type="button" value=" 1 " onclick="calc.op2.value += '1'" />
+    <input type="button" value=" 2 " onclick="calc.op2.value += '2'" />
+    <input type="button" value=" 3 " onclick="calc.op2.value += '3'" />
+		
+		<input type="button" value=" 4 " onclick="calc.op2.value += '4'" />
+    <input type="button" value=" 5 " onclick="calc.op2.value += '5'" />
+    <input type="button" value=" 6 " onclick="calc.op2.value += '6'" />
+          
+    <input type="button" value=" 7 " onclick="calc.op2.value += '7'" />
+    <input type="button" value=" 8 " onclick="calc.op2.value += '8'" />
+    <input type="button" value=" 9 " onclick="calc.op2.value += '9'" />
+        
+		<input type="button" value=" 0 " onclick="calc.op2.value += '0'" />
+    <input type="button" value=" clean all " onclick="calc.op2.value = ''" />
+		
+    <br/>
   </form>
 </body>
 </html>
