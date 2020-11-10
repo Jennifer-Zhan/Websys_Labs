@@ -240,7 +240,7 @@ try {
     if (isset($_POST['divi']) && $_POST['divi'] == 'Divide') {
         $op = new Divide($o1, $o2);
     }
-    if (isset($_POST['sqrt']) && $_POST['sqrt'] == 'Square_root') {
+    if (isset($_POST['sqrt']) && $_POST['sqrt'] == 'Sqrt') {
         $op = new Square_root($o1, 0);
     }
     if (isset($_POST['power']) && $_POST['power'] == 'x^y') {
