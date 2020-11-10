@@ -14,3 +14,7 @@ Jiahui Wu: Finish math part and do some form handling part
 Jennifer Zhan: make the basic stylesheet and do the interface of php.
 
 Shuhan Li: CSS and attempt to implement interface
+
+Reference:
+https://www.cyberpunk.net/us/zh-cn/
+https://www.w3schools.com/
