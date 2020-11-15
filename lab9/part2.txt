@@ -88,3 +88,4 @@ VALUES
     , (42806, 661963261, 82)
     , (42806, 661978679, 90)
 ;
+Inserted row id: 10 (Query took 0.0089 seconds.)
