@@ -1,0 +1,67 @@
+ALTER TABLE websyslab9.students ADD COLUMN street varchar(100);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0085 seconds.)
+
+ALTER TABLE websyslab9.students ADD COLUMN city varchar(100);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0074 seconds.)
+
+ALTER TABLE websyslab9.students ADD COLUMN state varchar(100);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0072 seconds.)
+
+ALTER TABLE websyslab9.students ADD COLUMN zip int(5);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0070 seconds.)
+
+ALTER TABLE websyslab9.courses ADD COLUMN section int(2);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0074 seconds.)
+
+ALTER TABLE websyslab9.courses ADD COLUMN year int(4);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0069 seconds.)
+
+CREATE TABLE websyslab9.grades( id int(10) AUTO_INCREMENT, crn int, RIN int, grade int(3) NOT NULL, PRIMARY KEY(id), FOREIGN KEY(crn) REFERENCES websyslab9.courses(crn), FOREIGN KEY(RIN) REFERENCES websyslab9.students(RIN));
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0121 seconds.)
+
+INSERT INTO websyslab9.courses(crn, prefix, number, title)
+VALUES('43694', 'ITWS', '1100', 'INTRO TO IT & WEB SCIENCE');
+
+1 row inserted. (Query took 0.0016 seconds.)
+
+INSERT INTO websyslab9.courses(crn, prefix, number, title)
+VALUES('42149', 'ITWS', '1200', 'IT AND SOCIETY');
+
+1 row inserted. (Query took 0.0010 seconds.)
+
+INSERT INTO websyslab9.courses(crn, prefix, number, title)
+VALUES('43695', 'ITWS', '2210', 'INTRODUCTION TO HCI');
+
+1 row inserted. (Query took 0.0011 seconds.)
+
+INSERT INTO websyslab9.courses(crn, prefix, number, title)
+VALUES('42806', 'ITWS', '4500', 'WEB SCIENCE SYSTEMS DEV');
+
+1 row inserted. (Query took 0.0010 seconds.)
+
+INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
+VALUES('661978679', 'wuj17', 'Jiahui', 'Wu', 'None', '5182581061');
+
+1 row inserted. (Query took 0.0019 seconds.)
+
+INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
+VALUES('111111111', 'noreal', 'Not', 'Exist', 'None', '0000000000');
+
+1 row inserted. (Query took 0.0010 seconds.)
+
+INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
+VALUES('222222222', 'noreal', 'Not', 'Exist', 'None', '0000000000');
+
+1 row inserted. (Query took 0.0009 seconds.)
+
+INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
+VALUES('333333333', 'noreal', 'Not', 'Exist', 'None', '0000000000');
+
+1 row inserted. (Query took 0.0013 seconds.)
