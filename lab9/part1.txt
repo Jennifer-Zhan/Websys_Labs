@@ -18,7 +18,7 @@ CREATE TABLE websyslab9.students(
 	first_name varchar(100) NOT NULL, 
 	last_name varchar(100) NOT NULL, 
 	alias varchar(100) NOT NULL, 
-	phone int(11), 
+	phone varchar(11), 
 	PRIMARY KEY (RIN)
 );
 
