@@ -1,0 +1,12 @@
+CREATE DATABASE websyslab9;
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0002 seconds.)
+
+CREATE TABLE courses( crn int(11), prefix varchar(4) NOT NULL, number smallint(4) NOT NULL, title varchar(255) NOT NULL, PRIMARY KEY (crn));
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0102 seconds.)
+
+CREATE TABLE students( RIN int(9), RCSID char(7), first_name varchar(100) NOT NULL, last_name varchar(100) NOT NULL, alias varchar(100) NOT NULL, phone int(10), PRIMARY KEY (RIN));
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0095 seconds.)
+
