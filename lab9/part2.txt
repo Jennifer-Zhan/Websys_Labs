@@ -89,3 +89,15 @@ VALUES
     , (42806, 661978679, 90)
 ;
 Inserted row id: 10 (Query took 0.0089 seconds.)
+
+SELECT * FROM `students` ORDER BY `RIN`, `last_name`, `RCSID`, `first_name` ASC
+Showing rows 0 - 1 (2 total, Query took 0.0016 seconds.) [RIN: 661963261... - 661978679...] [last_name: YANG... - WU...] [RCSID: YANGH12... - WUJ17...] [first_name: JONATHAN... - JIAHUI...]
+
+SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN
+Showing rows 0 - 2 (3 total, Query took 0.0026 seconds.)
+
+SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`
+Showing rows 0 - 3 (4 total, Query took 0.0017 seconds.)
+
+SELECT `crn`, COUNT(`rin`) FROM `grades` GROUP BY `crn`
+Showing rows 0 - 3 (4 total, Query took 0.0014 seconds.)
