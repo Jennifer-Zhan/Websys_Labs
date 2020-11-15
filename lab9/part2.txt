@@ -60,7 +60,7 @@ VALUES('661978679', 'wuj17', 'Jiahui', 'Wu', 'None', '5182581061');
 1 row inserted. (Query took 0.0019 seconds.)
 
 INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('111111111', 'noreal', 'Not', 'Exist', 'None', '0000000000');
+VALUES('661963261', 'yangh12', 'Jonathan', 'Yang', 'None', '9173468827');
 
 1 row inserted. (Query took 0.0010 seconds.)
 
