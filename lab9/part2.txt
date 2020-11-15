@@ -73,3 +73,18 @@ INSERT INTO websyslab9.students(RIN, RCSID, first_name, last_name, alias, phone)
 VALUES('333333333', 'noreal', 'Not', 'Exist', 'None', '0000000000');
 
 1 row inserted. (Query took 0.0013 seconds.)
+
+INSERT INTO `grades`
+    (`crn`, `RIN`, `grade`)
+VALUES
+    (43694, 661978679, 99)
+    , (43694, 661963261, 99)
+    , (43694, 000000000, 99)
+    , (42149, 661963261, 70)
+    , (42149, 000000000, 86)
+    , (42149, 661978679, 67)
+    , (43695, 661963261, 89)
+    , (43695, 661978679, 97)
+    , (42806, 661963261, 82)
+    , (42806, 661978679, 90)
+;
