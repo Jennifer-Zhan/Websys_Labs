@@ -120,7 +120,7 @@ VALUES
 ;
 Inserted row id: 10 (Query took 0.0089 seconds.)
 
-SELECT * FROM `students` ORDER BY `RIN`, `last_name`, `RCSID`, `first_name` ASC
+SELECT * FROM `students` ORDER BY `RIN`, `last_name`, `RCSID`, `first_name` ASC;
 
 +-----------+---------+------------+-----------+---------+------------+--------+------+-------+------+
 | RIN       | RCSID   | first_name | last_name | alias   | phone      | street | city | state | zip  |
@@ -135,7 +135,7 @@ Showing rows 0 - 3 (4 total, Query took 0.0015 seconds.) [RIN: 661934526... - 66
 
 
 
-SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN
+SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN;
 
 +-----------+------------+-----------+--------+------+-------+------+
 | RIN       | first_name | last_name | street | city | state | zip  |
@@ -148,7 +148,7 @@ SELECT students.RIN, students.first_name, students.last_name, students.street, s
 Showing rows 0 - 2 (3 total, Query took 0.0028 seconds.)
 
 
-SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`
+SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`;
 +-------+--------------+
 | crn   | AVG(`grade`) |
 +-------+--------------+
