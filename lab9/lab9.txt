@@ -19,7 +19,7 @@ CREATE TABLE students(
 	first_name varchar(100) NOT NULL, 
 	last_name varchar(100) NOT NULL, 
 	alias varchar(100) NOT NULL, 
-	phone int(10), 
+	phone bigint(10), 
 	PRIMARY KEY (RIN)
 );
 
@@ -100,7 +100,7 @@ VALUES('661963452', 'smithj', 'John', 'Smith', 'John', '947284775');
 1 row inserted. (Query took 0.0009 seconds.)
 
 INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('661934526', 'jamesl', 'Lebron', 'James', 'Lebron', '946285638');
+VALUES('661934526', 'jamesl', 'Lebron', 'James', 'Lebron', '9462856388');
 
 1 row inserted. (Query took 0.0013 seconds.)
 

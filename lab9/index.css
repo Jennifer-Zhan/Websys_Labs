@@ -1,0 +1,67 @@
+body {
+    background-color: #e8e8e8;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    line-height: 10px;
+    margin: 30px;
+}
+
+h4 {
+    text-align: center;
+    background-color: #aeb7eb;
+    margin: 0px;
+    padding: 10px;
+}
+
+/* table formatting */
+.studentsTable, .coursesTable, .gradesTable {
+    margin: auto auto 20px auto;
+    width: 40%;
+    border: 2px solid #333;
+    /* padding: 10px; */
+    border-radius: 5px;
+}
+
+table, td {
+    margin: 10px auto 10px auto;
+    text-align: center;
+    padding: 7px;
+    border: 1px solid #212121;
+    border-radius: 2px;
+}
+
+/* form formatting */
+.sorting, .buttons {
+    color: #3d4c9c;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0 10px 0;
+}
+
+.addGrade {
+    margin: 10px;
+}
+
+/* button formatting */
+input[type=submit], button[type=submit] {
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    font-size: 12px;
+}
+
+input[type=submit]:hover, button[type=submit]:hover {
+    cursor: pointer;
+    background-color: #d7dcf5;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 5px;
+    font-size: 12px;
+    margin: 0 5px 0 5px;
+}
