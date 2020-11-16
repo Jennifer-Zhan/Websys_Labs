@@ -1,3 +1,33 @@
+Part 1:
+CREATE DATABASE websyslab9;
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0002 seconds.)
+
+CREATE TABLE courses( 
+	crn int(11), 
+	prefix varchar(4) NOT NULL, 
+	number smallint(4) NOT NULL, 
+	title varchar(255) NOT NULL, 
+	PRIMARY KEY (crn)
+);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0102 seconds.)
+
+CREATE TABLE students( 
+	RIN int(9), 
+	RCSID char(7), 
+	first_name varchar(100) NOT NULL, 
+	last_name varchar(100) NOT NULL, 
+	alias varchar(100) NOT NULL, 
+	phone int(10), 
+	PRIMARY KEY (RIN)
+);
+
+MySQL returned an empty result set (i.e. zero rows). (Query took 0.0095 seconds.)
+
+
+Part 2:
+
 ALTER TABLE students ADD COLUMN street varchar(100);
 
 MySQL returned an empty result set (i.e. zero rows). (Query took 0.0085 seconds.)
@@ -103,10 +133,42 @@ SELECT * FROM `students` ORDER BY `RIN`, `last_name`, `RCSID`, `first_name` ASC
 
 Showing rows 0 - 3 (4 total, Query took 0.0015 seconds.) [RIN: 661934526... - 661978679...] [last_name: JAMES... - WU...] [RCSID: JAMESL... - WUJ17...] [first_name: LEBRON... - JIAHUI...]
 
+
+
 SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN
+
++-----------+------------+-----------+--------+------+-------+------+
+| RIN       | first_name | last_name | street | city | state | zip  |
++-----------+------------+-----------+--------+------+-------+------+
+| 661963261 | Jonathan   | Yang      | NULL   | NULL | NULL  | NULL |
+| 661963452 | John       | Smith     | NULL   | NULL | NULL  | NULL |
+| 661978679 | Wu         | Jiahui    | NULL   | NULL | NULL  | NULL |
++-----------+------------+-----------+--------+------+-------+------+
+
+Showing rows 0 - 2 (3 total, Query took 0.0028 seconds.)
 
 
 SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`
++-------+--------------+
+| crn   | AVG(`grade`) |
++-------+--------------+
+| 42149 |      74.3333 |
+| 42806 |      86.0000 |
+| 43694 |      99.0000 |
+| 43695 |      93.0000 |
++-------+--------------+
+
+Showing rows 0 - 3 (4 total, Query took 0.0015 seconds.)
 
 
 SELECT `crn`, COUNT(`rin`) FROM `grades` GROUP BY `crn`
+
++-------+--------------+
+| crn   | COUNT(`rin`) |
++-------+--------------+
+| 42149 |     	     3 |
+| 42806 |            2 |
+| 43694 |            3 |
+| 43695 |            2 |
++-------+--------------+
+Showing rows 0 - 3 (4 total, Query took 0.0017 seconds.)
