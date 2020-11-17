@@ -2,10 +2,12 @@
 
 What we did:
 
-Jonathan Yang: Help modified part1 and did half of part2
+Jonathan Yang: Helped to modify part1 and did half of part2
 
-Jiahui Wu: Finish part1 and do some part2
+Jiahui Wu: Finished part1 and did some part2
 
 Jensen Chen: Helped to finish the part3: finished the stylesheet
 
 Shuhan Li: Helped to complete part2
+
+Jennifer Zhan: Finished part3 and helped with stylesheet

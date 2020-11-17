@@ -263,9 +263,9 @@ if (isset($_POST['addGrade'])) {
 		<form class="sorting">
 			<span class="sort_word">Sort By: </span><select name="sortStudents">
 				<option value="rin">RIN</option>
-				<option value="first_nale">First Name</option>
+        <option value="RCSID">RCSID</option>
+				<option value="first_name">First Name</option>
 				<option value="last_name">Last Name</option>
-				<option value="street">Address</option>
 			</select>
 			<button type="submit" formaction="?" formmethod="post">Submit</button>
 		</form>
