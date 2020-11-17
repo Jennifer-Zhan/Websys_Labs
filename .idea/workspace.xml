@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="7061cd1b-e64d-4146-8cfb-7670f291aedf" name="Default Changelist" comment="update the css">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lab9/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/lab9/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,13 +173,7 @@
       <workItem from="1605617113253" duration="1515000" />
       <workItem from="1605620724184" duration="1518000" />
       <workItem from="1605622881224" duration="1796000" />
-    </task>
-    <task id="LOCAL-00041" summary="update the directory">
-      <created>1601385543760</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1601385543760</updated>
+      <workItem from="1605624769318" duration="1148000" />
     </task>
     <task id="LOCAL-00042" summary="debug lis22.html">
       <created>1601386062075</created>
@@ -518,7 +511,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605624190537</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="update the css">
+      <created>1605625029815</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1605625029815</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
