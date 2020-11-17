@@ -79,12 +79,12 @@ if (isset($_POST['addCourses'])) {
         $qry = "SELECT section FROM courses";
         $check = $conn->query($qry);
         if($check==TRUE){
-          $section = $_POST['section'];
-          $year = $_POST['year'];
-          $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`, `section`, `year`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."','".$section."', '".$year."')";
+            $section = $_POST['section'];
+            $year = $_POST['year'];
+            $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`, `section`, `year`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."','".$section."', '".$year."')";
         }
         else{
-          $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."')";
+            $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."')";
         }
         $conn->query($Query_AddCourses);
     }
@@ -103,14 +103,14 @@ if (isset($_POST['addStudents'])) {
         $qry = "SELECT street FROM students";
         $check = $conn->query($qry);
         if($check==True){
-          $street = $_POST['street'];
-          $city = $_POST['city'];
-          $state = $_POST['state'];
-          $zip = $_POST['zip'];
-          $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."','".$street."','".$city."','".$state."','".$zip."')";
+            $street = $_POST['street'];
+            $city = $_POST['city'];
+            $state = $_POST['state'];
+            $zip = $_POST['zip'];
+            $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."','".$street."','".$city."','".$state."','".$zip."')";
         }
         else{
-          $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."')";
+            $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."')";
         }
         $conn->query($Query_AddStudents);
     }
@@ -157,10 +157,10 @@ if (isset($_POST['addGrade'])) {
           $qry = "SELECT street FROM students";
           $check = $conn->query($qry);
           if($check==TRUE){
-            echo "<th>Address</th>";
+              echo "<th>Address</th>";
           }
           echo "</tr>";
-          
+
           $result = $conn->query($sqlStudents);
           $numRecords = $result->num_rows;
           for ($i=0; $i < $numRecords; $i++) {
@@ -175,7 +175,7 @@ if (isset($_POST['addGrade'])) {
               //$check = "SHOW COLUMNS FROM `students` LIKE 'street'";
               //$exists = ($conn->query($check))?TRUE:FALSE;
               if($check==TRUE){
-                echo '<th class="address">'.$record["street"] . " " . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
+                  echo '<th class="address">'.$record["street"] . " " . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
               }
               echo "</tr>";
           }
@@ -197,16 +197,16 @@ if (isset($_POST['addGrade'])) {
 				<span class="input_type"><br />Last Name: <br /></span><input type="text" name="lname" value="">
 				<span class="input_type"><br />Alias: <br /></span><input type="text" name="alias" value="">
 				<span class="input_type"><br />Phone: <br /></span><input type="int" name="phone" value=""><br /><br />
-        <?php
-        $qry = "SELECT street FROM students";
-        $check = $conn->query($qry);
-        if($check==TRUE){
-          echo '<span class="input_type">Street: <br /></span><input type="text" name="street" value="">';
-          echo '<span class="input_type">City: <br /></span><input type="text" name="city" value="">';
-          echo '<span class="input_type">State: <br /></span><input type="text" name="state" value="">';
-          echo '<span class="input_type">Zip: <br /></span><input type="int" name="zip" value="">';
-        }
-        ?>
+          <?php
+          $qry = "SELECT street FROM students";
+          $check = $conn->query($qry);
+          if($check==TRUE){
+              echo '<span class="input_type">Street: <br /></span><input type="text" name="street" value="">';
+              echo '<span class="input_type"><br />City: <br /></span><input type="text" name="city" value="">';
+              echo '<span class="input_type"><br />State: <br /></span><input type="text" name="state" value="">';
+              echo '<span class="input_type"><br />Zip: <br /></span><input type="int" name="zip" value=""><br /><br />';
+          }
+          ?>
 				<input type="submit" name="addStudents" value="Add">
 			</div>
 		</form>
@@ -244,7 +244,7 @@ if (isset($_POST['addGrade'])) {
                       echo '<th class="fname">'.$record['first_name'].'</th>';
                       echo '<th class="lname">'.$record['last_name'].'</th>';
                       if($$check==TRUE){
-                        echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
+                          echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
                       }
                       echo "</tr>";
                   }
@@ -263,7 +263,7 @@ if (isset($_POST['addGrade'])) {
 		<form class="sorting">
 			<span class="sort_word">Sort By: </span><select name="sortStudents">
 				<option value="rin">RIN</option>
-        <option value="RCSID">RCSID</option>
+				<option value="RCSID">RCSID</option>
 				<option value="first_name">First Name</option>
 				<option value="last_name">Last Name</option>
 			</select>
@@ -399,14 +399,14 @@ if (isset($_POST['addGrade'])) {
 				<span class="input_type"><br />Prefix: <br /></span><input type="text" name="prefix" value="">
 				<span class="input_type"><br />Number: <br /></span><input type="int" name="number" value="">
 				<span class="input_type"><br />Title: <br /></span><input type="text" name="title" value=""><br /><br />
-        <?php
-        $qry = "SELECT section FROM courses";
-        $check = $conn->query($qry);
-        if($check==TRUE){
-          echo '<span class="input_type">Section: <br /></span><input type="int" name="section" value="">';
-          echo '<span class="input_type">Year: <br /></span><input type="int" name="year" value="">';
-        }
-        ?>
+          <?php
+          $qry = "SELECT section FROM courses";
+          $check = $conn->query($qry);
+          if($check==TRUE){
+              echo '<span class="input_type">Section: <br /></span><input type="int" name="section" value="">';
+              echo '<span class="input_type"><br />Year: <br /></span><input type="int" name="year" value=""><br /><br />';
+          }
+          ?>
 				<input type="submit" name="addCourses" value="Add">
 			</div>
 		</form>

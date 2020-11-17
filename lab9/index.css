@@ -27,10 +27,36 @@ h4 {
 }
 
 /* table formatting */
-.studentsTable, .coursesTable, .gradesTable {
-  float: left;
-  margin: 30px auto 50px 10px;
-  width: 30%;
+.studentsTable{
+  margin: 30px 10% 50px 10%;
+  width: 80%;
+  border: 4px solid white;
+  border-radius: 16px;
+  display: inline-block;
+  height: auto;
+  background: url("https://i.pinimg.com/originals/78/e2/0c/78e20cce7ea8b3fc09b6d6a79e046e3e.jpg");
+  background-size: cover;
+}
+
+.coursesTable{
+  margin-top: 30px;
+  margin-left: 10%;
+  /* margin-bottom: 50px; */
+  width: 35%;
+  border: 4px solid white;
+  border-radius: 16px;
+  display: inline-block;
+  height: auto;
+  background: url("https://i.pinimg.com/originals/78/e2/0c/78e20cce7ea8b3fc09b6d6a79e046e3e.jpg");
+  background-size: cover;
+}
+
+.gradesTable {
+  float: right;
+  margin-top: 30px;
+  margin-right: 10%;
+  /* margin-bottom: 50px; */
+  width: 35%;
   border: 4px solid white;
   border-radius: 16px;
   display: inline-block;
