@@ -19,8 +19,7 @@ $sqlAddress= "SELECT street FROM `students`";
 
 // Add address files(street, city, state, zip) to the students table.
 if (isset($_POST['add_address'])) {
-    $address = $_POST['add_address'];
-    if ($address){
+    if ($_POST['add_address']){
         $sql_street="ALTER TABLE students ADD COLUMN street varchar(100)";
         $conn->query($sql_street);
         $sql_city="ALTER TABLE students ADD COLUMN city varchar(100)";
@@ -34,8 +33,7 @@ if (isset($_POST['add_address'])) {
 
 // Add section and year field to the courses table.
 if (isset($_POST['add_section_year'])) {
-    $section_year = $_POST['add_section_year'];
-    if ($section_year){
+    if ($_POST['add_section_year']){
         $sql_section="ALTER TABLE courses ADD COLUMN section int(2)";
         $conn->query($sql_section);
         $sql_year="ALTER TABLE courses ADD COLUMN year int(4)";
@@ -43,7 +41,7 @@ if (isset($_POST['add_section_year'])) {
     }
 }
 
-// sorting students by column button
+// sorting students by RIN, last name, RCSID, and first name.
 if((isset($_POST['sortStudents']) ? $_POST['sortStudents'] : NULL)){
     $sortStudents = (isset($_POST['sortStudents']) ? $_POST['sortStudents'] : NULL);
     $sqlStudents = 'SELECT * FROM `students`';
@@ -54,8 +52,7 @@ if((isset($_POST['sortStudents']) ? $_POST['sortStudents'] : NULL)){
 
 // Create a grades table containing id, crn, RIN, and grade.
 if (isset($_POST['grade_table'])) {
-    $grade_table = $_POST['grade_table'];
-    if ($grade_table){
+    if ($_POST['grade_table']){
         $sql_grade="CREATE TABLE grades( 
                       id int(10) AUTO_INCREMENT, 
                       crn int, 
@@ -221,12 +218,13 @@ if (isset($_POST['addGrade'])) {
       if (isset($_POST['higher']))  {
           if($dbOk){
               $sql_higher="SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN";
-              if ($conn->query($sql_higher)->num_rows > 0) {
+              $higher=$conn->query($sql_higher);
+              if ($higher==TRUE&&$higher->num_rows > 0) {
                   echo "<table>
-                                            <tr>
-                                            <th>RIN</th>
-                                            <th>First Name</th>
-                                            <th>Last Name</th>";
+                        <tr>
+                        <th>RIN</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>";
                   $qry = "SELECT street FROM students";
                   $check = $conn->query($qry);
                   if($check==TRUE){
@@ -257,13 +255,13 @@ if (isset($_POST['addGrade'])) {
           }
       }
       ?>
-
+    <!-- sorting button -->
 		<form class="sorting">
 			<span class="sort_word">Sort By: </span><select name="sortStudents">
 				<option value="rin">RIN</option>
+        <option value="last_name">Last Name</option>
 				<option value="RCSID">RCSID</option>
 				<option value="first_name">First Name</option>
-				<option value="last_name">Last Name</option>
 			</select>
 			<button type="submit" formaction="?" formmethod="post">Submit</button>
 		</form>
@@ -275,11 +273,11 @@ if (isset($_POST['addGrade'])) {
       <?php
       if($dbOk){
           echo "<table>
-                          <tr>
-                          <th>CRN</th>
-                          <th>Prefix</th>
-                          <th>Number</th>
-                          <th>Title</th>";
+                <tr>
+                <th>CRN</th>
+                <th>Prefix</th>
+                <th>Number</th>
+                <th>Title</th>";
           $qry = "SELECT section FROM courses";
           $check = $conn->query($qry);
           if($check==TRUE){
@@ -314,10 +312,6 @@ if (isset($_POST['addGrade'])) {
 		<form class="buttons" action="index.php" method="post">
 			<input type="submit" name="add_section_year" value="Add section and year">
 		</form>
-    <!-- button for creating grades table -->
-		<form class="buttons" action="index.php" method="post">
-			<input type="submit" name="grade_table" value="Create Grades Table">
-		</form>
 		<!-- button for showing average grade for each course -->
 		<form class="buttons" action="index.php" method="post">
 			<input type="submit" name="avg" value="Average Grade for each Course">
@@ -333,11 +327,11 @@ if (isset($_POST['addGrade'])) {
                         GROUP BY grades.crn";
               $avgGrade = $conn->query($sqlAvg);
           }
-          if ($avgGrade->num_rows > 0) {
+          if ($avgGrade==TRUE&&$avgGrade->num_rows > 0) {
               echo "<table>
-                            <tr>
-                            <th>CRN</th>
-                            <th>GRADES</th>";
+                    <tr>
+                    <th>CRN</th>
+                    <th>GRADES</th>";
               echo "</tr>";
               $numRecords = $avgGrade->num_rows;
               for ($i=0; $i < $numRecords; $i++) {
@@ -369,7 +363,7 @@ if (isset($_POST['addGrade'])) {
                         GROUP BY grades.crn";
               $numStudents = $conn->query($sqlNumStudents);
           }
-          if ($numStudents->num_rows > 0) {
+          if ($numStudents==TRUE&&$numStudents->num_rows > 0) {
               echo "<table>
                             <tr>
                             <th>CRN</th>
@@ -416,7 +410,9 @@ if (isset($_POST['addGrade'])) {
 	<h4>Current Grades</h4>
 	<div class="grades">
       <?php
-      if(isset($_POST['grade_table'])){
+      // check if grades table exists
+      $val = $conn->query('select 1 from `grades`');
+      if($val !== FALSE){
           echo "<table>
                     <tr>
                     <th>id</th>
@@ -439,7 +435,10 @@ if (isset($_POST['addGrade'])) {
           $result->free();
       }
       ?>
-
+    <!-- button for creating grades table -->
+    <form class="buttons" action="index.php" method="post">
+      <input type="submit" name="grade_table" value="Create Grades Table">
+    </form>
 		<!-- Add Grades -->
 		<form class="addGrade" action="index.php" method="post">
 			<h4>Add Grade:</h4>
