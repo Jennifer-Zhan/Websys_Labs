@@ -114,24 +114,24 @@ VALUES
     , (42149, 661934526, 86)
     , (42149, 661978679, 67)
     , (43695, 661963261, 89)
-    , (43695, 661978679, 97)
+    , (43695, 661978679, 89)
     , (42806, 661934526, 82)
     , (42806, 661978679, 90)
 ;
 Inserted row id: 10 (Query took 0.0089 seconds.)
 
-SELECT * FROM `students` ORDER BY `RIN`, `last_name`, `RCSID`, `first_name` ASC;
 
-+-----------+---------+------------+-----------+---------+------------+--------+------+-------+------+
-| RIN       | RCSID   | first_name | last_name | alias   | phone      | street | city | state | zip  |
-+-----------+---------+------------+-----------+---------+------------+--------+------+-------+------+
-| 661934526 | jamesl  | Lebron     | James     | Lebron  | 946285638  | NULL   | NULL | NULL  | NULL |
-| 661963261 | yangh12 | Jonathan   | Yang      | None    | 917346882  | NULL   | NULL | NULL  | NULL |
-| 661963452 | smithj  | John       | Smith     | John    | 947284775  | NULL   | NULL | NULL  | NULL |
-| 661978679 | wuj17   | Wu         | Jiahui    | None    | 518258106  | NULL   | NULL | NULL  | NULL |
-+-----------+---------+------------+-----------+---------+------------+--------+------+-------+------+
+SELECT * FROM `students` ORDER BY `RIN`
+Showing rows 0 - 3 (4 total, Query took 0.0016 seconds.) [RIN: 661934526... - 661978679...]
 
-Showing rows 0 - 3 (4 total, Query took 0.0015 seconds.) [RIN: 661934526... - 661978679...] [last_name: JAMES... - WU...] [RCSID: JAMESL... - WUJ17...] [first_name: LEBRON... - JIAHUI...]
+SELECT * FROM `students` ORDER BY `last_name`
+Showing rows 0 - 3 (4 total, Query took 0.0011 seconds.) [last_name: JAMES... - YANG...]
+
+SELECT * FROM `students` ORDER BY `RCSID`
+ Showing rows 0 - 3 (4 total, Query took 0.0017 seconds.) [RCSID: JAMESL... - YANGH12...]
+
+SELECT * FROM `students` ORDER BY `first_name`
+Showing rows 0 - 3 (4 total, Query took 0.0009 seconds.) [first_name: JIAHUI... - LEBRON...]
 
 
 
@@ -155,7 +155,7 @@ SELECT `crn`, AVG(`grade`) FROM `grades` GROUP BY `crn`;
 | 42149 |      74.3333 |
 | 42806 |      86.0000 |
 | 43694 |      99.0000 |
-| 43695 |      93.0000 |
+| 43695 |      89.0000 |
 +-------+--------------+
 
 Showing rows 0 - 3 (4 total, Query took 0.0015 seconds.)
