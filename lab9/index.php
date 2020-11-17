@@ -76,7 +76,16 @@ if (isset($_POST['addCourses'])) {
         $prefix = $_POST['prefix'];
         $number = $_POST['number'];
         $title = $_POST['title'];
-        $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."')";
+        $qry = "SELECT section FROM courses";
+        $check = $conn->query($qry);
+        if($check==TRUE){
+          $section = $_POST['section'];
+          $year = $_POST['year'];
+          $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`, `section`, `year`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."','".$section."', '".$year."')";
+        }
+        else{
+          $Query_AddCourses = "INSERT INTO `courses` (`crn`, `prefix`, `number` , `title`) VALUES ('".$crn."', '".$prefix."', '".$number."', '".$title."')";
+        }
         $conn->query($Query_AddCourses);
     }
 }
@@ -91,7 +100,18 @@ if (isset($_POST['addStudents'])) {
         $last_name = $_POST['lname'];
         $alias = $_POST['alias'];
         $phone = $_POST['phone'];
-        $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."')";
+        $qry = "SELECT street FROM students";
+        $check = $conn->query($qry);
+        if($check==True){
+          $street = $_POST['street'];
+          $city = $_POST['city'];
+          $state = $_POST['state'];
+          $zip = $_POST['zip'];
+          $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."','".$street."','".$city."','".$state."','".$zip."')";
+        }
+        else{
+          $Query_AddStudents = "INSERT INTO `students` (RIN, RCSID, first_name, last_name, alias, phone) VALUES ('".$RIN."', '".$RCSID."', '".$first_name."', '".$last_name."', '".$alias."', '".$phone."')";
+        }
         $conn->query($Query_AddStudents);
     }
 
@@ -126,20 +146,21 @@ if (isset($_POST['addGrade'])) {
 	<div class="students">
       <?php
       if($dbOk){
-          if ($allStudents->num_rows > 0) {
-              echo "<table>
-                            <tr>
-                            <th>RIN</th>
-                            <th>RCS</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>";
-              $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-              $exists = ($conn->query($check))?TRUE:FALSE;
-              if($exists){
-                  echo "<th>Address</th>";
-              }
-              echo "</tr>";
+          echo "<table>
+                <tr>
+                <th>RIN</th>
+                <th>RCS</th>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Alias</th>
+                <th>Phone</th>";
+          $qry = "SELECT street FROM students";
+          $check = $conn->query($qry);
+          if($check==TRUE){
+            echo "<th>Address</th>";
           }
+          echo "</tr>";
+          
           $result = $conn->query($sqlStudents);
           $numRecords = $result->num_rows;
           for ($i=0; $i < $numRecords; $i++) {
@@ -149,12 +170,12 @@ if (isset($_POST['addGrade'])) {
               echo '<th class="RCS">'.$record['RCSID'].'</th>';
               echo '<th class="fname">'.$record['first_name'].'</th>';
               echo '<th class="lname">'.$record['last_name'].'</th>';
-              $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-              $exists = ($conn->query($check))?TRUE:FALSE;
-              if($exists){
-                  if(!is_null($sqlAddress)){
-                      echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
-                  }
+              echo '<th class="alias">'.$record['alias'].'</th>';
+              echo '<th class="phone">'.$record['phone'].'</th>';
+              //$check = "SHOW COLUMNS FROM `students` LIKE 'street'";
+              //$exists = ($conn->query($check))?TRUE:FALSE;
+              if($check==TRUE){
+                echo '<th class="address">'.$record["street"] . " " . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
               }
               echo "</tr>";
           }
@@ -176,6 +197,16 @@ if (isset($_POST['addGrade'])) {
 				<span class="input_type"><br />Last Name: <br /></span><input type="text" name="lname" value="">
 				<span class="input_type"><br />Alias: <br /></span><input type="text" name="alias" value="">
 				<span class="input_type"><br />Phone: <br /></span><input type="int" name="phone" value=""><br /><br />
+        <?php
+        $qry = "SELECT street FROM students";
+        $check = $conn->query($qry);
+        if($check==TRUE){
+          echo '<span class="input_type">Street: <br /></span><input type="text" name="street" value="">';
+          echo '<span class="input_type">City: <br /></span><input type="text" name="city" value="">';
+          echo '<span class="input_type">State: <br /></span><input type="text" name="state" value="">';
+          echo '<span class="input_type">Zip: <br /></span><input type="int" name="zip" value="">';
+        }
+        ?>
 				<input type="submit" name="addStudents" value="Add">
 			</div>
 		</form>
@@ -198,9 +229,9 @@ if (isset($_POST['addGrade'])) {
                                             <th>RIN</th>
                                             <th>First Name</th>
                                             <th>Last Name</th>";
-                  $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-                  $exists = ($conn->query($check))?TRUE:FALSE;
-                  if($exists){
+                  $qry = "SELECT street FROM students";
+                  $check = $conn->query($qry);
+                  if($check==TRUE){
                       echo "<th>Address</th>";
                   }
                   echo "</tr>";
@@ -212,12 +243,8 @@ if (isset($_POST['addGrade'])) {
                       echo '<th class="RIN">'.$record['RIN'].'</th>';
                       echo '<th class="fname">'.$record['first_name'].'</th>';
                       echo '<th class="lname">'.$record['last_name'].'</th>';
-                      $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-                      $exists = ($conn->query($check))?TRUE:FALSE;
-                      if($exists){
-                          if(!is_null($sqlAddress)){
-                              echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
-                          }
+                      if($$check==TRUE){
+                        echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
                       }
                       echo "</tr>";
                   }
@@ -255,11 +282,11 @@ if (isset($_POST['addGrade'])) {
                           <th>Prefix</th>
                           <th>Number</th>
                           <th>Title</th>";
-          $check = "SHOW COLUMNS FROM `students` LIKE 'section'";
-          $exists = ($conn->query($check))?TRUE:FALSE;
-          if($exists){
+          $qry = "SELECT section FROM courses";
+          $check = $conn->query($qry);
+          if($check==TRUE){
               echo "<th>Section</th>
-                          <th>Year</th>";
+                    <th>Year</th>";
           }
           echo "</tr>";
           $result = $conn->query($sqlCourses);
@@ -271,11 +298,9 @@ if (isset($_POST['addGrade'])) {
               echo '<th class="prefix">'.$record['prefix'].'</th>';
               echo '<th class="number">'.$record['number'].'</th>';
               echo '<th class="title">'.$record['title'].'</th>';
-              $check = "SHOW COLUMNS FROM `students` LIKE 'section'";
-              $exists = ($conn->query($check))?TRUE:FALSE;
-              if($exists){
-                  echo '<th class="section">'.$record["section"] .'</th>';
-                  echo '<th class="year">'.$record["year"] .'</th>';
+              if($check==TRUE){
+                  echo '<th class="section">'.$record['section'] .'</th>';
+                  echo '<th class="year">'.$record['year'] .'</th>';
               }
               echo "</tr>";
           }
@@ -374,6 +399,14 @@ if (isset($_POST['addGrade'])) {
 				<span class="input_type"><br />Prefix: <br /></span><input type="text" name="prefix" value="">
 				<span class="input_type"><br />Number: <br /></span><input type="int" name="number" value="">
 				<span class="input_type"><br />Title: <br /></span><input type="text" name="title" value=""><br /><br />
+        <?php
+        $qry = "SELECT section FROM courses";
+        $check = $conn->query($qry);
+        if($check==TRUE){
+          echo '<span class="input_type">Section: <br /></span><input type="int" name="section" value="">';
+          echo '<span class="input_type">Year: <br /></span><input type="int" name="year" value="">';
+        }
+        ?>
 				<input type="submit" name="addCourses" value="Add">
 			</div>
 		</form>
