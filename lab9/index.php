@@ -1,5 +1,5 @@
 <?php
-// Create connection
+// connect the database
 $dbOk = false;
 @ $conn = new mysqli('localhost', 'root', '', 'websyslab9');
 if ($conn->connect_error) {
@@ -172,8 +172,6 @@ if (isset($_POST['addGrade'])) {
               echo '<th class="lname">'.$record['last_name'].'</th>';
               echo '<th class="alias">'.$record['alias'].'</th>';
               echo '<th class="phone">'.$record['phone'].'</th>';
-              //$check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-              //$exists = ($conn->query($check))?TRUE:FALSE;
               if($check==TRUE){
                 echo '<th class="address">'.$record["street"] . " " . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
               }
@@ -312,20 +310,21 @@ if (isset($_POST['addGrade'])) {
           echo "No data";
       }
       ?>
-
+    <!-- button for adding section and year column -->
 		<form class="buttons" action="index.php" method="post">
 			<input type="submit" name="add_section_year" value="Add section and year">
 		</form>
+    <!-- button for creating grades table -->
 		<form class="buttons" action="index.php" method="post">
 			<input type="submit" name="grade_table" value="Create Grades Table">
 		</form>
-		<!-- button for counting number of students (above table) -->
+		<!-- button for showing average grade for each course -->
 		<form class="buttons" action="index.php" method="post">
 			<input type="submit" name="avg" value="Average Grade for each Course">
 		</form>
 
       <?php
-      // average grade table
+      // show average grade
       $avgGrade = NULL;
       if (isset($_POST['avg'])) {
           $avgGrade = $_POST['avg'];
@@ -412,11 +411,12 @@ if (isset($_POST['addGrade'])) {
 		</form>
 	</div>
 </div>
+
 <div class="gradesTable">
 	<h4>Current Grades</h4>
 	<div class="grades">
       <?php
-      if($allGrades!=FALSE){
+      if(isset($_POST['grade_table'])){
           echo "<table>
                     <tr>
                     <th>id</th>
