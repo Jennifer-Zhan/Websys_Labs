@@ -29,7 +29,7 @@ h4 {
 /* table formatting */
 .studentsTable, .coursesTable, .gradesTable {
   float: left;
-  margin: 30px auto 50px 20px;
+  margin: 30px auto 50px 10px;
   width: 30%;
   border: 4px solid white;
   border-radius: 16px;
