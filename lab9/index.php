@@ -8,7 +8,7 @@ if ($conn->connect_error) {
 } else {
     $dbOk = true;
 }
-// display sql on the page:
+
 $sqlCourses = "SELECT * FROM `courses`";
 $sqlStudents = "SELECT * FROM `students`";
 $sqlGrades= "SELECT * FROM `grades`";
@@ -66,72 +66,6 @@ if (isset($_POST['grade_table'])) {
                       FOREIGN KEY(RIN) REFERENCES students(RIN)
                       )";
         $conn->query($sql_grade);
-    }
-}
-
-// List all students RIN, name, and address if their grade in any course was higher than a 90
-if (isset($_POST['higher']))  {
-  if($dbOk){
-    $sql_higher="SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN";
-    if ($conn->query($sql_higher)->num_rows > 0) {
-                    echo "<table>
-                            <tr>
-                            <th>RIN</th>
-                            <th>First Name</th>
-                            <th>Last Name</th>";
-        $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-        $exists = ($conn->query($check))?TRUE:FALSE;
-        if($exists){
-          echo "<th>Address</th>";
-        }
-        echo "</tr>";
-        $result = $conn->query($sql_higher);
-        $numRecords = $result->num_rows;
-        for ($i=0; $i < $numRecords; $i++) {
-          $record = $result->fetch_assoc();
-          echo '<tr>';
-          echo '<th class="RIN">'.$record['RIN'].'</th>';
-          echo '<th class="fname">'.$record['first_name'].'</th>';
-          echo '<th class="lname">'.$record['last_name'].'</th>';
-          $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
-          $exists = ($conn->query($check))?TRUE:FALSE;
-          if($exists){
-            if(!is_null($sqlAddress)){
-              echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
-            }
-          }
-          echo "</tr>";
-        }
-        echo "</table>";
-        $result->free();
-    }
-    else {
-      echo "No Data";
-    }
-    
-
-  }
-}
-
-// average grade query
-$avgGrade = NULL;
-if (isset($_POST['avg'])) {
-    $avgGrade = $_POST['avg'];
-    if ($avg) {
-        $sqlAvg = "SELECT grades.crn, AVG(grades.grade) AS averageGrade FROM grades
-        GROUP BY grades.crn";
-        $avgGrade = $conn->query($sqlAvg);
-    }
-}
-
-// average number of students query
-$numStudents = NULL;
-if (isset($_POST['numStudents'])) {
-    $numStudents = $_POST['numStudents'];
-    if ($numStudents) {
-        $sqlNumStudents = "SELECT grades.crn, COUNT(grades.grade) AS num FROM `grades` 
-        GROUP BY grades.crn";
-        $numStudents = $conn->query($sqlNumStudents);
     }
 }
 
@@ -250,7 +184,52 @@ if (isset($_POST['addGrade'])) {
                 </form>
                 <form class="buttons" action="index.php" method="post">
                     <input type="submit" name="higher" value="Grade higher than 90">
-                </form>
+                </form>  
+                <?php
+                // List all students RIN, name, and address if their grade in any course was higher than a 90
+                if (isset($_POST['higher']))  {
+                  if($dbOk){
+                    $sql_higher="SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN";
+                    if ($conn->query($sql_higher)->num_rows > 0) {
+                                    echo "<table>
+                                            <tr>
+                                            <th>RIN</th>
+                                            <th>First Name</th>
+                                            <th>Last Name</th>";
+                        $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
+                        $exists = ($conn->query($check))?TRUE:FALSE;
+                        if($exists){
+                          echo "<th>Address</th>";
+                        }
+                        echo "</tr>";
+                        $result = $conn->query($sql_higher);
+                        $numRecords = $result->num_rows;
+                        for ($i=0; $i < $numRecords; $i++) {
+                          $record = $result->fetch_assoc();
+                          echo '<tr>';
+                          echo '<th class="RIN">'.$record['RIN'].'</th>';
+                          echo '<th class="fname">'.$record['first_name'].'</th>';
+                          echo '<th class="lname">'.$record['last_name'].'</th>';
+                          $check = "SHOW COLUMNS FROM `students` LIKE 'street'";
+                          $exists = ($conn->query($check))?TRUE:FALSE;
+                          if($exists){
+                            if(!is_null($sqlAddress)){
+                              echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
+                            }
+                          }
+                          echo "</tr>";
+                        }
+                        echo "</table>";
+                        $result->free();
+                    }
+                    else {
+                      echo "No Data";
+                    }
+                    
+
+                  }
+                }
+                ?>
 
                 <form class="sorting">
                     <span style>Sort By: </span><select name="sortStudents">
@@ -314,9 +293,77 @@ if (isset($_POST['addGrade'])) {
                     <input type="submit" name="grade_table" value="Create Grades Table">
                 </form>
                 <!-- button for counting number of students (above table) -->
-                <form class="buttons" action="lab9.php" method="post">
-                    <input type="submit" name="numStudents" value="Number of students per course">
+                <form class="buttons" action="index.php" method="post">
+                    <input type="submit" name="avg" value="Average Grade for each Course">
                 </form>
+
+                <?php
+                // average grade table
+                $avgGrade = NULL;
+                if (isset($_POST['avg'])) {
+                    $avgGrade = $_POST['avg'];
+                    if ($avgGrade) {
+                        $sqlAvg = "SELECT grades.crn, AVG(grades.grade) AS averageGrade FROM grades
+                        GROUP BY grades.crn";
+                        $avgGrade = $conn->query($sqlAvg);
+                    }
+                    if ($avgGrade->num_rows > 0) {
+                        echo "<table>
+                            <tr>
+                            <th>CRN</th>
+                            <th>GRADES</th>";
+                        echo "</tr>";
+                        $numRecords = $avgGrade->num_rows;
+                        for ($i=0; $i < $numRecords; $i++) {
+                          $record = $avgGrade->fetch_assoc();
+                          echo '<tr>';
+                          echo '<th class="CRN">'.$record['crn'].'</th>';
+                          echo '<th class="grade">'.$record['averageGrade'].'</th>';
+                          echo "</tr>";
+                        }
+                        echo "</table>";
+                    }
+                    else {
+                      echo "No Data";
+                    }
+                }
+                ?>
+
+                <form class="buttons" action="index.php" method="post">
+                    <input type="submit" name="numStudents" value="Number of Students in each course">
+                </form>
+
+                <?php
+                // number of students in each course
+                $numStudents = NULL;
+                if (isset($_POST['numStudents'])) {
+                    $numStudents = $_POST['numStudents'];
+                    if ($numStudents) {
+                        $sqlNumStudents = "SELECT grades.crn, COUNT(grades.grade) AS num FROM `grades` 
+                        GROUP BY grades.crn";
+                        $numStudents = $conn->query($sqlNumStudents);
+                    }
+                    if ($numStudents->num_rows > 0) {
+                        echo "<table>
+                            <tr>
+                            <th>CRN</th>
+                            <th>Num of Students</th>";
+                        echo "</tr>";
+                        $numRecords = $numStudents->num_rows;
+                        for ($i=0; $i < $numRecords; $i++) {
+                          $record = $numStudents->fetch_assoc();
+                          echo '<tr>';
+                          echo '<th class="CRN">'.$record['crn'].'</th>';
+                          echo '<th class="num">'.$record['num'].'</th>';
+                          echo "</tr>";
+                        }
+                        echo "</table>";
+                    }
+                    else {
+                      echo "No Data";
+                    }
+                }
+                ?>
                 <!-- Insert courses -->
                 <form class="addCourses" action="index.php" method="post">
                    <h4>Add Course:</h4>
@@ -364,10 +411,6 @@ if (isset($_POST['addGrade'])) {
                    <span>RIN: </span><input type="int" name="RIN" value="">
                    <span>Grade: </span><input type="int" name="grade" value="">
                    <input type="submit" name="addGrade" value="Add">
-                </form>
-                <!-- button for average grade (table above) -->
-                <form class="buttons" action="lab9.php" method="post">
-                    <input type="submit" name="averageGrade" value="Average Grade">
                 </form>
 
             </div>
