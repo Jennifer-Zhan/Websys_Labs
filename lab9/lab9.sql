@@ -40,29 +40,29 @@ CREATE TABLE grades(
 	FOREIGN KEY(RIN) REFERENCES students(RIN)
 );
 
-INSERT INTO courses(crn, prefix, number, title)
-VALUES('43694', 'ITWS', '1100', 'INTRO TO IT & WEB SCIENCE');
+INSERT INTO courses(crn, prefix, number, title, section, year)
+VALUES('43694', 'ITWS', '1100', 'INTRO TO IT & WEB SCIENCE', '02', '2020');
 
-INSERT INTO courses(crn, prefix, number, title)
-VALUES('42149', 'ITWS', '1200', 'IT AND SOCIETY');
+INSERT INTO courses(crn, prefix, number, title, section, year)
+VALUES('42149', 'ITWS', '1200', 'IT AND SOCIETY', '01', '2020');
 
-INSERT INTO courses(crn, prefix, number, title)
-VALUES('43695', 'ITWS', '2210', 'INTRODUCTION TO HCI');
+INSERT INTO courses(crn, prefix, number, title, section, year)
+VALUES('43695', 'ITWS', '2210', 'INTRODUCTION TO HCI', '02', '2020');
 
-INSERT INTO courses(crn, prefix, number, title)
-VALUES('42806', 'ITWS', '4500', 'WEB SCIENCE SYSTEMS DEV');
+INSERT INTO courses(crn, prefix, number, title, section, year)
+VALUES('42806', 'ITWS', '4500', 'WEB SCIENCE SYSTEMS DEV', '02', '2020');
 
-INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('661978679', 'wuj17', 'Jiahui', 'Wu', 'None', '518258106');
+INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip)
+VALUES('661978679', 'wuj17', 'Jiahui', 'Wu', 'None', '518258106', 'Burdett Avenue', 'Troy', 'NY', '12180');
 
-INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('661963261', 'yangh12', 'Jonathan', 'Yang', 'None', '917346882');
+INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip)
+VALUES('661963261', 'yangh12', 'Jonathan', 'Yang', 'None', '917346882', 'Burdett Avenue', 'Troy', 'NY', '12180');
 
-INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('661963452', 'smithj', 'John', 'Smith', 'John', '947284775');
+INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip)
+VALUES('661963452', 'smithj', 'John', 'Smith', 'John', '947284775', 'Burdett Avenue', 'Troy', 'NY', '12180');
 
-INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone)
-VALUES('661934526', 'jamesl', 'Lebron', 'James', 'Lebron', '9462856388');
+INSERT INTO students(RIN, RCSID, first_name, last_name, alias, phone, street, city, state, zip)
+VALUES('661934526', 'jamesl', 'Lebron', 'James', 'Lebron', '9462856388', 'Burdett Avenue', 'Troy', 'NY', '12180');
 
 INSERT INTO `grades`
     (`crn`, `RIN`, `grade`)
@@ -79,13 +79,13 @@ VALUES
     , (42806, 661978679, 90)
 ;
 
-SELECT * FROM `students` ORDER BY `RIN`
+SELECT * FROM `students` ORDER BY `RIN`;
 
-SELECT * FROM `students` ORDER BY `last_name`
+SELECT * FROM `students` ORDER BY `last_name`;
 
-SELECT * FROM `students` ORDER BY `RCSID`
+SELECT * FROM `students` ORDER BY `RCSID`;
 
-SELECT * FROM `students` ORDER BY `first_name`
+SELECT * FROM `students` ORDER BY `first_name`;
 
 SELECT students.RIN, students.first_name, students.last_name, students.street, students.city, students.state, students.zip FROM `students`, `grades` WHERE grades.grade > 90 and students.RIN = grades.RIN;
 

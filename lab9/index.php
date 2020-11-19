@@ -239,7 +239,7 @@ if (isset($_POST['addGrade'])) {
                       echo '<th class="RIN">'.$record['RIN'].'</th>';
                       echo '<th class="fname">'.$record['first_name'].'</th>';
                       echo '<th class="lname">'.$record['last_name'].'</th>';
-                      if($$check==TRUE){
+                      if($check==TRUE){
                           echo '<th class="address">'.$record["street"] . $record["city"]  . " " . $record["state"] . " " . $record["zip"] . '</th>';
                       }
                       echo "</tr>";
